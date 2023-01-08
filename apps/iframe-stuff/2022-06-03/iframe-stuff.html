@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0" />
+	<meta name="description" content="">
+	<meta name="date" content="2022-06-03">
+	<title>stuff</title>
+	<style>
+		body {
+			font: 100% monospace;
+			overflow: hidden;
+		}
+
+		h1 {
+			margin: 0;
+		}
+/*
+		#divCalendar {
+			font-size: 2rem;
+			height: 50vh;
+			margin-top: 0.1rem;
+			overflow: auto;
+			resize: both;
+			width: 20%;
+		}
+*/
+
+		#divCalendar {
+			font-size: 1.5rem;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+		}
+		#divClock {
+			font-size: 8rem;
+			font-weight: bold;
+			line-height: 7rem;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			left: 0;
+			bottom: 2rem;
+		}
+	</style>
+</head>
+
+<body>
+
+
+	<h1>
+		<a href="https://github.com/theo-armour/qdata/tree/master/apps/iframe-stuff" target="_blank"
+			title="source code on GitHub"><img
+				src=https://pushme-pullyou.github.io/tootoo-2022/assets/icons/mark-github.svg></a>
+		<a href="" title="Click this menu title to reset the model">
+			<span id=spnTitle></span>
+			<span id=spnVersion></span>
+		</a>
+	</h1>
+
+
+	<div id="divContent">
+
+		<div style="display:block;height:12rem;width:18%;">
+
+			<iframe allow="autoplay" src="https://theo-armour.github.io/qdata/apps/teodori/" frameborder="1" width=100%
+				height="100%"></iframe>
+
+		</div>
+
+		<div style="width:18%;">
+
+			<details>
+
+				<summary>cameras</summary>
+
+				<button onclick=ifr.src="https://www.youtube.com/embed/cUk-Xvlfs1I">live armchair</button>
+
+				<button onclick=ifr.src="https://parksconservancy.siteproxy.net/Crissy%20Beach/ctl.html">crissy
+					field</button>
+
+				<button onclick=ifr.src="https://www.explordle.com/map/wor">explordle</button>
+
+				<button onclick=ifr.src="https://www.youtube.com/embed/ph1vpnYIxJk">venice</button>
+
+				<button onclick=ifr.src="https://www.youtube.com/embed/8KGXSjtS5pk">world</button>
+
+				<button onclick=ifr.src="https://www.youtube.com/embed/0uQKFfjkyWo">world 2</button>
+
+				<button onclick=ifr.src="https://www.youtube.com/embed/3jTVu6xAyNw">aquarium</button>
+
+				<button onclick=ifr.src="https://www.youtube.com/hashtag/kidneybeansglobal">kidneybeansglobal</button>
+
+				<button onclick=ifr.src="https://www.youtube.com/embed/tAuXNZ5TSlA">sea life</button>
+
+				<button onclick=ifr.src="https://www.youtube.com/embed/1hNF3Wuw0LI">NYC</button>
+
+				<button onclick=ifr.src="https://www.youtube.com/embed/Rjoy5O7Gmhw">Germany</button>
+
+				<button onclick=ifr.src="https://www.youtube.com/embed/QjisC1Aj-rA">new zealand</button>
+
+				<button onclick=ifr.src="https://www.youtube.com/embed/WYJxRhS8Gik">beaches</button>
+
+				<button onclick=ifr.src="https://www.youtube.com/embed/IACz47DhAtQ">thai beach</button>
+
+				<button onclick=ifr.src="https://www.youtube.com/embed/vvOjJoSEFM0">venice beach</button>
+
+				<br>
+
+				<input id=inpYouTubeID value="Rjoy5O7Gmhw"><button
+					onclick=ifr.src=`https://www.youtube.com/embed/${inpYouTubeID.value}`>update</button>
+			</details>
+		</div>
+
+		<div id=divCalendar ></div>
+
+
+		<div style="position:absolute;top:0;right:0;height:95vh;width:80%">
+
+			<iframe id=ifr frameborder="1" allow="autoplay" src="https://www.youtube.com/embed/ph1vpnYIxJk" width="100%"
+				height="100%"></iframe>
+
+		</div>
+
+		<div id="divClock"></div>
+
+	</div>
+
+
+	<script>
+
+		init();
+
+		function init () {
+
+			spnTitle.innerHTML = document.title ? document.title : location.href.split( '/' ).pop().slice( 0, - 5 ).replace( /-/g, ' ' );
+
+			spnVersion.innerHTML = document.head.querySelector( "[ name=date ]" ).content;
+
+			//ifr.src = "http://ice1.somafm.com/groovesalad-128-mp3";
+
+			divClock.innerHTML = new Date().toLocaleTimeString().slice( 0, -6 );
+
+			setInterval( () => divClock.innerHTML = new Date().toLocaleTimeString().slice( 0, -6 ), 60000 );
+
+			requestFile();
+
+		}
+
+
+
+		function requestFile ( url = "dates.txt", callback = onLoad ) {
+
+			//url = "https://cdn.jsdelivr.net/gh/pushme-pullyou/tootoo-2021@master/README.md";
+			const urlCORS = ""; //https://cors-anywhere.herokuapp.com/";
+
+			xhr = new XMLHttpRequest();
+			xhr.open( "GET", urlCORS + url, true );
+			xhr.responseType = "text";
+			xhr.onerror = ( xhr ) => console.log( "error:", xhr );
+			//xhr.onprogress = ( xhr ) => console.log( "bytes loaded:", xhr.loaded );
+			xhr.onload = ( xhr ) => callback( xhr.target.response );
+			xhr.send( null );
+
+		}
+
+
+
+		function onLoad ( response ) {
+
+			//console.log( "response", response );
+
+			const lines = response.split( /\r\n|\n/ );
+
+			dd = new Date();
+			month = ( 1 + dd.getMonth() ).toString().padStart( 2, "0" );
+			date = dd.getDate().toString().padStart( 2, "0" );
+			txt = month + "-" + date;
+
+			today = lines.filter( str => str.slice( 0, 5 ) === txt ).map( str => str.slice( 6 ) );
+
+			today.unshift( txt );
+
+			//console.log( "today", today || "nothing" );
+
+			divCalendar.innerText = today.join( " " );
+
+		}
+
+	</script>
+
+
+</body>
+
+</html>

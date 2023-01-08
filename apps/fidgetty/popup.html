@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang=en >
+<head>
+<title></title>
+<meta charset=utf-8 />
+</head>
+<body>
+
+<h1>Hi</h1>
+
+<button id=butAudio onclick=audioElement.play();> play</button>
+<script>
+
+var audioElement = new Audio('http://ice1.somafm.com/groovesalad-128-mp3');
+
+audioElement.addEventListener('loadeddata', () => {
+  let duration = audioElement.duration;
+  // The duration variable now holds the duration (in seconds) of the audio clip
+})
+
+butAudio.click();
+
+
+</script>
+</body>
+</html>

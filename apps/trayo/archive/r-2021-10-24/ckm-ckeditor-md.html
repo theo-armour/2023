@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0" />
+	<meta name="description" content="">
+	<meta name="date" content="2021-10-04">
+	<title>ckm-ckeditor-md</title>
+	<style>
+		body {
+			font: 100% monospace;
+			margin: 3px 0;
+		}
+
+		ul, p, h2 { padding: 0 }
+	</style>
+</head>
+
+<body>
+
+	<div>
+
+		<button onclick=CKE.getSha(); >putToGitHub</button>
+
+		<span id=spnMessage ></span>
+
+	</div>
+
+	<div id="divMainContent"></div>
+
+
+	<!-- <script src="cke-ckeditor.js"></script> -->
+	<script src="https://pushme-pullyou.github.io/tootoo-2021/lib10/cke-ckeditor/r-2021-10-24/cke-ckeditor.js"></script>
+
+	<script>
+
+		const base = "https://api.github.com/repos/theo-armour/qdata/contents/";
+		const source = "";
+		const content = divMainContent;
+		const claass = ".editor";
+		const file = "README.md";
+		const type = "markdown";
+
+		if ( window.self === window.top ) { init( base, content, claass, file, type ) };
+
+
+		function init( base, content, claass, file, type  ) {
+
+			//console.log( "url", url );
+
+			CKE.init( base, content, claass, file, type );
+
+		}
+
+	</script>
+
+</body>
+
+</html>

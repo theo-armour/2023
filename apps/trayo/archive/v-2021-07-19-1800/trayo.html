@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0" />
+	<meta name="description" content="Get, edit and put text from and to a file in a GitHub repo">
+	<meta name="date" content="2021-07-19">
+	<title>trayo </title>
+	<meta charset=utf-8 />
+	<style>
+		body {
+			font: 100% monospace;
+			margin: 0;
+		}
+
+		h1 {
+			margin: 0;
+			padding: 0
+		}
+
+		.resize {
+			background-color: #fff;
+			overflow: auto;
+			resize: both;
+		}
+
+		#GTBdivTextBox1 {
+			left: 1rem;
+			position: absolute;
+			top: 3rem;
+			width: 15rem;
+			z-index: 1;
+		}
+
+		#GTBdivTextBox2 {
+			left: 18rem;
+			max-height: 90vh;
+			position: absolute;
+			top: 3rem;
+			width: 28rem;
+		}
+
+		#ifrNotes {
+			position: absolute;
+			height: 80vh;
+			left: 50rem;
+			width: 50rem;
+		}
+	</style>
+</head>
+
+<body onbeforeunload="alert('function alrt WORKS !!!!')">
+
+	<script src="gtb-github-text-box.js"></script>
+
+	<h1>
+		<a href="https://github.com/pushme-pullyou/tootoo-2021/tree/master/sandbox/trayo" target="_blank"
+			title="source code on GitHub"><img
+				src=https://pushme-pullyou.github.io/tootoo-2021/lib/assets/icons/mark-github.svg></a>
+		<a href="" title="Click this menu title to reset the model">
+			trayo
+			<span id=spnVersion></span></a>
+		<label>
+			<input id=inpAccessToken onclick=this.select(); onblur=setGitHubAccessToken();
+				title="Obtain GitHub API Access Token">
+		</label>
+
+		<span
+			title="#164; curren; times; deg; bull; middot; mdash; euro; hellip; vellip; #x1801; ❦ #x2766; ❧ phone; spades; starf; bigstar; xcirc; block; marker; FilledSmallSquare;">
+			&#164; &curren; &times; &deg; &bull; &middot; &mdash; &euro; &hellip; &vellip; &#x1801; ❦ &#x2766; ❧ &phone;
+			&spades; &starf; &bigstar; <span title="xcirc;">&xcirc;</span> &block; &marker; &FilledSmallSquare;
+		</span>
+	</h1>
+
+
+
+	<main>
+		<div id=GTBdivTextBox1 class=resize></div>
+
+		<div id=GTBdivTextBox2 class=resize></div>
+
+		<div id=ifrNotes>
+
+			<iframe src=https://theo-armour.github.io/qdata/apps/notes/
+			style=border:0;height:100%;width:100%;></iframe>
+		</div>
+
+
+	</main>
+
+
+	<script>
+
+		let accessToken = localStorage.getItem( 'githubAccessToken' ) || "";
+		inpAccessToken.value = accessToken;
+
+		let tips = {
+			user: "pushme-pullyou",
+			repo: "tootoo-2021",
+			branch: "main",
+			file: "sandbox/trayo/tips.md",
+			id: 1,
+
+		};
+
+		// let tips = {
+		// 		user: "theo-armour",
+		// 		repo: "qdata",
+		// 		branch: "main",
+		// 		file: "apps/trayo/tips.md",
+		// 		id: 1,
+		// 		idDivTextBox: "GTBdivTextBox1",
+		// 		idContent: "GTBdivContent1",
+		// 		idMessage: "GTBdivMessage1",
+		// 		idButPut: "GTBbutPut1"
+
+		// };
+
+		let shortcuts = {
+
+			user: "pushme-pullyou",
+			repo: "tootoo-2021",
+			branch: "main",
+			file: "sandbox/trayo/shortcuts2.md",
+			id: 2,
+
+		};
+
+		init();
+
+		function init() {
+
+			spnVersion.innerHTML = document.head.querySelector( "[ name=date ]" ).content;
+
+			GTB1 = new GTB();
+			GTB1.init( tips );
+
+			GTB2 = new GTB();
+			GTB2.init( shortcuts );
+
+			//window.addEventListener( "beforeunload", checkForChange );
+
+		}
+
+
+		setGitHubAccessToken =
+			() => localStorage.setItem( "githubAccessToken", inpAccessToken.value );
+
+
+		function checkForChange( event ) {
+
+			console.log( "event", GTBdivContent.innerHTML, GLB1.contentHtml );
+
+			if ( GTBdivContent.innerHTML === GTB1.contentHtml ) {
+				console.log( "equal" );
+				return;
+			} else {
+
+				console.log( "not equal" );
+			}
+
+			event.preventDefault();
+
+			event.returnValue = "Are you sure you want to exit?";
+
+		};
+
+	</script>
+
+</body>
+
+</html>

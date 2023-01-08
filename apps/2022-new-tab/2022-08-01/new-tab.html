@@ -1,0 +1,150 @@
+﻿<!doctype html>
+<html lang=en>
+
+<head>
+	<meta charset="utf-8">
+	<title>new-tab</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=contain">
+	<meta name="description"
+		content="File wrangler. Default index.html file. Opens HTML or Markdown files. Passes location.hash.">
+	<meta name="keywords" content="ShowDown,Markdown,AJAX,JavaScript,HTML,CSS,GitHub,FOSS">
+
+	<style>
+		:root {
+			font: 100% monospace;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0 auto;
+			/*max-width: 80ch; */
+		}
+
+		a {
+			color: green;
+			text-decoration: none;
+			font-size: 200%;
+		}
+
+		a:hover,
+		a:focus,
+		a:active {
+			text-decoration: underline;
+		}
+
+		aside {
+			border: 1px solid lightgray;
+			margin-top: 15px;
+			padding: 2px;
+		}
+
+		button,
+		input[type=button] {
+			background-color: #eee;
+			border: 2px #eee solid;
+			color: #888;
+		}
+
+		blockquote {
+			background-color: #ddd;
+			padding: 1ch;
+		}
+
+		center {
+			font-size: 2ch;
+		}
+
+		code {
+			background-color: #eee;
+		}
+
+		pre {
+			background-color: #eee;
+			padding: 5px;
+		}
+
+		summary {
+			cursor: pointer;
+			font-size: 2.5ch;
+			font-weight: bold;
+			outline: none;
+		}
+
+		h3 {
+			margin: 0;
+			padding: 0;
+		}
+
+		.parent {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		.box {
+			border: 1px solid red;
+			flex: 1 1 150px;
+			/*  Stretching: */
+
+			/*flex: 0 1 150px;  No stretching: */
+			margin: 5px;
+			resize: both;
+			overflow: auto;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+
+	<div id=divContent class="parent"></div>
+
+	<script>
+
+		// https://github.com/showdownjs/showdown
+		// Canonical version: https://github.com/pushme-pullyou/templates-01/tree/master/open-markdown-or-html
+
+		let defaultFile = "index.html";
+		//location.hash = "../../../pushme-pullyou/tootoo14/pages/markdown-help.md"
+		location.hash = "new-tab-content.md";
+
+		let contents, converter;
+
+		init();
+
+		function init() {
+
+			showdown.setFlavor( "github" );
+			converter = new showdown.Converter( { "simpleLineBreaks": true } );
+			converter.setOption( "simplifiedAutoLink", true );
+			converter.setOption( "simpleLineBreaks", true );
+			converter.setOption( "backslashEscapesHTMLTags", true );
+
+			location.hash.endsWith( ".md" ) ? onHashChange() : window.location.href = defaultFile + location.hash;
+
+			window.addEventListener( "hashchange", onHashChange, false );
+
+		}
+
+		function onHashChange () {
+
+			const url = location.hash.slice( 1 );
+			document.title = url.split( "/" ).pop();
+
+			const xhr = new XMLHttpRequest();
+			xhr.open( "get", url, true );
+			xhr.onload = () => divContent.innerHTML = converter.makeHtml( xhr.responseText );
+			xhr.send( null );
+
+		}
+
+	</script>
+</body>
+
+</html>

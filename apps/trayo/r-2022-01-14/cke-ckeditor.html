@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>notes</title>
+	<style>
+		body {
+			font: 100% monospace;
+			margin: 0;
+			overflow: hidden;
+		}
+
+		/* nav {
+			position: fixed;
+			top: 0;
+			z-index: 2;
+		} */
+
+		p,
+		h2,
+		h3 {
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		ul {
+			list-style-position: inside;
+			padding: 0.5rem;
+		}
+
+		li:before {
+			content: "";
+			margin-left: -0.5rem;
+		}
+
+		img {
+			vertical-align: middle;
+		}
+
+		/* #divMainContent {
+			margin-top: 1.5rem;
+		} */
+
+		.ck-content {
+			border: 0px solid red !important;
+			height: 91vh;
+
+			overflow: auto;
+		}
+
+		.ck-source-editing-area {
+
+			border: 0px solid red !important;
+			height: 91vh;
+
+			overflow: auto;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<nav>
+		<a id=aSource target="_blank"><img
+				src="https://pushme-pullyou.github.io/tootoo-2021/lib/assets/icons/mark-github.svg"></a>
+		<span id=spnTitle></span>
+		<button onclick=CKE.getSha()>putGH</button><label><input type=checkbox onchange=CKE.autoSave(); id=chkAutoSave
+				style=vertical-align:text-top>save</label>
+		<span id=spnMessage></span>
+	</nav>
+
+	<div id="divMainContent">
+
+		<div id="container">
+
+			<div class="editor"></div>
+
+		</div>;
+
+	</div>
+
+
+	<!-- <script src="../../../../pushme-pullyou-tootoo-2021/lib10/cke-ckeditor/r-2021-10-24/cke-ckeditor.js"></script> -->
+	<script src="cke-ckeditor.js"></script>
+
+
+	<script>
+
+		const base = "https://api.github.com/repos/theo-armour/qdata/contents/";
+		const source = "https://github.com/theo-armour/qdata/tree/master/";
+		const content = divMainContent;
+		const file = "0-to-do/0-to-do.htm";
+
+		if ( window.self === window.top ) { init( base, file ); };
+
+		function init ( base, file ) {
+
+			CKE.init( base + file );
+
+			aSource.href = source + file;
+
+			spnTitle.innerText = file.split( "/" ).pop().split( "." ).shift();
+
+			chkAutoSave.checked = true;
+
+			CKE.autoSave();
+
+		}
+
+	</script>
+
+</body>
+
+</html>

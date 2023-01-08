@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0" />
+	<meta name="description" content="">
+	<meta name="date" content="2022-02-01">
+	<title>new tab</title>
+	<style>
+		body {
+			font: 100% monospace;
+			margin: 0;
+		}
+
+	div > a {
+			color: green;
+			font-size: 200%;
+			font-weight: bold;
+
+		}
+
+		h1 {
+			display: inline;
+			padding: 0;
+		}
+
+		h2,
+		h3,
+		p {
+			color: red;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.container>div {
+			border: 1px solid red;
+			margin: 0.1rem;
+			padding: 0.1rem;
+			max-width: 20rem;
+		}
+
+		#divMainContent {
+			margin-top: 2rem;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- <script src="https://pushme-pullyou.github.io/tootoo-2021/lib10/cke-ckeditor/r-2021-10-24/cke-ckeditor.js"></script> -->
+	<script src="cke-ckeditor.js"></script>
+
+
+	<div style=position:fixed;top:0;z-index:1;>
+		<h1>
+			<a href="https://github.com/theo-armour/qdata/tree/master/apps/new-tab" target="_blank"
+				title="source code on GitHub"><img
+					src=https://pushme-pullyou.github.io/tootoo-2021/lib/assets/icons/mark-github.svg></a>
+			<a href="" title="Click this menu title to reset the model">
+				<span id=spnTitle></span><span id=spnVersion></span></a>
+		</h1>
+
+		<label><input type="checkbox" id=inpEditable onchange=divEditable.contentEditable=this.checked>editable</label>
+
+		<button onclick=CKE.getSha()>putToGitHub</button>
+
+		<span id=spnMessage></span>
+
+	</div>
+
+	<div id="divMainContent"></div>
+
+
+	<script>
+
+		const base = "https://api.github.com/repos/theo-armour/qdata/contents/";
+		const source = "https://github.com/theo-armour/qdata/tree/master/";
+		const content = divMainContent;
+		const claass = ".editor";
+		//const file = "snippets/notes.htm";
+		const file = "apps/2022-new-tab/new-tab-content.htm";
+		const type = "html";
+
+		init();
+
+		function init() {
+
+			spnTitle.innerHTML = document.title ? document.title : location.href.split( '/' ).pop().slice( 0, - 5 ).replace( /-/g, ' ' );
+
+			//spnVersion.innerHTML = document.head.querySelector( "[ name=date ]" ).content;
+
+			CKE.init( base, content, claass, file, type );
+
+			//aSource.href = source + file;
+
+
+
+		}
+
+	</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Theo dashboard">
+	<meta name="keywords" content="JavaScript,GitHub,FOSS">
+	<meta name="version" content="2020-07-25">
+	<title></title>
+	<style>
+		:root {
+			--mnu-width: 22rem;
+
+			--color-0-text: #000;
+			--color-0-background: #fff;
+
+			--color-1-text: crimson;
+			--color-1-background: #eee;
+
+		}
+
+		[data-theme="dark"] {
+
+			--color-0-text: #fff;
+			--color-0-background: #000;
+
+			--color-1-text: tomato;
+			--color-1-background: #444;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0 auto;
+		}
+
+		body {
+			background: var(--color-1-background);
+			color: var(--color-0-text);
+			font: 12pt monospace;
+			padding: 0 0.5rem;
+		}
+
+		a {
+			color: var(--color-1-text);
+			text-decoration: none;
+		}
+
+		a:hover,
+		a:focus,
+		a:active {
+			background-color: yellow;
+			color: #aaa;
+			text-decoration: underline
+		}
+
+		button,
+		input[type=button] {
+			background-color: #ddd;
+			border: none;
+			color: #322;
+			cursor: pointer;
+			padding: 3px 5px;
+		}
+
+		button:hover {
+			background: #ccc;
+			color: #fff
+		}
+
+		@media (prefers-color-scheme: dark) {
+			:root {
+				--background-color: #1e1f23;
+				--secondary-color: #232428;
+				--color-dark: #efefef;
+				--color: #c4c5c9;
+				--color-light: #6c6d71;
+				--color-lighter: #8e8f93;
+			}
+
+		}
+
+
+		/*
+main { border: 0px; height: 100%; left: var( --mnu-width ); margin: 0;
+	padding: 0 1rem; position: absolute; width: calc( 100% - var( --mnu-width ) );  }
+
+#navMenu { background-color: #eee; left: 0; margin: 0; padding: 0 1rem;
+	position: absolute; top: 0; width: var( --mnu-width ); }
+*/
+
+		#divDashboard {
+			border: 1px solid #888;
+			padding: 1rem;
+		}
+
+		main {
+			display: flex;
+		}
+
+		main>div {
+			background-color: var(--color-0-background);
+			border: 1px solid red;
+			color: var(--color-0-text);
+			margin: 0 1rem;
+			max-width: 30rem;
+			padding: 1rem;
+		}
+
+		#divFiles div:nth-child(odd) {
+			background-color: var(--color-1-background);
+		}
+
+		#divJsonBox {
+
+			border: 1px solid blue;
+			padding: 1rem;
+			z-index: 10;
+		}
+
+		iframe {
+
+			background-color: #eee !important;
+		}
+
+		/*slider switch css */
+
+		.switch {
+			position: absolute;
+			display: inline-block;
+			width: 5rem;
+			height: 1.3rem;
+			background-color: rgba(0, 0, 0, 0.25);
+			border-radius: 0.6rem;
+			transition: all 0.3s;
+		}
+
+		.switch::after {
+			content: "";
+			position: absolute;
+			width: 1rem;
+			height: 1rem;
+			border-radius: 50%;
+			background-color: white;
+			top: 0.1rem;
+			left: 0.2rem;
+			transition: all 0.3s;
+		}
+
+		.checkbox:checked+.switch::after {
+			left: 3.8rem;
+		}
+
+		.checkbox:checked+.switch {
+			background-color: var(--color-1-text);
+		}
+
+		.checkbox {
+			display: none;
+		}
+	</style>
+
+</head>
+
+<body>
+	<!--
+
+		<script src="jsonbox-0-00.js"></script>
+	-->
+
+	<nav id="navMenu">
+
+		<div id="divTitle"></div>
+
+		<div>
+			<a
+				href="file:///C:/Users/theo/Dropbox/Public/git-repos/theo-armour-qdata/apps/trayo/v-2020-03-05/theo-tray.html">local
+				version</a> ~
+
+			<a href="https://theo-armour.github.io/qdata/apps/trayo/v-2020-03-05/theo-tray.html">github
+				version</a>
+
+			edit <a
+				href="vscode://file/C:/Users/theo/Dropbox/Public/git-repos/theo-armour-qdata/apps/trayo/v-2020-03-05/theo-tray.html">theo-tray.html</a>
+
+			<hr>
+
+		</div>
+
+	</nav>
+
+	<main>
+
+		<div id="divFirstColumn">
+
+			<div>
+				<a href="JavaScript:( () => {
+					const script=document.head.appendChild( document.createElement( 'script' ) );
+					script.src='../../ta-bml/v-0-02/ta-bml.js';
+				} )()">
+					ta-bml.js
+				</a> theo armour bookmarklet 0.02 local
+			</div>
+
+
+
+			<p>
+				<a href="JavaScript:( () => {
+					const script=document.head.appendChild( document.createElement( 'script' ) );
+					script.src='https://theo-armour.github.io/snippets/bookmarklets/ta-bml/v-0-02/ta-bml.js';
+				} )()">
+					ta-bml.js
+				</a> theo armour bookmarklet 0.02 github
+			</p>
+
+			<p>
+				edit <a
+					href="vscode://file/d:/Dropbox/Public/git-repos/theo-armour.github.io/snippets/bookmarklets/ta-bml/v-0-02/ta-bml.js">ta-bml.js
+					0.02</a>
+			</p>
+
+			<hr>
+
+			<p>
+				<a href="JavaScript:( () => {
+						const script=document.head.appendChild( document.createElement( 'script' ) );
+						script.src='../../bookmark-capture/v-0-00/bookmark-capture.js';
+					} )()">
+					BMC
+				</a>bookmark capture - v-0-00 - stand alone local
+			</p>
+
+			<p>
+				<a href="JavaScript:( () => {
+						const script=document.head.appendChild( document.createElement( 'script' ) );
+						script.src='https://theo-armour.github.io/qdata/apps/bookmark-capture/v-0-00/bookmark-capture.js';
+					} )()">
+					BMCg
+				</a>bookmark capture - stand alone github
+			</p>
+
+			<!--
+			test: <a
+				href="file:///D:/Dropbox/Public/git-repos/theo-armour.github.io/snippets/bookmarklets/bookmark-capture/v-0-00/bookmark-capture.html">bookmark-capture.html</a>
+
+
+			<div id="divJsonBox" contentEditable></div>
+
+			<div id="divJsonBoxResponse"></div>
+
+
+			<p>
+				<button id=but onclick=JB.getJson();>getJson</button>
+
+				<button id=but onclick=JB.putJson();>putJson</button>
+
+				<button id=but onclick=JB.getJsonAll();>getAll</button>
+
+				<button id=but onclick=JB.deleteJson();>delete</button>
+			</p>
+
+			<!-- <div id="divDashboard"></div>
+		-->
+
+			<iframe src=../../notes/index.html style=border:0;height:50ch;width:100%></iframe>
+
+		</div>
+
+
+		<div id="divLinks" title="column 2">
+
+			<div><a href="https://www.google.com/collections/s/list/aC4sz9C4MSG7ImIoVgGN1w/pJGl3_zBt7I"
+					target="_blank">google favorites</a></div>
+
+			<div><a href="https://www.30secondsofcode.org/js/p/1/" target="_blank">30secondsofcode</a></div>
+
+			<div><a href="https://www.30secondsofcode.org/css/p/1/" target="_blank">css.30secondsofcode</a>
+			</div>
+
+			<div><a href="https://htmldom.dev/" target="_blank">htmldom.dev</a></div>
+
+			<div><a href="https://dev.to/vasanthv/use-css-to-automatically-enable-dark-mode-in-your-web-app-based-on-system-settings-2jlp"
+					target="_blank">CSS automatic enable dark mod</a></div>
+
+			<div><a href="https://www.w3schools.com/colors/colors_names.asp"
+					target="_blank">w3schools color names</a>~<a href="https://www.w3schools.com/colors/colors_groups.asp" target="_blank">groups</a>
+			</div>
+
+			<div><a href="https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references"
+					target="_blank">named character references all</a></div>
+
+			<div><a href="https://simpl.info/" target="_blank">simple.info</a> try their CORS</div>
+
+
+
+			<br>
+
+			<div>
+				<a href="https://zapier.com/learn/customer-support/improv-customer-support/" target="_blank">4 rules
+					of
+					improv</a>
+				<button onclick=dia4rules.open=!dia4rules.open;>4r</button>
+
+				<dialog id=dia4rules onclick=this.open=false;>
+					<p>
+						4 Rules of Improv
+					</p>
+					<div>
+						Rule 1: Say Yes. The first rule of improvisation is AGREE. Always agree
+						and SAY YES. ...
+					</div>
+					<div>
+						Rule 2: Say Yes AND. The second rule of improvisation is not only to say
+						yes, but YES, AND. ...
+					</div>
+					<div>
+						Rule 3: Make Statements. The next rule is MAKE STATEMENTS. ...
+					</div>
+					<div>
+						Rule 4: There Are No Mistakes. THERE ARE NO MISTAKES, only
+						opportunities.
+					</div>
+
+				</dialog>
+			</div>
+
+
+		</div>
+
+		<div id="divFiles" title="column 3 "></div>
+
+
+		<div id="divHelp" title="column 4">
+
+			<p>¤ &#164; &curren; &times; &deg; &bull; &middot; &mdash; &euro; &hellip; &vellip; &#x1801; ❦ ❧
+				&#x2766;</p>
+
+			<p>
+				win10:<br>
+				¤ <a href="https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts"
+					target="_blank">Keyboard shortcuts in Windows</a><br>
+				¤ <a href="https://support.microsoft.com/en-us/help/4042244/windows-10-use-dictation"
+					target="_blank">dictation</a><br>
+				¤ darkmode: settings > personalization<br>
+			</p>
+
+			<p>
+				gMail:<br>
+				¤ keyboard shortcuts: ?<br>
+				¤ space bar: scroll preview<br>
+				¤ cursor keys: scroll messages
+			<p>
+				<a href="https://support.google.com/chrome/answer/157179?hl=en" target="_blank">chrome browser</a><br>
+				¤ help: F1<br>
+				¤ close tab: ctrl-w<br>
+				Jump to the next open tab: Ctrl + Tab or Ctrl + PgDn<br>
+				¤ caret browsing: F7<br>
+				¤ Open a new window in Incognito mode: Ctrl + Shift + n
+			</p>
+			<p>
+				chromebook: <a href="https://blog.google/products/chromebooks/" target="_blank">blog</a><br>
+				</b>¤ help: ctrl-alt-/</b><br>
+				¤ <a href="https://support.google.com/chromebook/answer/177893?hl=en" target="_blank">accessibility
+					features - dictation</a>
+			</p>
+			<p>
+				vs code:<br>
+				* >> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+					target="_blank">keyboard shortcuts</a>: Ctrl + K Ctrl + R<br>
+				* Curser add select next: Ctrl + D<br>
+				* Cursor add below: alt-ctrl-&darr;<br>
+				* Definition: F12<br>
+				* Delete prev||next: ctrl + bspace||delete<br>
+				* Folding: ctrl-K-ctrl-1 || ctrl+shift+[||]<br>
+				* Search case|regex|whole word: Alt+C|R|W T <br>
+				* Selection expand: alt + shift + rArr<br>
+				* Settings json: ctrl + ,<br>
+				* Terminal: ctrl + `<br>
+				* Word wrap: alt + z<br>
+				Custom<br>
+				* Title Case: ctrl + i</br>
+				¤ home||end: alt + lArr||rArr<br>
+
+			</p>
+			<p>
+				<a href="https://docs.emmet.io/cheat-sheet/" target="_blank">emmet cheat-sheet</a><br>
+				¤ html:5<br>
+				¤ lorem100<br>
+				¤ ul>li.item$*5 << type this then press tab<br>
+					¤ <br>
+			</p>
+		</div>
+
+
+	</main>
+
+
+
+	<script>
+
+		const urlSourceCode = "https://github.com/theo-armour/qdata/tree/master/apps/trayo";
+		const urlSourceCodeIcon = 'https://pushme-pullyou.github.io/github-mark-32.png';
+
+		init();
+
+		function init() {
+
+			divTitle.innerHTML = getTitle();
+
+			//JB.getJson();
+
+			requestSnippets();
+
+			const currentTheme = localStorage.getItem( 'theme' );
+
+			if ( currentTheme ) {
+				document.documentElement.setAttribute( 'data-theme', currentTheme );
+
+				if ( currentTheme === 'dark' ) {
+					toggleSwitch.checked = true;
+				}
+			}
+
+
+
+			toggleSwitch.addEventListener( 'change', switchTheme, false );
+
+
+		}
+
+
+		function save() { localStorage.setItem( "dashboard", divDashboard.innerHTML ); }
+
+		function switchTheme( e ) {
+
+			if ( e.target.checked ) {
+				document.documentElement.setAttribute( 'data-theme', 'dark' );
+				localStorage.setItem( 'theme', 'dark' );
+			}
+			else {
+				document.documentElement.setAttribute( 'data-theme', 'light' );
+				localStorage.setItem( 'theme', 'light' );
+			}
+		}
+
+		function requestSnippets() {
+
+			const url = "https://api.github.com/repos/theo-armour/theo-armour.github.io/contents/snippets/snippets";
+
+			//const url = "https://api.github.com/repos/theo-armour/qdata/contents/snippet";
+			xhr = new XMLHttpRequest();
+			xhr.open( 'GET', url, true );
+			xhr.onerror = ( xhr ) => console.log( 'error:', xhr );
+			//xhr.onprogress = ( xhr ) => console.log( 'bytes loaded:', xhr.loaded );
+			xhr.onload = callback;
+			xhr.send( null )
+
+
+
+			function callback( xhr ) {
+
+				const path = "vscode://file/C:/Users/theo/Dropbox/Public/git-repos/theo-armour-qdata/snippets/";
+				//const path = "vscode://file/C:/Users/theo/Dropbox/Public/git-repos/theo-armour.github.io/snippets/snippets/";
+
+				const text = JSON.parse( xhr.target.response );
+				const files = text.filter( item => item.type === "file" ).map( item => item.path.split( "/" ).pop() );
+				const htm = files.map( file => `<div><a href="${ path }${ file }" >${ file }</a></div>` ).join( "" );
+
+				divFiles.innerHTML = htm;
+
+			}
+
+		}
+
+
+
+		function getTitle() {
+
+
+
+			document.title = document.title ? document.title : location.href.split( '/' ).pop().slice( 0, - 5 ).replace( /-/g, ' ' );
+			const version = document.head.querySelector( "[ name=version ]" ).content;
+
+			const htm = `
+<h2 style=margin:0; >
+	<a href=${ urlSourceCode } target=_top title="Source code on GitHub" >
+		<img src=${ urlSourceCodeIcon } height=18 style=opacity:0.5; >
+	</a>
+	<a href="" title="Click to reload this page" >${ document.title } ${ version }</a>
+
+	<span title="#164; curren; times; deg; bull; middot; mdash; euro; hellip; vellip; #x1801; ❦ #x2766; ❧ phone; spades; starf; bigstar; xcirc; block; marker; FilledSmallSquare;">
+	&#164; &curren; &times; &deg; &bull; &middot; &mdash; &euro; &hellip; &vellip; &#x1801; ❦ &#x2766; ❧ &phone; &spades; &starf; &bigstar; <span title="xcirc;">&xcirc;</span> &block; &marker; &FilledSmallSquare;
+	</span>
+	&nbsp;
+	<input type="checkbox" id="toggleSwitch" class="checkbox" />
+	<label for="toggleSwitch" class="switch" title="toggle dark mode"></label>
+</h2>
+
+<!--<div>
+	${ document.head.querySelector( "[ name=description ]" ).content }
+</div>-->
+`;
+
+			return htm;
+
+		}
+
+	</script>
+</body>
+
+</html>

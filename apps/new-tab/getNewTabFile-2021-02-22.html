@@ -1,0 +1,786 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Theo browser new tab file">
+	<meta name="keywords" content="JavaScript,GitHub,FOSS">
+	<title>Theo getNewTabFile v-2021-02-22</title>
+
+	<style>
+		:root {
+			--primary-color: #302AE6;
+			--secondary-color: #536390;
+			--font-color: #ccc;
+			--bg-color: #fff;
+			--heading-color: #292922;
+		}
+
+		[data-theme="dark"] {
+			--primary-color: #9A97F3;
+			--secondary-color: #818cab;
+			--font-color: #ffffff;
+			--bg-color: #161625;
+			--heading-color: #818cab;
+		}
+
+		body {
+			border: 1px solid lightgrey;
+			background-color: var(--bg-color);
+			color: var(--font-color);
+			font: 110% monospace;
+			margin: 0 auto;
+			width: 100%;
+		}
+
+		a {
+
+			color: var(--font-color);
+			text-decoration: none;
+			opacity: 0.9
+		}
+
+		a:hover,
+		a:focus,
+		a:active {
+			background-color: yellow;
+			color: #aaa;
+			text-decoration: underline
+		}
+
+		button,
+		input[type=button] {
+			background-color: #ddd;
+			border: none;
+			color: #322;
+			cursor: pointer;
+			padding: 3px 5px;
+		}
+
+		button:hover {
+			background: #ccc;
+			color: #fff
+		}
+
+		summary {
+			color: #aaa;
+			font: bold 200% monospace;
+		}
+
+		table {
+			border-collapse: separate;
+			border-spacing: 1rem;
+			width: 100%;
+		}
+
+		table p {
+			margin: 0;
+			padding: 0;
+		}
+
+		td {
+			color: #eeeaea;
+			font: bold 200% monospace;
+			outline: 1px solid #eee;
+			vertical-align: top;
+		}
+
+		.col {
+			color: #eeeaea;
+			display: block;
+			font: bold 200% monospace;
+			outline: 1px solid #eee;
+			overflow: hidden;
+
+		}
+
+
+
+		/*slider switch css */
+
+		.switch {
+			position: absolute;
+			display: inline-block;
+			width: 5rem;
+			height: 1.3rem;
+			background-color: rgba(0, 0, 0, 0.25);
+			border-radius: 0.6rem;
+			transition: all 0.3s;
+		}
+
+		.switch::after {
+			content: "";
+			position: absolute;
+			width: 1rem;
+			height: 1rem;
+			border-radius: 50%;
+			background-color: white;
+			top: 0.1rem;
+			left: 0.2rem;
+			transition: all 0.3s;
+		}
+
+		.checkbox:checked+.switch::after {
+			left: 3.8rem;
+		}
+
+		.checkbox:checked+.switch {
+			background-color: #ccc;
+		}
+
+		.checkbox {
+			display: none;
+		}
+
+		/*
+	#T1col5 { overflow: hidden; width: 5rem; }
+	#navMenu { background-color: #eee; left: 0; margin: 20px; max-width: 300px; padding: 0 10px; position: absolute; top: 0; }
+	*/
+	</style>
+</head>
+
+<body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+
+	<div id=header class=col title="Row 1">
+		<a href="" title="2020-07-25">NewwwTab</a>
+		<a href="https://github.com/theo-armour/qdata/edit/master/apps/new-tab/getNewTabFile-2021-02-22.html"
+			title="new tab edit" TARGET="_BLANK"> &#x2766;</a>
+		<a href="vscode://file/
+		c:/Users/theo/Dropbox/Public/git-repos/theo-armour-qdata/apps/new-tab/getNewTabFile-2021-02-22.html"
+		title="vscode">◯</a>
+		<a href=https://mail.google.com/mail/u/0/#inbox target=_blank> gmail </a>
+		<a href=../dashboard3/dashboard3-2021-03-21.html tittle="Theo Dashboard" target="_blank"> teodro </a>
+		<a href="https://theo-armour.github.io/qdata/apps/trayo" title="Edit on GitHub: Theo Tray" target="_blank">tryo</a>
+
+		<a href="https://theo-armour.github.io/qdata/apps/notes" target="_blank" title="Edit notes">nn</a>
+		<a id=aDiaryT target="_blank" title="Edit on GitHub: Today">tdy</a>
+		<a id=aDiaryY target="_blank" title="Edit on GitHub: yesterday">ydy</a>
+		<a href="https://github.com/theo-armour/qdata/edit/master/0-to-do/0-to-do.md" title="edit todo"target="_blank">td</a>
+
+		<a href="https://github.com/theo-armour/qdata/" title="folder qData" target="_blank">qd</a>
+		<a href="https://github.com/theo-armour/qdata/tree/master/0-to-do" title="folder todo" target="_blank">do</a>
+		<a href="https://theo-armour.github.io/qdata/" title="theo.github.io" target="_blank">qio</a>
+
+		<a href="https://theo-armour-qdata-35x2.github.dev/" title="GitHub CodeSpace qData" target="_blank">cs</a>
+		<a href="vscode://file/c:/Users/theo/Dropbox/AutoHotkey.ahk">ahk</a>
+
+		<textarea style=height:1rem;width:15rem;></textarea>&nbsp;
+		<input type="checkbox" id="toggleSwitch" class="checkbox" />
+		<label for="toggleSwitch" class="switch" title="toggle dark mode"></label>
+
+	</div>
+
+
+
+	<div id=header class=col title-"Row 2">
+
+		<a href="http://theo-armour.github.io/2021" title="" target="_blank">ta21</a>
+		<a href="https://github.com/theo-armour/2021/" target="_blank">gh</a>
+		<a href="http://pushme-pullyou.github.io/tootoo-2021/" target="_blank">|tt</a>
+		<a href="https://github.com/pushme-pullyou/tootoo-2021/" target="_blank">gh</a>
+
+		|<a href="https://theo-armour.github.io/maps-2021/" target="_blank">m21</a>
+		<a href="https://github.com/theo-armour/maps-2021" target="_blank">gh</a>
+
+		|<a href="https://ladybug.tools/spider-2021/" target="_blank">🕸️21</a>
+		<a href="https://github.com/ladybug-tools/spider-2021" target="_blank">gh</a>
+
+		|<a href=https://ladybug-tools.github.io/spider-covid-19-viz-3d/ target=_blank>c19</a>
+		<a href=https://github.com/ladybug-tools/spider-covid-19-viz-3d/ target=_blank>gh</a>
+
+		|<a href="https://ladybug.tools/spider-gbxml-tools/spider-gbxml-viewer/" target="_blank">sgv17</a>
+		<a href="https://ladybug.tools/spider-2020/spider-gbxml-viewer/" target="_blank">sgv20</a>
+
+		<a href="https://www.ladybug.tools/spider-covid-19-viz-3d/cookbook/globe-population-cities/"
+			target="_blank">globe</a>
+
+		<a href="vscode://file/c:/Users/theo/Dropbox/Public/git-repos/theo-armour-qdata/0-to-do/0-to-do.md"
+			title="vscode todo">◯</a>
+
+		<a href="https://sketchpad.app/en/?" target="_blank">sktchpd</a>
+		<a href="https://excalidraw.com/" target="_blank">excldrw</a>
+
+	</div>
+
+
+	<!--
+		<a href="https://dev.to" target="_blank">dev.to</a>
+		<a href="http://repl.it" target="_blank">replt</a>
+		<a href="https://glitch.com" target="_blank">gltch</a>
+	<div id=header class=col >
+		<a href="https://cityzenith.com/" target="_blank">CityZen</a>
+		<a href="https://s3.us-east-2.amazonaws.com/repo.cityzenith.com/Cityzenith+Whitepaper-The+Impact+of+COVID-19+on+the+Implementation+of+Digital+Twins+in+the+Global+Building+Industry_+screen+res.pdf" target="_blank">pdf</a>
+		<a href="https://theo-armour.github.io/pages/cityzen.html" target="_blank">cityzen</a>
+		<a href="https://github.com/jaanga/glitch/" target="_blank">j/glitch</a>
+		<a href="https://gitlab.com/coding-tour/pair-programming-with-theo-armour" target="_blank">pair</a>
+		<a href="https://dev.to/harald3dcv" target="_blank">harald3d</a>
+				<a href="https://viewer.autodesk.com/" target="_blank" title="Autodesk Viewer">aView</a>
+	</div>
+-->
+
+
+
+	<table markdown>
+		<tr>
+			<td id=T1col1></td>
+			<td id=T1col2></td>
+			<td id=T1col3></td>
+			<td id=T1col4></td>
+			<td id=T1col5></td>
+			<td id=T1col6></td>
+			<td id=T1col7></td>
+			<td id=T1col8></td>
+
+		</tr>
+	</table>
+
+
+	<details title="Row 4">
+
+		<summary>
+			<a href=https://theo-armour.github.io/qdata title="folder qdata" target="_blank">qData</a>
+			<a href=https://github.com/theo-armour/qdata title="folder qdata" target="_blank">qd</a>
+			<a href=https://github.com/theo-armour/qdata/tree/master/snippets title="folder snippets" target="_blank">snip</a>
+
+			~<a href=https://theo-armour.github.io target="_blank">TheoA</a>
+			<a href=https://github.com/theo-armour/theo-armour.github.io target="_blank">gh</a>
+			<a href=https://github.com/theo-armour target="_blank">gh</a>
+			~<a href=https://theo-armour.github.io/2020 target="_blank">2020</a>
+			<a href=https://github.com/theo-armour/2020 target="_blank">g2</a>
+
+			/<a href="vscode://file:/c:/Users/theo/Dropbox/Public/git-repos/github.code-workspace">!ta-ws</a>
+			/<a href=https://jaanga.github.io target="_blank">Jaanga</a>
+			<a href=https://github.com/jaanga/jaanga.github.io target="_blank">gh</a>
+			/<a href=https://evereverland.github.io/ target="_blank">eel</a>
+			<a href=https://github.com/evereverland/evereverland.github.io target="_blank">gh</a>
+			/<a href="http://pushme-pullyou.github.io/tootoo-2020" target="_blank">too</a>
+			<a href="https://github.com/pushme-pullyou/tootoo-2020" target="_blank">gh</a>
+
+		</summary>
+
+		<table markdown>
+			<tr>
+				<td id=t2col1>abc</td>
+				<td id=t2col2>def</td>
+				<td id=t2col3>ghi</td>
+				<td id=t2col4>jkl</td>
+				<td id=t2col5>mno</td>
+				<td id=t2col6>pqr</td>
+				<td id=t2col7>pqr</td>
+				<td id=t2col8>pqr</td>
+			</tr>
+		</table>
+	</details>
+
+
+	<table markdown>
+		<tr>
+			<td id=t3col1></td>
+			<td id=t3col2></td>
+			<td id=t3col3>
+				wiki<br> <input onchange=window.open(`https://en.wikipedia.org/wiki/${this.value}`,`_blank`)><br>
+
+				thesaurus<br> <input
+					onchange=window.open(`https://www.thesaurus.com/browse/${this.value}`,`_blank`)><br>
+
+				define<br> <input
+					onchange=window.open(`https://www.google.com/search?q=define%3A${this.value}`,`_blank`)><br>
+
+				translate<br> <input
+					onchange=window.open(`https://www.google.com/search?q=translate%3A${this.value}`,`_blank`)><br>
+
+
+			</td>
+			<td id=t3col4></td>
+			<td id=t3col5></td>
+			<td id=t3col6></td>
+			<td id=t3col7></td>
+			<td id=t3col8></td>
+		</tr>
+	</table>
+
+
+	<div id=divContents></div>
+
+
+	<script>
+
+
+		markdownT1Column1 =
+			`[nytimes]( https://nytimes.com/ ) [tk]( https://www.nytimes.com/pages/technology/ )
+[drudge](https://drudgereport.com)
+[boing]( https://boingboing.net/blog/ )
+[lifehacker]( https://lifehacker.com/ )
+[slashdot]( http://slashdot.net/ )
+[techmeme]( https://techmeme.com/ )
+[reddit]( https://reddit.com )
+[hacker_new]( https://news.ycombinator.com/ )
+[kottke]( https://kottke.org )
+[swiss-miss]( https://swiss-miss.com )
+[googN]( https://news.google.com/ ) [ ap ]( https://apnews.com/ )
+[tc]( https://techcrunch.com ) [eng]( https://engadget.com ) [giz]( https://gizmodo.com )
+[cnn]( https://lite.cnn.io ) [npr]( https://text.npr.org/ ) [dig]( https://digg.com/ )
+[4sl]( https://www.oreilly.com/radar/topics/four-short-links/ ) [alT]( https://alltop.com/ ) [fdly]( https://feedly.com )
+`;
+
+
+
+		markdownT1Column2 =
+			`
+[g maps](https://google.com/maps/preview)
+[g calender](https://calendar.google.com/)
+[g contacts](https://contacts.google.com)
+[g drive](https://drive.google.com/?authuser=0#my-drive)
+[g mail](https://mail.google.com/mail/u/0/?tab=mm#inbox)
+. [compose](https://mail.google.com/mail/?view=cm&fs=1&tf=1)
+[g youtube](https://youtube.com)
+[g domains](https://domains.google/)
+[g translat](https://transleate.google.com/)
+[g sites](https://sites.google.com)
+[g experimt]( https://experiments.withgoogle.com/experiments )
+[g groups](https://groups.google.com)
+[g design]( https://design.google/ )
+[g oogle](https://google.com)
+`;
+
+
+
+		markdownT1Column3 = `
+[dropbox](https://dropbox.com/home)
+[groupsio](https://groups.io)
+.
+[medium](https://medium.com)
+[twitter](https://twitter.com)
+[facebook](https://facebook.com)
+
+[nextdoor](https://nextdoor.com)
+[telegram]( https://web.telegram.org/#/im )
+.
+[pandora](https://pandora.com)
+[spotify]( https://spotfy.com) [*]( https://open.spotify.com/browse/featured )
+[flickr](https://flickr.com)
+[evernote](https://www.evernote.com/Home.action)
+`;
+
+
+
+		markdownT1Column7 =
+			`
+[gbxml]( http://gbxml.org) [gbxml.io]( http://greenbuildingxml.github.io)
+[ladybg](https://github.com/ladybug-tools) [bc]( https://3.basecamp.com/4298486/projects ) [dscs]( https://discourse.ladybug.tools/c/spider )
+[spdr](https://ladybug.tools/spider/) [2020]( https://ladybug.tools/spider-2020/ )
+[spdr&nbsp;gbx](https://ladybug.tools/spider-gbxml-tools/) [os]( https://www.ladybug.tools/spider-gbxml-viewers-for-openstudio)
+•[mae]( https://www.ladybug.tools/spider-gbxml-tools/spider-gbxml-viewer ) [is]( https://github.com/ladybug-tools/spider-gbxml-viewer/issues )
+•[atrx]( https://www.ladybug.tools/spider-gbxml-fixer/ ) [is]( https://github.com/ladybug-tools/spider-gbxml-fixer/issues )
+*[sgg]( https://www.ladybug.tools/spider-gbxml-viewers-for-openstudio/sandbox/spider-gbxml-gallery/spider-gbxml-gallery.html)
+[spdrRad](https://ladybug.tools/spider-rad-viewer/) [7]( https://www.ladybug.tools/spider-rad-viewer/rad-viewer/ )
+
+[pshMe-pllU]( https://pushme-pullyou.github.io/ )
+[tootoo2020]( https://pushme-pullyou.github.io/tootoo-2020/ )
+.
+[three.js](https://threejs.org)
+[• docs](https://threejs.org/docs/)
+[exampl](https://threejs.org/examples/) [ta](https://jaanga.github.io/jaanga.github.io/documents/threejs-viewers/threejs-viewer-gallery/threejs-viewer-gallery-r2.html)
+`;
+
+
+
+		markdownT1Column8 = `
+[gh]( https://github.com/greenbuildingxml )
+[gh]( https://github.com/ladybug-tools )
+[gh](https://github.com/ladybug-tools/honeybee-viewer)
+[gh](https://github.com/ladybug-tools/spider)
+[gh](https://github.com/ladybug-tools/spider-gbxml-tools)
+.
+.
+[gh](https://github.com/ladybug-tools/spider-rad-resources)
+[pp]( https://github.com/pushme-pullyou/ )
+[t2]( https://github.com/pushme-pullyou/tootoo-2020)
+.
+[gh](https://github.com/mrdoob/three.js)
+[gh](https://github.com/mrdoob/three.js/tree/dev/docs)
+[gh](https://github.com/mrdoob/three.js/tree/dev/examples)
+`;
+
+/////////// 44444
+
+		markdownT1Column4 = `
+[To_Do]( https://github.com/theo-armour/qdata/edit/master/0-to-do/0-to-do.md )
+[tdPeeps]( https://github.com/theo-armour/qdata/edit/master/0-to-do/ta-peeps.md )
+[tdAdmin]( https://github.com/theo-armour/qdata/edit/master/0-to-do/to-do-admin.md )
+[tdCoding]( https://github.com/theo-armour/qdata/edit/master/0-to-do/coding/README.md )
+[tdHealth]( https://github.com/theo-armour/qdata/edit/master/0-to-do/health/to-do-health.md )
+[tdHeritg]( https://github.com/theo-armour/qdata/edit/master/0-to-do/heritage/to-do-heritage.md )
+[tdHundred]( https://github.com/theo-armour/qdata/edit/master/0-to-do/heritage/hundred-things.md )
+[tdEvrLnd]( https://github.com/theo-armour/qdata/edit/master/0-to-do/simplicity/README.md )
+[tdSpider]( https://github.com/theo-armour/qdata/edit/master/0-to-do/spider-gbxml/README.md )
+[Snippets]( https://github.com/theo-armour/theo-armour.github.io/tree/master/snippets/snippets )
+`
+		////////////////////// 555555
+
+		markdownT1Column5 = `
+[hotM]( https://heritageonthemarina.org )
+[heritics]( https://heretics-sf.github.io )
+[EvrEvrLnd]( https://evereverland.github.io )
+[Pelicans]( https://sps-pelicans.github.io )
+[konturno]( https://konturno.github.io)
+.
+[jaanga](https://jaanga.github.io/)
+[demo](https://jaanga.github.io/demo/)
+[ckbk html](https://github.com/jaanga/jaanga.github.io/tree/master/cookbook-html/)
+[ckbk thre](https://github.com/jaanga/jaanga.github.io/tree/master/cookbook-threejs)
+[cookbook](https://jaanga.github.io/cookbook/)
+[documents](https://jaanga.github.io/documents/)
+[c19](https://github.com/heretics-sf/heretics-sf.github.io/edit/master/pages/2020-C19-Statistics.md)
+	`;
+	https://web.archive.org/web/20090218103214/http://www.chdmag-digital.com/chdmag/200811/?pg=88&pm=2
+
+		markdownT1Column5gh = `
+.
+[gh](https://github.com/heretics-sf/heretics-sf.github.io)
+[gh](https://github.com/evereverland/evereverland.github.io/)
+[gh](https://github.com/sps-pelicans/sps-pelicans.github.io/)
+[gh](https://github.com/konturno/konturno.github.io)
+.
+[gh](https://github.com/jaanga/jaanga.github.io/)
+[gh](https://github.com/jaanga/jaanga.github.io/tree/master/demo/)
+[gh](https://github.com/jaanga/jaanga.github.io/tree/master/demo/doug-d)
+[gh](https://github.com/jaanga/jaanga.github.io/tree/master/cookbook-html/)
+[gh](https://github.com/jaanga/jaanga.github.io/tree/master/cookbook-threejs)
+[gh]( https://github.com/jaanga/jaanga.github.io/tree/master/cookbook-html/)
+[gh](https://github.com/jaanga/jaanga.github.io/tree/master/documents)
+.
+`;
+
+
+		//////////////////////
+		/*
+				markdownT1Column5 =
+					`[konturno]( https://konturno.github.io)
+		• [jaanga](https://jaanga.github.io/)
+		[demo](https://jaanga.github.io/demo/)
+		[ckbk html](https://github.com/jaanga/jaanga.github.io/tree/master/cookbook-html/)
+		[ckbk thre](https://github.com/jaanga/jaanga.github.io/tree/master/cookbook-threejs)
+		[cookbook](https://jaanga.github.io/cookbook/)
+		[documents](https://jaanga.github.io/documents/)
+		[blog](https://jaanga.github.io/request-jaanga-blog-posts.html)
+		[equirec](https://jaanga.github.io/equirec/index.html)
+		[tutorials](https://github.com/jaanga/jaanga.github.io/tree/master/tutorials)
+		.
+		[opentectur]( https://www.opentecture.com )
+		&bull;[mindmappn]( https://opentecture.github.io/mindmapping/ )
+		&bull;[bookmarks]( https://opentecture.github.io/mindmapping/#sandbox/opentecture-bookmarks/README.md )
+		`;
+
+
+				markdownT1Column5gh =
+					`
+		[gh]( https://github.com/konturno/konturno.github.io)
+		[gh](https://github.com/jaanga/jaanga.github.io/)
+		[gh](https://github.com/jaanga/jaanga.github.io/tree/master/demo/)
+		[gh](https://github.com/jaanga/jaanga.github.io/tree/master/demo/doug-d)
+		[gh](https://github.com/jaanga/jaanga.github.io/tree/master/cookbook-html/)
+		[gh](https://github.com/jaanga/jaanga.github.io/tree/master/cookbook-threejs)
+		[gh]( https://github.com/jaanga/jaanga.github.io/tree/master/cookbook-html/)
+		[gh](https://github.com/jaanga/jaanga.github.io/tree/master/documents)
+		.
+		.
+		.
+		[gh]( https://github.com/opentecture )
+		[gh]( https://github.com/opentecture/mindmapping )
+		[gh]( https://github.com/opentecture/mindmapping/tree/master/sandbox/opentecture-bookmarks )
+
+		`;
+
+		*/
+
+		//////////
+
+		markdownT3Column1 =
+			`
+[glitch](https://glitch.com/)
+[theo](https://glitch.com/edit/#!/theo)
+[ta-core](https://glitch.com/edit/#!/ta-core)
+[ta](https://glitch.com/edit/#!/ta)
+.
+[dropbox](https://dropbox.com/home)
+[db.git-repo](https://www.dropbox.com/sh/mwonzj8s64f6mpr/q4CWBT1EDa)
+.
+[blogger](https://blogger.com)
+[wp](https://wordpress.com)
+.
+
+peeps
+[bbn66](https://flickr.com/bbn66)
+[websight<br>&nbsp; design](https://websightdesign.com)
+
+[wikihous](https://wikihouse.github.io/viewer-experiments/) [gh](https://github.com/wikihouse/viewer-experiments/)
+[opendesk](https://opendesk.github.io/design-playground/) [gh](https://github.com/opendesk/design-playground/tree/gh-pages)
+
+`;
+
+
+
+		markdownT3Column2 =
+			`
+
+[text exp]( file:///D:/Dropbox/Public/git-repos/theo-armour.github.io/snippets/apps/text-expansion.md )
+
+[emoji searcher]( https://emoji.muan.co/ )
+[amazon drive]( https://smile.amazon.com/clouddrive/folder/24e4d9HmTF6k7Q67a1z4n )
+[ms oneDrive]( https://onedrive.live.com )
+[validator]( https://validator.w3.org/ )
+[jsHint]( https://jshint.com/ )
+[esLint]( https://eslint.org/demo/ )
+[emmet keyboard]( https://docs.emmet.io/cheat-sheet/ )
+[mr.doob approve]( https://zz85.github.io/mrdoobapproves/jscs.html)
+[showdown.js]( https://github.com/showdownjs/showdown/ )
+[jsZip]( https://stuk.github.io/jszip/ )
+.
+[g sites/jaanga]( https://sites.google.com/jaanga.com/jaanga/home )
+[g sites/828-00]( https://sites.google.com/828-0000.com/828-0000/home)
+[g sites/theo-a]( https://sites.google.com/view/theo-armour/home )
+`;
+
+
+		markdownT3Column3 =
+			`
+[wikiped](https://en.wikipedia.org/wiki/Main_Page) [ta](https://en.wikipedia.org/wiki/User:TheoA)
+[stackdit]( https://stackedit.io/app# )
+[stackoflow](https://stackoverflow.com/)
+
+`;
+
+		markdownT3Column4 =
+			`
+cheetsheets
+[git]( https://i.imgur.com/8yqJl.png )
+[get emoji]( https://getemoji.com/)
+[emojipedia]( https://emojipedia.org/ )
+[wiki emoji]( https://en.wikipedia.org/wiki/Emoji )
+.
+[ggta.g.io]( https://groups.io/g/ggta )
+.
+[fogg.g.io]( https://groups.io/g/fogg )
+[fogg]( https://friendsofgoldengateway.wordpress.com) [wp]( https://wordpress.com/view/friendsofgoldengateway.wordpress.com )
+[foggus.d.h.]( https://www.foggus.dreamhosters.com/ )
+
+`;
+
+
+
+		markdownT3Column5 =
+			`
+[gitlab]( https://gitlab.com/theo-armour/theo-armour.gitlab.io ) [gl]( https://theo-armour.gitlab.io/theo-armour.gitlab.io )
+[evrevrlnd]( https://evereverland.gitlab.io/ ) [gl]( https://gitlab.com/evereverland/evereverland.gitlab.io/tree/master/public )
+
+
+[charmor]( https://github.com/charmor/charmor.github.io )
+[ecumenopolis]( https://github.com/ecumenopolis/suggestions/blob/master/content/_index.md )
+`;
+
+
+
+
+
+		const urlSourceCode = "https://github.com/theo-armour/theo-armour.github.io/tree/master/snippets/new-tab";
+		//const urlSourceCodeIcon = "https://pushme-pullyou.github.io/github-mark-64.png";
+
+		init();
+
+		function init() {
+
+			showdown.setFlavor( 'github' );
+
+			const converter = new showdown.Converter( { 'openLinksInNewWindow': 'true' } );
+
+			T1col1.innerHTML = converter.makeHtml( markdownT1Column1 );
+			T1col2.innerHTML = converter.makeHtml( markdownT1Column2 );
+			T1col3.innerHTML = converter.makeHtml( markdownT1Column3 );
+			T1col4.innerHTML = converter.makeHtml( markdownT1Column4 );
+			T1col5.innerHTML = converter.makeHtml( markdownT1Column5 );
+			T1col6.innerHTML = converter.makeHtml( markdownT1Column5gh );
+			T1col7.innerHTML = converter.makeHtml( markdownT1Column7 );
+			T1col8.innerHTML = converter.makeHtml( markdownT1Column8 );
+
+			t3col1.innerHTML = converter.makeHtml( markdownT3Column1 );
+			t3col2.innerHTML = converter.makeHtml( markdownT3Column2 );
+			t3col3.innerHTML += converter.makeHtml( markdownT3Column3 );
+			t3col4.innerHTML = converter.makeHtml( markdownT3Column4 );
+			t3col5.innerHTML = converter.makeHtml( markdownT3Column5 );
+
+			requestFile( 'https://api.github.com/users/theo-armour/repos?per_page=100', callbackTheoArmour );
+
+			requestFile( 'https://api.github.com/users/theo-armour/orgs?per_page=100', callbackTheoOrgs );
+
+			requestFile( 'https://api.github.com/users/jaanga/repos?per_page=100', callbackJaangaRepos );
+
+			const date = new Date();
+			const mo = ( 1 + date.getMonth() ).toString().padStart( 2, "0" );
+			const da = ( "0" + ( date.getDate() ) ).slice( -2 );
+			const today = mo + "/" + mo + "-" + da + ".md";
+			aDiaryT.href =
+`https://github.com/theo-armour/qdata/edit/master/journal/days-of-year-md/${ today }/`
+
+			date.setDate( date.getDate() - 1 );
+			const ymo = ( "0" + ( 1 + date.getMonth() ) ).slice( -2 );
+			const yda = ( "0" + ( date.getDate() ) ).slice( -2 );
+			yesterday = ymo + "/" + ymo + "-" + yda + ".md"; //console.log( 'yesterday' , yesterday );
+			aDiaryY.href = `https://github.com/theo-armour/qdata/edit/master/journal/days-of-year-md/${ yesterday }/`
+
+			window.scrollTo( 0, 0 );
+
+		}
+
+
+
+
+		function callbackTheoArmour( xhr ) {
+
+			const response = JSON.parse( xhr.target.response );
+			//console.log( '', response );
+
+			const repos = response.filter( obj => obj.fork === false ).map( obj => obj.name ).sort();
+			const arr1 = [];
+			const arr2 = [];
+
+			for ( let repo of repos ) {
+
+				arr1.push( '<a href=https://theo-armour.github.io/' + repo + ' target=_blank > ' + repo.replace( /-/g, '&#8209;' ) + ' </a>' );
+
+				arr2.push( '<a href=https://github.com/theo-armour/' + repo + ' target=_blank > gh </a>' );
+
+			}
+
+			t2col1.innerHTML =
+				`
+			<div style=width:250px;overflow:hidden; >
+				<a href=https://theo-armour.github.io/ target=_blank > &bull; theo-armour</a><br>${ arr1.join( "<br>" ) }
+			</div>
+		`;
+
+			t2col2.innerHTML = '<a href=https://github.com/theo-armour/ target=_blank > gh </a><br>' + arr2.join( "<br>" );
+
+		}
+
+
+
+		function callbackTheoOrgs( xhr ) {
+
+			let response, logins, login, arr1, arr2;
+
+			response = JSON.parse( xhr.target.response );
+
+			logins = response.map( function ( obj ) { return obj.login; } ).sort();
+
+			arr1 = [];
+			arr2 = [];
+
+			for ( let i = 0; i < logins.length; i++ ) {
+
+				login = logins[ i ]
+
+				arr1.push( login.replace( /-/g, '&#8209;' ).link( 'https://' + login + '.github.io/' ) );
+
+				arr2.push( '<a href=https://github.com/' + login + '/' + login + '.github.io target=_blank >gh</a>' );
+
+			}
+
+			t2col3.innerHTML =
+				`
+			<div style=width:250px;overflow:hidden; >
+				&bull; theo orgs<br>
+				${ arr1.join( "<br>" ) }
+			</div>
+		`;
+
+			t2col4.innerHTML =
+				`
+			&nbsp;<br>
+			${ arr2.join( "<br>" ) }
+		`;
+
+		}
+
+
+
+		function callbackJaangaRepos( xhr ) {
+
+			const response = JSON.parse( xhr.target.response );
+
+			const repos = response.map( obj => obj.name ).sort(); 00
+			const arr1 = [];
+			const arr2 = [];
+
+			for ( let repo of repos ) {
+
+				if ( repo.includes( 'heightmap' ) || repo.includes( '-de' ) || repo.includes( '-srtm' ) || repo.includes( '-usgs' ) ) { continue; }
+
+				arr1.push( '<a href=https://jaanga.github.io/' + repo + ' target=_blank > ' + repo.replace( /-/g, '&#8209;' ) + ' </a>' );
+
+				arr2.push( '<a href=https://github.com/jaanga/' + repo + ' target=_blank > gh </a>' );
+
+			}
+
+			t2col5.innerHTML =
+				`
+			<div style=width:250px;overflow:hidden; >
+				&bull; <a href="https://jaanga.github.io/jaanga.github.io" target="_blank">jaanga</a> repos<br>
+				${ arr1.join( "<br>" ) }
+			</div>
+		`;
+
+			t2col6.innerHTML = arr2.join( "<br>" );
+
+		}
+
+
+
+		function requestFile( url, callback ) {
+
+
+			const xhr = new XMLHttpRequest();
+			xhr.crossOrigin = 'anonymous';
+			xhr.open( 'GET', url, true );
+			xhr.onload = callback;
+			xhr.send( null );
+
+		}
+
+		// https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8
+		// https://codepen.io/ananyaneogi/pen/zXZyMP
+
+		//const toggleSwitch = document.querySelector( '.theme-switch input[type="checkbox"]' );
+		const currentTheme = localStorage.getItem( 'theme' );
+
+		if ( currentTheme ) {
+
+			document.documentElement.setAttribute( 'data-theme', currentTheme );
+
+			if ( currentTheme === 'dark' ) {
+				toggleSwitch.checked = true;
+			}
+
+		}
+
+		function switchTheme( e ) {
+
+			if ( e.target.checked ) {
+				document.documentElement.setAttribute( 'data-theme', 'dark' );
+				localStorage.setItem( 'theme', 'dark' );
+			}
+			else {
+				document.documentElement.setAttribute( 'data-theme', 'light' );
+				localStorage.setItem( 'theme', 'light' );
+			}
+		}
+
+		toggleSwitch.addEventListener( 'change', switchTheme, false );
+
+
+	</script>
+</body>
+
+</html>
