@@ -1,17 +1,19 @@
-# [![](https://pushme-pullyou.github.io/tootoo-2022/assets/icons/mark-github.svg )](https://github.com/theo-armour/qdata/ "Source code on GitHub" ) [Theo Armour qdata]( https://theo-armour.github.io/qdata/ "Home page" ) / [New Tab 2022 Read Me]( https://github.com/theo-armour/qdata/tree/master/apps/2022-new-tab )
+# Newww Tab Read Me
+
+[![](https://pushme-pullyou.github.io/tootoo-2022/assets/icons/mark-github.svg )](https://github.com/theo-armour/2023/ "Source code on GitHub" ) [Theo Armour 2023]( https://theo-armour.github.io/2023/ "Home page" ) / [New Tab 2022 Read Me]( https://github.com/theo-armour/2023/tree/master/apps/neww-tab/ )
 
 
 <!--@@@
-<div class=iframe-resize ><iframe src=https://theo-armour.github.io/qdata/apps/2022-new-tab/ height=100% width=100% ></iframe></div>
+<div class=iframe-resize ><iframe src=https://theo-armour.github.io/2023/apps/newww-tab/ height=100% width=100% ></iframe></div>
 _"New Tab 2022" in a resizable window. One finger to rotate. Two to zoom._
 @@@-->
 
-### Full Screen: [New Tab 2022]( https://theo-armour.github.io/qdata/apps/2022-new-tab/ )
+### Full Screen: [New Tab 2022]( https://theo-armour.github.io/2023/apps/newww-tab/ )
 
 
 ## Concept
 
-* File that is displayed when I vlick on the "New tab" button in a Chrome browser
+* File that is displayed when I click on the "New tab" button in a Chrome browser
 * Displays my most frequently used links
 * Simpler and les resource intensive than keeping tabs one
 

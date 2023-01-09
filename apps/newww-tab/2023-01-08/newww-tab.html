@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html lang=en>
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -9,8 +9,11 @@
 	<meta name="description"
 		content="File wrangler. Default index.html file. Opens HTML or Markdown files. Passes location.hash.">
 	<meta name="keywords" content="ShowDown,Markdown,AJAX,JavaScript,HTML,CSS,GitHub,FOSS">
+	<meta name="version" content="2023-01-08">
 
 	<style>
+		/* Copyright 2022 Theo Armour. MIT License */
+
 		:root {
 			font: 100% monospace;
 		}
@@ -20,7 +23,7 @@
 		}
 
 		body {
-			margin: 0 auto;
+			margin: 0;
 			/*max-width: 80ch; */
 		}
 
@@ -51,11 +54,7 @@
 
 		blockquote {
 			background-color: #ddd;
-			padding: 1ch;
-		}
-
-		center {
-			font-size: 2ch;
+			padding: 1rem;
 		}
 
 		code {
@@ -64,14 +63,34 @@
 
 		pre {
 			background-color: #eee;
-			padding: 5px;
+			padding: 0.5rem;
 		}
 
 		summary {
 			cursor: pointer;
-			font-size: 2.5ch;
+			font-size: 1.5rem;
 			font-weight: bold;
 			outline: none;
+		}
+
+		::-webkit-scrollbar {
+			background: forestgreen;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background: darkgreen;
+		}
+
+		.aDingbat {
+			text-decoration: none;
+			font-size: 2rem;
+		}
+
+		.iframe-resize {
+			height: 400px;
+			overflow: hidden;
+			resize: both;
+			width: 100%;
 		}
 
 		h3 {
@@ -86,7 +105,7 @@
 		}
 
 		.box {
-			border: 1px solid red;
+			border: 1px solid #ffdddd;
 			flex: 1 1 150px;
 			/*  Stretching: */
 
@@ -95,15 +114,31 @@
 			resize: both;
 			overflow: auto;
 		}
+
+		#divClock {
+			color: #ccc;
+			font-size: 3rem;
+			font-weight: bold;
+
+			margin: 0;
+			padding: 0;
+			position:fixed;
+			right: 0;
+			bottom:0rem;
+		}
+
 	</style>
 
 </head>
 
 <body>
+	<!-- https://github.com/showdownjs/showdown -->
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
 
 	<div id=divContent class="parent"></div>
+
+	<div id="divClock">XXX</div>
 
 	<script>
 
@@ -130,16 +165,29 @@
 
 			window.addEventListener( "hashchange", onHashChange, false );
 
+			divClock.innerHTML = new Date().toLocaleTimeString().slice( 0, -6 );
+
+			setInterval( () => divClock.innerHTML = new Date().toLocaleTimeString().slice( 0, -6 ), 60000 );
+
 		}
 
-		function onHashChange () {
+
+		function onHashChange() {
 
 			const url = location.hash.slice( 1 );
 			document.title = url.split( "/" ).pop();
+			//const options = { openLinksInNewWindow: false, excludeTrailingPunctuationFromURLs: true, ghMention: true, simplifiedAutoLink: true, simpleLineBreaks: true, emoji: true };
 
 			const xhr = new XMLHttpRequest();
 			xhr.open( "get", url, true );
-			xhr.onload = () => divContent.innerHTML = converter.makeHtml( xhr.responseText );
+			xhr.onload = () => {
+				let txt = xhr.responseText;
+				txt = txt.replace( /\<!--@@@/, "" ).replace( /\@@@-->/, "" );
+
+				divContent.innerHTML = converter.makeHtml( xhr.responseText );
+				//divContent.innerHTML = new showdown.Converter( options ).makeHtml( txt );
+				window.scrollTo( 0, 0 );
+			}
 			xhr.send( null );
 
 		}

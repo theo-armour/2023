@@ -1,4 +1,11 @@
-<details class=box open><summary>Theo</summary>
+<details class=box open><summary title="2022-10-06" >Theo</summary>
+
+@@ [pages]( https://theo-armour.github.io/pages/ ) [ta]( https://github.com/theo-armour)
+
+@@ [gRefer]( https://github.com/theo-armour/reference)
+@@ [gToDo23]( https://github.com/theo-armour/2023-todo)
+@@ [gQdata23]( https://github.com/theo-armour/2023-qdata/)
+.
 @@ [qdata](https://theo-armour.github.io/qdata/) [gh]( https://github.com/theo-armour/qdata )
 [newTab]( https://theo-armour.github.io/qdata/apps/2022-new-tab/ ) [gh]( https://github.com/theo-armour/qdata/tree/master/apps/2022-new-tab ) [e]( https://github.com/theo-armour/qdata/edit/master/apps/2022-new-tab/2022-08-01/new-tab-content.md )
 [trayo](https://theo-armour.github.io/qdata/apps/trayo/)
@@ -8,12 +15,13 @@
 [oldNewT]( https://theo-armour.github.io/qdata/apps/new-tab/ )
 
 @@ [theo22]( https://theo-armour.github.io/2022/ )
-[pages]( https://theo-armour.github.io/2022/#pages/README.md )
 [bizcard]( https://theo-armour.github.io/2022/about/business-card.html )
 
 @@ [theoA]( https://theo-armour.github.io/ ) [gh]( https://github.com/theo-armour/theo-armour.github.io )
 [demo]( https://theo-armour.github.io/2021/demo-reel/v-2021-08-31/iframe-carousel-r1.html )
 [mouth]( https://theo-armour.github.io/mouth-stl-2022/simple-stl/" )
+
+@@ [TooToo22]( https://pushme-pullyou.github.io/tootoo-2022/ ) [gh]( https://github.com/pushme-pullyou/tootoo-2022/ )
 
 vsCode
 [&gt;ta qData]( https://vscode.dev/github/theo-armour/qdata )
@@ -23,10 +31,12 @@ vsCode
 </details>
 
 
+<!-- NEWS -->
+
 
 <details class=box open><summary>news</summary>
 [nytimes]( https://nytimes.com/ )
-[googN]( https://news.google.com/ )
+[googN]( https://news.google.com/ ) &nbsp; [wsj]( https://www.wsj.com/ )
 [drudge]( https://drudgereport.com )
 [hacker_new]( https://news.ycombinator.com/ )
 [slashdot]( https://slashdot.org/ )
@@ -41,18 +51,18 @@ vsCode
 [lifehacker]( https://lifehacker.com/ )
 [kottke]( https://kottke.org )
 [swiss-miss]( https://swiss-miss.com )
+[feedly]( https://feedly.com/ )
 [techcrunch]( https://techcrunch.com )
 [engadget]( https://engadget.com )
-[upstart]( https://upstract.com/ )
 
 </details>
 
 
-
 <!-- GOOGLE -->
 
+
 <details class=box open><summary>google</summary>
-[g maps]( https://google.com/maps/preview )
+[g maps]( https://google.com/maps/ )
 [g calender]( https://calendar.google.com/ )
 [g contacts]( https://contacts.google.com/ )
 [g mail]( https://mail.google.com/mail/u/0/?tab=mm#inbox )
@@ -67,9 +77,49 @@ vsCode
 [g groups]( https://groups.google.com/ )
 [g design]( https://design.google/ )
 [google]( https://google.com/ )
-
+<h1>❦ ❧</h1>
+[aeon](https://aeon.co/)
+[nautilus](https://nautil.us/)
+[noema]( https://www.noemamag.com/)
+[quanta]( https://www.quantamagazine.org/)
+[substack](https://substack.com/inbox)
+[atlantic]( https://www.theatlantic.com/)
 
 </details>
+
+
+<!-- apps & ref -->
+
+
+<details class=box open><summary>apps & ref</summary>
+[chatGPT]( https://chat.openai.com/chat )
+[facebook]( https://facebook.com/ )
+[instagram]( https://instagram.com/ )
+[medium]( https://medium.com/ )
+[nxtdoor]( https://nextdoor.com/ )
+
+[dropbox]( https://dropbox.com/home )
+[evernote]( https://evernote.com/Home.action )
+[flickr]( https://flickr.com/ )
+[geni]( https://geni.com/family-tree/index/6000000004118029730 )
+[kindle]( https://read.amazon.com/kindle-library )
+[otter]( https://otter.ai/ )
+
+reference
+[threejs]( https://threejs.org )
+[wiki]( https://en.wikipedia.org )
+[> wContent]( https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories )
+[thesaurus]( https://thesaurus.com )
+[translate]( https://translate.google.com/ )
+[validator]( https://validator.w3.org/ )
+[mdn]( https://developer.mozilla.org/en-US/ )
+[sfpublib]( https://sfpl.org/)
+
+</details>
+
+
+<!-- gDrive -->
+
 
 <details class=box open><summary>gDrive</summary>
 @@ [g drive]( https://drive.google.com/?authuser=0#my-drive )
@@ -91,40 +141,15 @@ vsCode
  </details>
 
 
-<details class=box open><summary>apps & ref</summary>
-[facebook]( https://facebook.com/ )
-[instagram]( https://instagram.com/ )
-[medium]( https://medium.com/ )
-[nxtdoor]( https://nextdoor.com/ )
-
-[dropbox]( https://dropbox.com/home )
-[evernote]( https://evernote.com/Home.action )
-[flickr]( https://flickr.com/ )
-[geni]( https://geni.com/family-tree/index/6000000004118029730 )
-[kindle]( https://read.amazon.com/reader?asin=B07DNKQ5M9&amp;ref_=kwl_kr_iv_rec_1&amp;language=en-US )
-[otter]( https://otter.ai/ )
-
-
-reference
-[threejs]( https://threejs.org )
-[wiki]( https://en.wikipedia.org )
-[> wContent]( https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories )
-[thesaurus]( https://thesaurus.com )
-[translate]( https://translate.google.com/ )
-[validator]( https://validator.w3.org/ )
-[mdn]( https://developer.mozilla.org/en-US/ )
-[sfpublib]( https://sfpl.org/)
-
-</details>
-
-
 <!-- Heritage -->
+
 
 <details class=box open><summary>h & hh</summary>
 <b>heritage</b>
 [hotm]( https://heritageonthemarina.org/ )
 [HerHap]( https://heritage-happenings.github.io/ )
-[> august]( https://heritage-happenings.github.io/happenings-issues/2022/2022-08-heritage-happenings.pdf )
+[#08]( https://heritage-happenings.github.io/happenings-issues/2022/2022-08-heritage-happenings.pdf ) [#09]( https://heritage-happenings.github.io/happenings-issues/2022/2022-09-heritage-happenings.pdf )
+[#10]( https://heritage-happenings.github.io/happenings-issues/2022/2022-10-heritage-happenings.pdf )
 [elation]( https://app.elationpassport.com/passport/login/ )
 [passport]( https://elationhealth.com/patient-passport/ )
 [worxhub]( https://theheritagesf.theworxhub.com/Dashboard )
@@ -132,36 +157,39 @@ reference
 
 gDrive ta22 h
 [heritage]( https://drive.google.com/drive/folders/15M2I16bU8Tt5-w5EOLBiCmUiI1Wm2phD )
-[> resSS]( https://docs.google.com/spreadsheets/d/1BtqRUotYqAKiJSTiir5h4sLrTfMFg8XdtWvn46DYti8/edit#gid=1362604872 )
+[> resiSS]( https://docs.google.com/spreadsheets/d/1BtqRUotYqAKiJSTiir5h4sLrTfMFg8XdtWvn46DYti8/edit#gid=1362604872 )
 hh
+[> folder]( https://drive.google.com/drive/folders/1MqjSUaIlRb7zjYd3886tlCMAQ0-Xk0Nk )
 [> refman]( https://docs.google.com/document/d/1oO8sRRqVAj7g4FI-beDok11l9t590svvMwLJt5VUg5s )
-[> 08]( https://docs.google.com/document/d/1iI9j5Ort73PLMPnUndQc7JEpPYQtoD3TickliqqSTb0/edit )
-[> 09]( https://drive.google.com/drive/folders/10sTjM-H5qBaOw4JOB0-Pvc-acvTiqEuY )
-
+[> 08]( https://docs.google.com/document/d/1iI9j5Ort73PLMPnUndQc7JEpPYQtoD3TickliqqSTb0/edit ) [> 09]( https://docs.google.com/document/d/1dC7MseGDhCl2x1fEOtmhGxenrMsGGxS9GR2dwJ-qDX8/edit )
+[> 10]( https://docs.google.com/document/d/1Es--zDC4I4XYoklRJnSuMyhS1iggsuK2Y1KDTdHAMNQ/edit )
 
 </details>
 
-<!-- orgs -->
+
+<!-- ORGS -->
+
 
 <details class=box open> <summary>orgs</summary>
+[plainJS](https://plain-JavaScript.github.io) [gh](https://github.com/plain-JavaScript/plain-JavaScript.github.io )
 [sccole.gh]( https://stephen-charles-cole.github.io/ ) [gh]( https://github.com/stephen-charles-cole )
 [Jaanga]( http://jaanga.github.io/ ) [gh]( https://github.com/jaanga/jaanga.github.io/)
 [> demo]( https://jaanga.github.io/demo/ )
 [konturno]( https://konturno.github.io/ ) [gh]( https://github.com/konturno/konturno.github.io/ )
-[everland]( https://evereverland.github.io) [gh]( https://github.io/evereverland )
-[eel 22]( https://evereverland.github.io/2022 )
-[DomG]( https://dominique-gaspar.blogspot.com )
+[2023]( https://konturno.github.io/2023 ) [gh]( https://github.com/konturno/konturno.github.io/2023 )
+[eel 19]( https://evereverland.github.io/2019) [gh]( https://github.com/evereverland/2019 )
+[eel 22]( https://evereverland.github.io ) [gh]( https://github.com/evereverland/evereverland.github.io )
+[plainJS]( https://plain-javascript.github.io ) [gh]( https://github.com/plain-JavaScript/plain-JavaScript.github.io)
+[> kitSink] ( https://plain-javascript.github.io/kitchen-sink/ ) [gh]( https://github.com/plain-JavaScript/kitchen-sink )
 
-long reads
-[4sl]( https://oreilly.com/radar/topics/four-short-links/ )
-[noema]( https://noemamag.com/ )
-[litHub]( https://lithub.com/category/lit-hub-daily/ )
-[hcRichdson]( https://heathercoxrichardson.substack.com/ )
 
 games wordle sb cw
 [wordle]( https://nytimes.com/games/wordle/index.html )
-[2nd guess]( https://real-statistics.com/wordle-strategy/best-first-two-guesses-wordle/ "slate" )
-[wordleBot]( https://nytimes.com/interactive/2022/upshot/wordle-bot.html )
 [spell-bee]( https://nytimes.com/puzzles/spelling-bee )
-[crss-word]( https://nytimes.com/crosswords/game/mini )
+[cross-word]( https://nytimes.com/crosswords/game/mini )
+[2nd guess]( https://real-statistics.com/wordle-strategy/best-first-two-guesses-wordle/ "slate" )
+[2nd mit]( http://wordle-page.s3-website-us-east-1.amazonaws.com/ )
+[word-tips]( https://word.tips/wordle/ )
+[wordleBot]( https://nytimes.com/interactive/2022/upshot/wordle-bot.html )
+
  </details>
