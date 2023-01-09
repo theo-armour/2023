@@ -5,10 +5,10 @@
 @@ [gRefer]( https://github.com/theo-armour/reference)
 @@ [gToDo23]( https://github.com/theo-armour/2023-todo)
 @@ [gQdata23]( https://github.com/theo-armour/2023-qdata/)
-.
-@@ [qdata](https://theo-armour.github.io/qdata/) [gh]( https://github.com/theo-armour/qdata )
-[newTab]( https://theo-armour.github.io/qdata/apps/2022-new-tab/ ) [gh]( https://github.com/theo-armour/qdata/tree/master/apps/2022-new-tab ) [e]( https://github.com/theo-armour/qdata/edit/master/apps/2022-new-tab/2022-08-01/new-tab-content.md )
-[trayo](https://theo-armour.github.io/qdata/apps/trayo/)
+
+@@ [2023] https://github.com/theo-armour/2023/)
+[newTab]( https://theo-armour.github.io/2023/apps/newww-tab/ ) [gh]( https://github.com/theo-armour/2023/tree/master/apps/newww-tab ) [e]( https://github.com/theo-armour/2023/edit/main/apps/newww-tab/2023-01-08/new-tab-content.md )
+[trayo](https://theo-armour.github.io/2023/apps/trayo/)
 [ifrStuff](https://theo-armour.github.io/qdata/apps/iframe-stuff)
 [teodori](https://theo-armour.github.io/qdata/apps/teodori)
 [notesy](https://theo-armour.github.io/qdata/apps/notesy)
