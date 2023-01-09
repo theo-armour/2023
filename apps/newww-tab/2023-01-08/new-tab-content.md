@@ -6,21 +6,19 @@
 @@ [gToDo23]( https://github.com/theo-armour/2023-todo)
 @@ [gQdata23]( https://github.com/theo-armour/2023-qdata/)
 
-@@ [2023] https://github.com/theo-armour/2023/)
+@@ [2023]( https://github.com/theo-armour/2023/)
 [newTab]( https://theo-armour.github.io/2023/apps/newww-tab/ ) [gh]( https://github.com/theo-armour/2023/tree/master/apps/newww-tab ) [e]( https://github.com/theo-armour/2023/edit/main/apps/newww-tab/2023-01-08/new-tab-content.md )
 [trayo](https://theo-armour.github.io/2023/apps/trayo/)
-[ifrStuff](https://theo-armour.github.io/qdata/apps/iframe-stuff)
+[ifrStuff](https://theo-armour.github.io/2023/apps/iframe-stuff)
 [teodori](https://theo-armour.github.io/qdata/apps/teodori)
 [notesy](https://theo-armour.github.io/qdata/apps/notesy)
-[oldNewT]( https://theo-armour.github.io/qdata/apps/new-tab/ )
-
-@@ [theo22]( https://theo-armour.github.io/2022/ )
-[bizcard]( https://theo-armour.github.io/2022/about/business-card.html )
+[bizcard]( https://theo-armour.github.io/2023/about/business-card.html )
 
 @@ [theoA]( https://theo-armour.github.io/ ) [gh]( https://github.com/theo-armour/theo-armour.github.io )
 [demo]( https://theo-armour.github.io/2021/demo-reel/v-2021-08-31/iframe-carousel-r1.html )
 [mouth]( https://theo-armour.github.io/mouth-stl-2022/simple-stl/" )
 
+@@ [PushPull]( https://pushme-pullyou.github.io/ ) [gh]( https://github.com/pushme-pullyou/ )
 @@ [TooToo22]( https://pushme-pullyou.github.io/tootoo-2022/ ) [gh]( https://github.com/pushme-pullyou/tootoo-2022/ )
 
 vsCode
