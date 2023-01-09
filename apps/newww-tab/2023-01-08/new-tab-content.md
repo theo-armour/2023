@@ -24,8 +24,8 @@
 @@ [TooToo22]( https://pushme-pullyou.github.io/tootoo-2022/ ) [gh]( https://github.com/pushme-pullyou/tootoo-2022/ )
 
 vsCode
-[&gt;ta qData]( https://vscode.dev/github/theo-armour/qdata )
-[&gt;ta 2022]( https://vscode.dev/github/theo-armour/2022 )
+[&gt;ta 23qData]( https://vscode.dev/github/theo-armour/2023-qdata )
+[&gt;ta 2023]( https://vscode.dev/github/theo-armour/2023 )
 [&gt;TooToo22]( https://vscode.dev/github/pushme-pullyou/tootoo-2022/ )
 
 </details>
