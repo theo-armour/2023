@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
-	<meta name="date" content="2022-10-01">
+	<meta name="date" content="2023-01-08">
 	<title>Trayo</title>
 
 	<style>
@@ -204,7 +204,7 @@
 	<h3>
 		<input type=date oninput=getDate(this);>
 
-		<a href="#0-to-do/3-heritage/0-residents-info.md">residents</a>
+		<a href="#https://api.github.com/repos/theo-armour/qdata/contents/0-to-do/3-heritage/0-residents-info.md">residents</a>
 		<a href="#0-to-do/1-notes.md">notes</a>
 		<a href="#snippets/folder-names.md">fldrs</a>
 		<a href="#snippets/things-i-forget.md">foget</a>
@@ -251,7 +251,8 @@
 	</main>
 
 	<script>
-		const base = "https://api.github.com/repos/theo-armour/qdata/contents/";
+		const baseQ = "https://api.github.com/repos/theo-armour/2023-qdata/contents/";
+		const baseT = "https://api.github.com/repos/theo-armour/2023-todo/contents/";
 
 		init();
 
@@ -263,16 +264,16 @@
 
 			const content = "divMainContent";
 			//const file = "snippets/notes.md";
-			const file = "0-to-do/0-to-do.md";
+			const file = "0-to-do.md";
 			//const type = "html";
 
 			const obj1 = {
-				file: "0-to-do/0-to-do.md",
-				source: "https://github.com/theo-armour/qdata/tree/master/0-to-do/0-to-do.md"
+				file: "0-to-do.md",
+				source: "https://github.com/theo-armour/2023-todo/tree/main/0-to-do.md"
 			};
 
-			ifrNotes1.onload = () => { ifrNotes1.contentWindow.init( base + file ); };
-			ifrNotes1.src = "notesy.html";
+			ifrNotes1.onload = () => { ifrNotes1.contentWindow.init( baseT + file ); };
+			ifrNotes1.src = "notesy-2023-01-04.html";
 
 
 			const aDate = new Date();
@@ -281,7 +282,6 @@
 			//console.log( "date", date );
 
 			const path = `${ month }/${ month }${ date }.md`;
-
 
 			aDate.setDate( aDate.getDate() - 1 );
 			//const date = new Date();
@@ -294,28 +294,28 @@
 
 			const obj2 = {
 				file: "journal/days-of-year-htm/" + path,
-				source: "https://github.com/theo-armour/qdata/blob/master/journal/days-of-year-htm/" + path,
+				source: "https://github.com/theo-armour/2023-qdata/blob/master/main/days-of-year-htm/" + path,
 			};
 
 			console.log( "file", obj2.file );
-			ifrNotes2.onload = () => ifrNotes2.contentWindow.init( base + obj2.file );
-			ifrNotes2.src = "notesy.html";
+			ifrNotes2.onload = () => ifrNotes2.contentWindow.init( baseQ + obj2.file );
+			ifrNotes2.src = "notesy-2023-01-04.html";
 
 
 			const obj3 = {
 				file: "snippets/shortcuts-2021-09-25.html",
-				source: "https://github.com/theo-armour/qdata/blob/master/snippets/shortcuts-2021-09-25.html"
+				source: "https://github.com/theo-armour/2023-qdata/blob/main/snippets/shortcuts-2021-09-25.html"
 			};
-			ifrNotes3.onload = () => ifrNotes3.contentWindow.init( base + obj3.file );
-			ifrNotes3.src = "notesy.html";
+			ifrNotes3.onload = () => ifrNotes3.contentWindow.init( baseQ + obj3.file );
+			ifrNotes3.src = "notesy-2023-01-04.html";
 
 			const obj4 = {
 				file: "snippets/tips-2021-09-25.html",
-				source: "https://github.com/theo-armour/qdata/blob/master/snippets/tips-2021-09-25.html"
+				source: "https://github.com/theo-armour/2023-qdata/blob/main/snippets/tips-2021-09-25.html"
 			};
 
-			ifrNotes4.onload = () => ifrNotes4.contentWindow.init( base + obj4.file );
-			ifrNotes4.src = "notesy.html";
+			ifrNotes4.onload = () => ifrNotes4.contentWindow.init( baseQ + obj4.file );
+			ifrNotes4.src = "notesy-2023-01-04.html";
 
 			window.addEventListener( 'hashchange', onHashChange, false );
 

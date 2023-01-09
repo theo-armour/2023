@@ -3,11 +3,11 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<meta name="description" content="">
-	<meta name="date" content="2022-06-15">
+	<meta name="date" content="2023-01-04">
 
-	<title>notes</title>
+	<title>notesy</title>
 
 	<style>
 		body {
@@ -44,14 +44,10 @@
 
 	<main>
 		<h2>
-			<a id=aSource href="https://github.com/pushme-pullyou/tootoo-2022/tree/main/lib06/notesy-t" target="_blank"
-				title="source code on GitHub"><img
-					src=https://pushme-pullyou.github.io/tootoo-2021/lib/assets/icons/mark-github.svg></a>
-			<a href="" title="Click this menu title to reload the file">
+			<a id=aSource target="_blank" title="source code on GitHub"><img
+					src=https://pushme-pullyou.github.io/tootoo-2022/assets/icons/mark-github.svg></a>
+			<a href="" id="aPath" title="Click this menu title to reload the file">
 				<span id=spnTitle></span><span id=spnVersion></span></a>
-
-			<input id=XGPinpAccessToken onclick=this.select(); onblur=XGP.setGitHubAccessToken();
-				title="Obtain GitHub API Access Token" size=3>
 
 			<button onclick=XGP.putFileToGitHub() title="Press Alt-S">putToGitHub</button>
 			<!-- <input type=checkbox onchange=XGP.autoSave(); id=chkAutoSave style=vertical-align:text-top>save</label> -->
@@ -70,16 +66,26 @@
 		var XGP = {
 
 			base: "https://api.github.com/repos/pushme-pullyou/tootoo-2022/contents/test-cases/",
-			file: "text-to-hack.md"
+			path: "text-to-hack.md"
+
+			//base: "https://api.github.com/repos/theo-armour/qdata/contents/0-to-do/",
+			//file: "1-notes.md"
+
+			//base: "https://api.github.com/repos/theo-armour/pages/contents/",
+			//file: "README.md"
 
 		};
 
 
-		init = function ( url = XGP.base + XGP.file ) {
+		init = function ( url = XGP.base + XGP.path ) {
 
-			XGP.url = url;
+			XGP.url = url
 
-			spnTitle.innerHTML = XGP.url.split( "/" ).pop().split( "." ).shift();
+			// spnTitle.innerHTML = XGP.url.split( "/" ).pop().split( "." ).shift();
+
+			// spnTitle.title = document.head.querySelector( "[ name=date ]" ).content;
+
+			// document.title = spnTitle.innerText;
 
 			//spnVersion.innerHTML = document.head.querySelector( "[ name=date ]" ).content;
 
@@ -101,6 +107,7 @@
 
 			XGP.onHashChange();
 
+			// Use this??
 			// if ( location.protocol === "https:" ) {
 
 			// 	window.history.pushState( "", "", "../" + location.hash );
@@ -111,7 +118,9 @@
 
 
 		test1 = () => location.hash = XGP.base + "sample.md";
-		test2 = () => location.hash = XGP.base + "text-to-hack.htm";
+		test2 = () => location.hash = XGP.base + "concept.md";
+
+
 
 		XGP.setGitHubAccessToken = function () {
 
@@ -158,25 +167,35 @@
 			//console.log( "response", xhr );
 
 			// https://developer.mozilla.org/en-US/docs/Glossary/Base64#solution_1_%E2%80%93_escaping_the_string_before_encoding_it
-
-			//const content =  atob( xhr.target.response.content );
+			// console.log( "content", xhr.target.response );
+			// const content =  atob( xhr.target.response.content );
 			const content = decodeURIComponent( escape( window.atob( xhr.target.response.content ) ) );
 
-			if ( XGP.extension === "md" ) {
+			if ( XGP.extension === "md" || XGP.extension === "js" ) {
 
+				divContent.contentEditable = true;
 				divContent.innerText = content;
 
 			} else {
 
+				divContent.contentEditable = false;
 				divContent.innerHTML = content;
 
 			}
 
 			XGP.content = content;
 
-			divMessage.innerText = `Get:${ new Date().toLocaleString() } bytes:${ content.length }`;
+			divMessage.innerText = `Get:${ new Date().toLocaleString() } bytes:${ content.length.toLocaleString() }`;
 
 			aSource.href = xhr.target.response.html_url;
+
+			spnTitle.innerHTML = XGP.url.split( "/" ).pop().split( "." ).shift();
+
+			spnTitle.title = document.head.querySelector( "[ name=date ]" ).content;
+
+			aPath.href = "#" + XGP.url;
+
+			document.title = spnTitle.innerText;
 
 		};
 
@@ -184,10 +203,9 @@
 
 		XGP.autoSave = function () {
 
-			// if ( chkAutoSave.checked ) {
 			if ( !XGP.saveInterval ) {
 
-				XGP.saveInterval = setInterval( XGP.getSha, 5000 ); // in ms
+				XGP.saveInterval = setInterval( XGP.getSha, 50000 ); // in ms
 
 			} else {
 
@@ -208,7 +226,9 @@
 
 			if ( XGP.content.length === divContent.innerText.length ) return;
 
-			console.log( "saving" );
+			if ( !XGP.url.endsWith( "md" ) ) return;
+
+			//console.log( "saving" );
 
 			const xhr = new XMLHttpRequest();
 			xhr.open( "GET", XGP.url, true );
@@ -229,6 +249,8 @@
 
 		XGP.putFileToGitHub = function () {
 
+			console.log( "XGP.sha", XGP.sha );
+
 			XGP.content = divContent.innerText;
 
 			const codedData = window.btoa( unescape( encodeURIComponent( XGP.content ) ) ); // encode the string
@@ -248,11 +270,10 @@
 			xhr.setRequestHeader( "Authorization", "token " + XGP.accessToken );
 			xhr.setRequestHeader( "Content-Type", "application/json" );
 			xhr.onerror = ( xhr ) => console.log( "error:", xhr );
-			xhr.onprogress = ( xhr ) => console.log( "bytes loaded:", xhr.loaded );
+			//xhr.onprogress = ( xhr ) => console.log( "bytes loaded:", xhr.loaded );
 			xhr.send( body );
 
-			//divMessage.innerText = `Put: ${ new Date().toLocaleString() } bytes:${ XGP.content.length } sha:${ XGP.sha }`;
-			divMessage.innerText = `Put: ${ new Date().toLocaleString() } bytes:${ XGP.content.length }`;
+			divMessage.innerText = `Put: ${ new Date().toLocaleString() } bytes:${ XGP.content.length.toLocaleString() }`;
 
 		};
 
@@ -262,7 +283,9 @@
 
 			if ( divContent.innerText === XGP.content ) { return; }
 
-			console.log( "file", XGP.url.split( "/" ).pop() );
+			if ( !XGP.url.endsWith( "md" ) ) return;
+
+			console.log( "file", XGP.fileName );
 
 			event.preventDefault();
 
