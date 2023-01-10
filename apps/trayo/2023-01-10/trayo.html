@@ -132,6 +132,7 @@
 			border-radius: 0.5rem;
 			/* color: #fff; */
 			display: block;
+			font-size: 1rem;
 			padding: 1rem;
 			position: absolute;
 			visibility: hidden;
@@ -153,6 +154,7 @@
 	<script src="menu.js"></script>
 
 	<h1>
+
 		<a href="https://github.com/theo-armour/qdata/tree/master/apps/trayo" target="_blank"
 			title="source code on GitHub"><img
 				src=https://pushme-pullyou.github.io/tootoo-2022/assets/icons/mark-github.svg></a>
@@ -162,8 +164,6 @@
 			<input id=inpAccessToken onclick=this.select(); onblur=setGitHubAccessToken();
 				title="Obtain GitHub API Access Token" size=5>
 		</label>
-
-
 
 		<div class="tooltip">hover
 			<span class="tooltiptext"
@@ -176,14 +176,16 @@
 				&mdash;
 			</span>
 		</div>
-	</h1>
 
-	<h3>
-		<div class="tooltip"><span style="font-size:200%">menu</span>
-			<span id=spnMenu1 class="tooltiptext">
-			</span>
+
+		<div class="tooltip"><span>menu</span>
+			<span id=spnMenu1 class="tooltiptext"></span>
 		</div>
-	</h3>
+
+		<div class="tooltip"><span>residents</span>
+			<span id=spnMenuResidents class="tooltiptext"></span>
+		</div>
+	</h1>
 
 	<h3>
 		<input type=date oninput=getDate(this);>
@@ -202,8 +204,8 @@
 
 		<select id=selIfr size="1">
 			<option>ifr ToDo</option>
-			<option>ifr Journal</option>
-			<option selected>ifr Admin 3</option>
+			<option selected>ifr Journal</option>
+			<option>ifr Admin 3</option>
 			<option>ifr Health</option>
 		</select>
 
@@ -251,6 +253,8 @@
 			//hoverMenu.innerHTML = menuHtm;
 
 			spnMenu1.innerHTML = menuHtm;
+
+			spnMenuResidents.innerHTML = menuPeepsHtm;
 
 			const content = "divMainContent";
 			//const file = "snippets/notes.md";
