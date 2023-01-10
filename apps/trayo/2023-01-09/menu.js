@@ -4,7 +4,7 @@ const base = "https://api.github.com/repos/theo-armour/2023-todo/contents/";
 const menuHtm = `
 <h3>
 	<p>
-		<a href="#${ base }/0-to-do.md">to do</a><br>
+		<a href="#${ base }0-to-do.md">to do</a><br>
 	</p>
 	<p>
 		<a href="#${ base }/0-me-admin/0-admin-to-do.md">admin</a><br>

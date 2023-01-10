@@ -52,7 +52,7 @@
 			height: 15rem;
 			width: 25rem;
 			overflow: hidden;
-		resize: both;
+			resize: both;
 		}
 
 		.content {
@@ -181,7 +181,7 @@
 
 	<h3>
 		<div class="tooltip"><span style="font-size:200%">menu</span>
-			<span id=spnMenu1 class="tooltiptext" >
+			<span id=spnMenu1 class="tooltiptext">
 			</span>
 		</div>
 	</h3>
@@ -189,7 +189,8 @@
 	<h3>
 		<input type=date oninput=getDate(this);>
 
-		<a href="#https://api.github.com/repos/theo-armour/2023-todo/contents/3-heritage/1-residents-info.md">residents</a>
+		<a
+			href="#https://api.github.com/repos/theo-armour/2023-todo/contents/3-heritage/1-residents-info.md">residents</a>
 		<a href="#0-to-do/1-notes.md">notes</a>
 		<a href="#snippets/folder-names.md">fldrs</a>
 		<a href="#snippets/things-i-forget.md">foget</a>
@@ -291,11 +292,16 @@
 			ifrNotes2.src = "notesy.html";
 
 
+			// const obj3 = {
+			// 	file: "snippets/shortcuts-2021-09-25.html",
+			// 	source: "https://github.com/theo-armour/2023-qdata/blob/main/snippets/shortcuts-2021-09-25.html"
+			// };
+
 			const obj3 = {
-				file: "snippets/shortcuts-2021-09-25.html",
-				source: "https://github.com/theo-armour/2023-qdata/blob/main/snippets/shortcuts-2021-09-25.html"
+				file: "3-heritage/0-heritage-to-do.md",
+				source: "vvv"
 			};
-			ifrNotes3.onload = () => ifrNotes3.contentWindow.init( baseQ + obj3.file );
+			ifrNotes3.onload = () => ifrNotes3.contentWindow.init( baseT + obj3.file );
 			ifrNotes3.src = "notesy.html";
 
 			const obj4 = {
