@@ -4,7 +4,7 @@ const base = "https://api.github.com/repos/theo-armour/2023-todo/contents/";
 const menuHtm = `
 <h3>
 	<p>
-		<a href="#${ base }${ base }.md">to do</a><br>
+		<a href="#${ base }/0-to-do.md">to do</a><br>
 	</p>
 	<p>
 		<a href="#${ base }/0-me-admin/0-admin-to-do.md">admin</a><br>
@@ -23,13 +23,13 @@ const menuHtm = `
 		&nbsp; <a href="#${ base }/2-ace-it/alix.md">alix</a>
 	</p>
 	<a href="#${ base }/2-peeps/0-peeps-to-do.md">peeps</a><br>
-	<a href="#${ base }/2-simplicity-evereverland/0-evereverland-to-do.md">eel</a>
-	<a href="#${ base }/2-simplicity-evereverland/0-simplicity-to-do.md">simplicity</a>
-	<a href="#${ base }/3-coding/0-coding-to-do.md">coding</a>
+	<a href="#${ base }/2-evereverland-simplicity/0-evereverland-to-do.md">eel</a>
+	<a href="#${ base }/2-evereverland-simplicity/0-simplicity-to-do.md">simplicity</a>
+	<a href="#${ base }/3-tech/0-tech-to-do.md">coding</a>
 	<p>
 		<a href="#${ base }/3-heritage/0-heritage-to-do.md">heritage</a>
-		&nbsp;<a href="#${ base }/3-heritage/2022-journal.md">journal</a>
-		&nbsp;<a href="#${ base }/3-heritage/0-residents-info.md">residents</a>
+		&nbsp;<a href="#${ base }/3-heritage/2023-journal.md">journal</a>
+		&nbsp;<a href="#${ base }/3-heritage/1-residents-info.md">residents</a>
 		&nbsp;<a href="#${ base }/3-heritage/happenings.md">happenings</a>
 		&nbsp;<a href="#${ base }/3-heritage/touchtown.md">touchtown</a>
 	</p>
