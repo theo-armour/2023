@@ -15,8 +15,7 @@ _"Trayo" in a resizable window. One finger to rotate. Two to zoom._
 
 ## To Do / Wish List
 
-* Better MD and HTML switching
-* Better iframe handling
+
 * Radio buttons to select iframe to update
 * Add new iframe
 * Add details button
@@ -31,10 +30,15 @@ _"Trayo" in a resizable window. One finger to rotate. Two to zoom._
 
 ## Change Log
 
+### 2023-01-10
+
+Dealt with
+* Better MD and HTML switching
+* Better iframe handling
+
 ### 2022-07-22
 
 * Menu as JavaScript file
-
 
 ### 2022-07-03
 
