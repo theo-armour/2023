@@ -19,7 +19,7 @@
 [mouth]( https://theo-armour.github.io/mouth-stl-2022/simple-stl/" )
 
 @@ [PushPull]( https://pushme-pullyou.github.io/ ) [gh]( https://github.com/pushme-pullyou/ )
-@@ [TooToo22]( https://pushme-pullyou.github.io/tootoo-2022/ ) [gh]( https://github.com/pushme-pullyou/tootoo-2022/ )
+@@ [2023]( https://pushme-pullyou.github.io/2023/ ) [gh]( https://github.com/pushme-pullyou/2023/ )
 
 vsCode
 [&gt;ta 23qData]( https://vscode.dev/github/theo-armour/2023-qdata )
@@ -169,7 +169,6 @@ hh
 
 
 <details class=box open> <summary>orgs</summary>
-[plainJS](https://plain-JavaScript.github.io) [gh](https://github.com/plain-JavaScript/plain-JavaScript.github.io )
 [sccole.gh]( https://stephen-charles-cole.github.io/ ) [gh]( https://github.com/stephen-charles-cole )
 [Jaanga]( http://jaanga.github.io/ ) [gh]( https://github.com/jaanga/jaanga.github.io/)
 [> demo]( https://jaanga.github.io/demo/ )
@@ -178,7 +177,7 @@ hh
 [eel 19]( https://evereverland.github.io/2019) [gh]( https://github.com/evereverland/2019 )
 [eel 22]( https://evereverland.github.io ) [gh]( https://github.com/evereverland/evereverland.github.io )
 [plainJS]( https://plain-javascript.github.io ) [gh]( https://github.com/plain-JavaScript/plain-JavaScript.github.io)
-[> kitSink] ( https://plain-javascript.github.io/kitchen-sink/ ) [gh]( https://github.com/plain-JavaScript/kitchen-sink )
+[> awesome] ( https://plain-javascript.github.io/kitchen-sink/ ) [gh]( https://github.com/plain-JavaScript/awesome-list )
 
 
 games wordle sb cw
