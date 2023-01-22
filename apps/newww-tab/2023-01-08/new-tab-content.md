@@ -19,7 +19,7 @@
 [mouth]( https://theo-armour.github.io/mouth-stl-2022/simple-stl/" )
 
 @@ [PushPull]( https://pushme-pullyou.github.io/ ) [gh]( https://github.com/pushme-pullyou/ )
-@@ [2023]( https://pushme-pullyou.github.io/assets/ ) [gh]( https://github.com/pushme-pullyou/assets/ )
+[assets]( https://pushme-pullyou.github.io/assets/ ) [gh]( https://github.com/pushme-pullyou/assets/ )
 
 vsCode
 [&gt;ta 23qData]( https://vscode.dev/github/theo-armour/2023-qdata )
