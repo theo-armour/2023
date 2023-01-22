@@ -177,7 +177,7 @@ hh
 [eel 19]( https://evereverland.github.io/2019) [gh]( https://github.com/evereverland/2019 )
 [eel 22]( https://evereverland.github.io ) [gh]( https://github.com/evereverland/evereverland.github.io )
 [plainJS]( https://plain-javascript.github.io ) [gh]( https://github.com/plain-JavaScript/plain-JavaScript.github.io)
-[> awesome] ( https://plain-javascript.github.io/kitchen-sink/ ) [gh]( https://github.com/plain-JavaScript/awesome-list )
+[> awesome] ( https://plain-javascript.github.io/awesome-list/ ) [gh]( https://github.com/plain-JavaScript/awesome-list )
 
 
 games wordle sb cw
