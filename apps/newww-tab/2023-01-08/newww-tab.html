@@ -169,9 +169,9 @@
 
 			setInterval( () => divClock.innerHTML = new Date().toLocaleTimeString().slice( 0, -6 ), 60000 );
 
-					if ( location.protocol === "https:" ) {
+			if ( location.protocol === "https:" ) {
 
-				window.history.pushState( "", "", "./2023/apps/neww-tab/" + location.hash );
+				window.history.pushState( "", "", "../../" + location.hash );
 
 			}
 
