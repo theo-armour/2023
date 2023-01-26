@@ -1,7 +1,6 @@
 <details class=box open><summary title="2022-10-06" >Theo</summary>
 
 @@ [pages]( https://theo-armour.github.io/pages/ ) [ta]( https://github.com/theo-armour)
-
 @@ [gRefer]( https://github.com/theo-armour/reference)
 @@ [gToDo23]( https://github.com/theo-armour/2023-todo)
 @@ [gQdata23]( https://github.com/theo-armour/2023-qdata/)
@@ -14,12 +13,13 @@
 [notesy](https://theo-armour.github.io/qdata/apps/notesy)
 [bizcard]( https://theo-armour.github.io/2023/about/business-card.html )
 
+@@ [PshPll]( https://pushme-pullyou.github.io/ ) [gh]( https://github.com/pushme-pullyou/ )
+[assets]( https://pushme-pullyou.github.io/assets/ ) [gh]( https://github.com/pushme-pullyou/assets/ )
+[2023]( https://pushme-pullyou.github.io/2023/ "TooToo") [gh]( https://github.com/pushme-pullyou/2023/ )
+
 @@ [theoA]( https://theo-armour.github.io/ ) [gh]( https://github.com/theo-armour/theo-armour.github.io )
 [demo]( https://theo-armour.github.io/2021/demo-reel/v-2021-08-31/iframe-carousel-r1.html )
 [mouth]( https://theo-armour.github.io/mouth-stl-2022/simple-stl/" )
-
-@@ [PushPull]( https://pushme-pullyou.github.io/ ) [gh]( https://github.com/pushme-pullyou/ )
-[assets]( https://pushme-pullyou.github.io/assets/ ) [gh]( https://github.com/pushme-pullyou/assets/ )
 
 vsCode
 [&gt;ta 23qData]( https://vscode.dev/github/theo-armour/2023-qdata )
