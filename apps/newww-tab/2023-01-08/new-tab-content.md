@@ -60,6 +60,7 @@ vsCode
 
 
 <details class=box open><summary>google</summary>
+[ms365]( https://office.com )
 [g maps]( https://google.com/maps/ )
 [g calender]( https://calendar.google.com/ )
 [g contacts]( https://contacts.google.com/ )
