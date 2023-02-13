@@ -15,7 +15,10 @@ _"Trayo" in a resizable window. One finger to rotate. Two to zoom._
 
 ## To Do / Wish List
 
-
+* try https://simplemde.com/ ~ https://simplemde.com/
+  * https://github.com/Ionaru/easy-markdown-editor
+* all list in menu.js
+* clickable links in files
 * Radio buttons to select iframe to update
 * Add new iframe
 * Add details button
