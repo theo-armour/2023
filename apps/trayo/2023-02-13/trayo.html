@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="date" content="2023-02-12">
+	<title>Trayo</title>
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font: 100% monospace;
+			margin: 0;
+		}
+
+		h1,
+		h2,
+		h3 {
+			display: inline;
+			margin: 0;
+			padding: 0
+		}
+
+		iframe {
+			height: 100%;
+			margin: 0;
+			overflow: hidden;
+			width: 100%;
+		}
+
+		#divContainer {
+			/* display: flex;
+			flex-wrap: wrap;
+			height: 93vh; */
+
+			border: 1px solid maroon;
+			height: 93vh;
+			overflow: auto;
+			width: 100%;
+			resize: both;
+
+		}
+
+		.child {
+			border: 1px solid green;
+			float: left;
+			height: 12rem;
+			width: 24%;
+			overflow: hidden;
+			resize: both;
+		}
+
+		.content {
+			background-color: #ffc;
+		}
+
+		#divNotesToDo {
+			height: 98%;
+			margin-left: 0.5rem;
+			overflow: hidden;
+			width: 24%;
+		}
+
+		#divNotesJournal {
+			height: 100%;
+			margin-left: 0.5rem;
+			overflow: hidden;
+			width: 24%;
+		}
+
+		#divNotes3 {
+			height: 10rem;
+			margin-left: 0.5rem;
+			width: 24%;
+			overflow: hidden;
+		}
+
+		#divNotes4 {
+			height: 100%;
+			margin-left: 0.5rem;
+			width: 24%;
+			overflow: hidden;
+		}
+
+		#hoverBar {
+			background-color: #ccc;
+			position: absolute;
+			top: 5rem;
+			width: 1rem;
+			height: 80vh;
+
+		}
+
+		#hoverMenu {
+
+			background-color: white;
+			border: 0.1rem solid black;
+			border-radius: 0.5rem;
+			/* color: #fff; */
+			display: block;
+			padding: 1rem;
+			left: 0.7rem;
+			position: absolute;
+			visibility: hidden;
+			z-index: 10;
+			opacity: 0;
+			transition: .01s opacity;
+
+		}
+
+		#hoverBar:hover #hoverMenu {
+			visibility: visible;
+			opacity: 100;
+			transition: .9s opacity;
+		}
+
+		/* https://stackoverflow.com/questions/14538551/css-tooltips-wont-stretch-can-only-have-fixed-width */
+
+		.tooltip {
+			display: inline-block;
+			border-bottom: 1px dotted black;
+		}
+
+		.tooltip .tooltiptext {
+			background-color: white;
+			border: 0.1rem solid black;
+			border-radius: 0.5rem;
+			/* color: #fff; */
+			display: block;
+			font-size: 1rem;
+			padding: 1rem;
+			position: absolute;
+			visibility: hidden;
+			z-index: 10;
+			opacity: 0;
+			transition: .3s opacity;
+		}
+
+		.tooltip:hover .tooltiptext {
+			visibility: visible;
+			opacity: 100;
+			transition: .9s opacity;
+		}
+	</style>
+</head>
+
+<body>
+
+	<script src="menu.js"></script>
+
+	<h1>
+
+		<a href="https://github.com/theo-armour/qdata/tree/master/apps/trayo" target="_blank"
+			title="source code on GitHub"><img
+				src=https://pushme-pullyou.github.io/tootoo-2022/assets/icons/mark-github.svg></a>
+		<a href="" title="Click this menu title to reset the model">trayo</a>
+
+		<label>
+			<input id=inpAccessToken onclick=this.select(); onblur=setGitHubAccessToken();
+				title="Obtain GitHub API Access Token" size=5>
+		</label>
+
+		<!-- <div class="tooltip">hover
+			<span class="tooltiptext"
+				title="#164; curren; times; deg; bull; middot; mdash; copy; euro; hellip; vellip; #x1801; ❦ #x2766; ❧ phone; spades; starf; bigstar; xcirc; block; marker; FilledSmallSquare;">
+				<a href="#snippets/dev-notes.htm">dev-notes</a><br>
+				&#164; &curren; &times; &deg; &bull; &middot; &mdash; &copy; &euro; &hellip; &vellip;
+				&#x1801; ❦ &#x2766; ❧ &phone;
+				&spades; &starf; &bigstar; &xcirc;
+				&block; &marker; &FilledSmallSquare;
+				&mdash;
+			</span>
+		</div> -->
+
+		<div class="tooltip"><span>hover</span>
+			<span id=spnMenuHover class="tooltiptext"></span>
+		</div>
+
+		<div class="tooltip"><span>menu</span>
+			<span id=spnMenu1 class="tooltiptext"></span>
+		</div>
+
+		<div class="tooltip"><span>residents</span>
+			<span id=spnMenuResidents class="tooltiptext"></span>
+		</div>
+	</h1>
+
+	<h3>
+		<input type=date oninput=getDate(this);>
+
+		<a href="#https://api.github.com/repos/theo-armour/2023-todo/contents/3-heritage/1-residents-info.md">residents</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-todo/contents/1-notes.md">notes</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/folder-names.md">fldrs</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-forget.md">foget</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-like.md">like</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/lingo.md">lingo</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/location.md">location</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/jokes-quotes.md">jokes</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/health.md">helth</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/inspirations-sources.md">inspire</a>
+
+		<select id=selIfr size="1">
+			<option>ifr ToDo</option>
+			<option selected>ifr Journal</option>
+			<option>ifr Admin 3</option>
+			<option>ifr Health</option>
+		</select>
+
+	</h3>
+
+
+	<main>
+
+		<!-- <div id="hoverBar">
+			<div id="hoverMenu"></div>
+		</div> -->
+
+		<div id="divContainer">
+
+			<div id=divNotesToDo class="child"><iframe id=ifrNotesToDo></iframe></div>
+
+			<div id=divNotesJournal class="child"><iframe id=ifrNotesJournal></iframe></div>
+
+			<div class="child"><iframe id=ifrNotesAdmin></iframe></div>
+
+			<div class="child"><iframe id=ifrNotesHealth></iframe></div>
+
+			<div class="child"><iframe id=ifrNotesHeritage></iframe></div>
+
+			<div class="child"><iframe id=ifrNotesAceIt></iframe></div>
+
+			<div class="child"><iframe id=ifrNotesTech></iframe></div>
+
+			<div class="child"><iframe id=ifrNotesRepos></iframe></div>
+
+
+
+		</div>
+
+	</main>
+
+	<script>
+		const baseQ = "https://api.github.com/repos/theo-armour/2023-qdata/contents/";
+		const baseT = "https://api.github.com/repos/theo-armour/2023-todo/contents/";
+
+		init();
+
+		function init () {
+
+			spnMenuHover.innerHTML = menuHover;
+
+			spnMenu1.innerHTML = menuHtm;
+
+			spnMenuResidents.innerHTML = menuPeepsHtm;
+
+			const content = "divMainContent";
+			//const file = "snippets/notes.md";
+			const file = "0-to-do.md";
+			//const type = "html";
+
+			ifrNotesToDo.onload = () => { ifrNotesToDo.contentWindow.init( baseT + "0-to-do.md" ); };
+			ifrNotesToDo.src = "notesy.html";
+
+
+			const aDate = new Date();
+			let month = ( 1 + aDate.getMonth() ).toString().padStart( 2, "0" );
+			const date = aDate.getDate().toString().padStart( 2, "0" );
+			//console.log( "date", date );
+
+			const path = `${ month }/${ month }${ date }.md`;
+
+			aDate.setDate( aDate.getDate() - 1 );
+			month = ( 1 + aDate.getMonth() ).toString().padStart( 2, "0" );
+			//console.log( "ydy", date );
+			ydy = aDate.getDate().toString().padStart( 2, "0" );
+			const path2 = `${ month }/${ month }${ ydy }.md`;
+			//console.log( "path", path );
+
+			ifrNotesJournal.onload = () => ifrNotesJournal.contentWindow.init( baseQ + "journal/days-of-year-htm/" + path );
+			ifrNotesJournal.src = "notesy.html";
+
+
+			ifrNotesAdmin.onload = () => ifrNotesAdmin.contentWindow.init( baseT + "0-me-admin/0-admin-to-do.md" );
+			ifrNotesAdmin.src = "notesy.html";
+
+			ifrNotesHeritage.onload = () => ifrNotesHeritage.contentWindow.init( baseT + "3-heritage/0-heritage-to-do.md" );
+			ifrNotesHeritage.src = "notesy.html";
+
+			ifrNotesHealth.onload = () => ifrNotesHealth.contentWindow.init( baseT + "1-health/0-health-to-do.md" );
+			ifrNotesHealth.src = "notesy.html";
+
+			ifrNotesAceIt.onload = () => ifrNotesAceIt.contentWindow.init( baseT + "2-ace-it/0-ace-it-to-do.md" );
+			ifrNotesAceIt.src = "notesy.html";
+
+			ifrNotesTech.onload = () => ifrNotesTech.contentWindow.init( baseT + "3-tech/0-tech-to-do.md" );
+			ifrNotesTech.src = "notesy.html";
+
+			ifrNotesRepos.onload = () => ifrNotesRepos.contentWindow.init( baseT + "3-repos/0-repos-to-do.md" );
+			ifrNotesRepos.src = "notesy.html";
+			window.addEventListener( 'hashchange', onHashChange, false );
+
+		}
+
+
+
+		function onHashChange () {
+
+			const arr = [ ifrNotesToDo, ifrNotesJournal, ifrNotesAdmin, ifrNotesHealth ];
+			console.log( "arr", arr );
+			ifrNotes = arr[ selIfr.selectedIndex ];
+			console.log( "selIfr.selectedIndex", selIfr.selectedIndex );
+
+
+			ifrNotes.onload = () => ifrNotes.contentWindow.init( location.hash.slice( 1 ) );
+			ifrNotes.src = "notesy.html";
+
+		}
+
+
+		function getDate ( that ) {
+
+			const dateString = that.value;
+			//console.log( "dateString", dateString );
+
+			const mydate = dateString.slice( -2 );
+			const month = dateString.slice( 5, 7 );
+			const path = `journal/days-of-year-htm/${ month }/${ month }${ mydate }.md`;
+
+			ifrNotesJournal.contentWindow.location.hash = baseQ + path;
+
+			//location.hash = path;
+
+		};
+
+	</script>
+
+</body>
+
+</html>

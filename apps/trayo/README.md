@@ -15,9 +15,7 @@ _"Trayo" in a resizable window. One finger to rotate. Two to zoom._
 
 ## To Do / Wish List
 
-* try https://simplemde.com/ ~ https://simplemde.com/
-  * https://github.com/Ionaru/easy-markdown-editor
-* all list in menu.js
+
 * clickable links in files
 * Radio buttons to select iframe to update
 * Add new iframe
@@ -32,6 +30,14 @@ _"Trayo" in a resizable window. One finger to rotate. Two to zoom._
 
 
 ## Change Log
+
+### 2023-02-13
+
+No more extra lines!!
+
+Added
+* all menu lists in menu.js
+* https://github.com/Ionaru/easy-markdown-editor
 
 ### 2023-01-10
 
