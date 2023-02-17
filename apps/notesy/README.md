@@ -39,7 +39,7 @@ _"Notesy Read Me" in a resizable window_
 ## Change Log
 
 
-### XXXXX
+### 2023-02-17
 
 * First commit
 
