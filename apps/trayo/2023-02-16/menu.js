@@ -7,7 +7,10 @@ const menuHover =
 		&#x2261; ≡
 		&spades; &starf; &bigstar; &xcirc;
 		&block; &marker; &FilledSmallSquare;
-		&mdash;`;
+		&mdash;
+		`;
+
+		
 const menuHtm = `
 <h3>
 	<p>

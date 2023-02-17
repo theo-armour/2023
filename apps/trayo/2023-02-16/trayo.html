@@ -247,6 +247,7 @@
 	<script>
 		const baseQ = "https://api.github.com/repos/theo-armour/2023-qdata/contents/";
 		const baseT = "https://api.github.com/repos/theo-armour/2023-todo/contents/";
+		const notesy = "../../notesy/2023-02-16/notesy.html";
 
 		init();
 
@@ -264,7 +265,7 @@
 			//const type = "html";
 
 			ifrNotesToDo.onload = () => { ifrNotesToDo.contentWindow.init( baseT + "0-to-do.md" ); };
-			ifrNotesToDo.src = "notesy.html";
+			ifrNotesToDo.src = notesy;
 
 
 			const aDate = new Date();
@@ -282,26 +283,27 @@
 			//console.log( "path", path );
 
 			ifrNotesJournal.onload = () => ifrNotesJournal.contentWindow.init( baseQ + "journal/days-of-year-htm/" + path );
-			ifrNotesJournal.src = "notesy.html";
+			ifrNotesJournal.src = notesy;
 
 
 			ifrNotesAdmin.onload = () => ifrNotesAdmin.contentWindow.init( baseT + "0-me-admin/0-admin-to-do.md" );
-			ifrNotesAdmin.src = "notesy.html";
+			ifrNotesAdmin.src = notesy;
 
 			ifrNotesHeritage.onload = () => ifrNotesHeritage.contentWindow.init( baseT + "3-heritage/0-heritage-to-do.md" );
-			ifrNotesHeritage.src = "notesy.html";
+			ifrNotesHeritage.src = notesy;
 
 			ifrNotesHealth.onload = () => ifrNotesHealth.contentWindow.init( baseT + "1-health/0-health-to-do.md" );
-			ifrNotesHealth.src = "notesy.html";
+			ifrNotesHealth.src = notesy;
 
 			ifrNotesAceIt.onload = () => ifrNotesAceIt.contentWindow.init( baseT + "2-ace-it/0-ace-it-to-do.md" );
-			ifrNotesAceIt.src = "notesy.html";
+			ifrNotesAceIt.src = notesy;
 
 			ifrNotesTech.onload = () => ifrNotesTech.contentWindow.init( baseT + "3-tech/0-tech-to-do.md" );
-			ifrNotesTech.src = "notesy.html";
+			ifrNotesTech.src = notesy;
 
 			ifrNotesRepos.onload = () => ifrNotesRepos.contentWindow.init( baseT + "3-repos/0-repos-to-do.md" );
-			ifrNotesRepos.src = "notesy.html";
+			ifrNotesRepos.src = notesy;
+
 			window.addEventListener( 'hashchange', onHashChange, false );
 
 		}
@@ -317,7 +319,7 @@
 
 
 			ifrNotes.onload = () => ifrNotes.contentWindow.init( location.hash.slice( 1 ) );
-			ifrNotes.src = "notesy.html";
+			ifrNotes.src = notesy;
 
 		}
 

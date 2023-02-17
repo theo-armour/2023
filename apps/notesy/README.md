@@ -1,6 +1,6 @@
 # Template Read Me
 
-[![](https://pushme-pullyou.github.io/assets/svg/octicon.svg )](https://github.com/theo-armour/2023/ "Source code on GitHub" ) [Theo Armour 2023]( https:/theo-armour.github.io/2023/ "Home page" ) / [Theo Armour Notesy Read Me]( https://github.comtheo-armour/2023/tree/main/notesy/ "2023-02-16" )
+[![](https://pushme-pullyou.github.io/assets/svg/octicon.svg )](https://github.com/theo-armour/2023/ "Source code on GitHub" ) [Theo Armour 2023]( https:/theo-armour.github.io/2023/ "Home page" ) / [Theo Armour Notesy Read Me]( https://github.com/theo-armour/2023/tree/main/notesy/ "2023-02-16" )
 
 <!--@@@
 <div class=iframe-resize ><iframe src=https:/theo-armour.github.io/2023/notesy/ height=100% width=100% ></iframe></div>
