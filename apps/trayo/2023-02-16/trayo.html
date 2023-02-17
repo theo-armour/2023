@@ -165,18 +165,6 @@
 				title="Obtain GitHub API Access Token" size=5>
 		</label>
 
-		<!-- <div class="tooltip">hover
-			<span class="tooltiptext"
-				title="#164; curren; times; deg; bull; middot; mdash; copy; euro; hellip; vellip; #x1801; ❦ #x2766; ❧ phone; spades; starf; bigstar; xcirc; block; marker; FilledSmallSquare;">
-				<a href="#snippets/dev-notes.htm">dev-notes</a><br>
-				&#164; &curren; &times; &deg; &bull; &middot; &mdash; &copy; &euro; &hellip; &vellip;
-				&#x1801; ❦ &#x2766; ❧ &phone;
-				&spades; &starf; &bigstar; &xcirc;
-				&block; &marker; &FilledSmallSquare;
-				&mdash;
-			</span>
-		</div> -->
-
 		<div class="tooltip"><span>hover</span>
 			<span id=spnMenuHover class="tooltiptext"></span>
 		</div>
@@ -188,11 +176,15 @@
 		<div class="tooltip"><span>residents</span>
 			<span id=spnMenuResidents class="tooltiptext"></span>
 		</div>
+
 	</h1>
 
-	<h3>
-		<input type=date oninput=getDate(this);>
+	<h3 id="h3MenuBar">
+		<!--
 
+			<input type=date oninput=getDate(this);>
+
+		<span id-spnManuBar ></span>
 		<a href="#https://api.github.com/repos/theo-armour/2023-todo/contents/3-heritage/1-residents-info.md">residents</a>
 		<a href="#https://api.github.com/repos/theo-armour/2023-todo/contents/1-notes.md">notes</a>
 		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/folder-names.md">fldrs</a>
@@ -203,22 +195,18 @@
 		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/jokes-quotes.md">jokes</a>
 		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/health.md">helth</a>
 		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/inspirations-sources.md">inspire</a>
-
 		<select id=selIfr size="1">
 			<option>ifr ToDo</option>
 			<option selected>ifr Journal</option>
 			<option>ifr Admin 3</option>
 			<option>ifr Health</option>
 		</select>
+	-->
 
 	</h3>
 
 
 	<main>
-
-		<!-- <div id="hoverBar">
-			<div id="hoverMenu"></div>
-		</div> -->
 
 		<div id="divContainer">
 
@@ -238,8 +226,6 @@
 
 			<div class="child"><iframe id=ifrNotesRepos></iframe></div>
 
-
-
 		</div>
 
 	</main>
@@ -258,6 +244,8 @@
 			spnMenu1.innerHTML = menuHtm;
 
 			spnMenuResidents.innerHTML = menuPeepsHtm;
+
+			h3MenuBar.innerHTML= menuBar;
 
 			const content = "divMainContent";
 			//const file = "snippets/notes.md";
@@ -316,7 +304,6 @@
 			console.log( "arr", arr );
 			ifrNotes = arr[ selIfr.selectedIndex ];
 			console.log( "selIfr.selectedIndex", selIfr.selectedIndex );
-
 
 			ifrNotes.onload = () => ifrNotes.contentWindow.init( location.hash.slice( 1 ) );
 			ifrNotes.src = notesy;

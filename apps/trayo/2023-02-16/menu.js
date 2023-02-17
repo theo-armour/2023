@@ -1,16 +1,15 @@
 const base = "https://api.github.com/repos/theo-armour/2023-todo/contents/";
 
-const menuHover =
-	`
-		&#164; &curren; &times; &deg; &bull; &middot; &mdash; &copy; &euro; &hellip; &vellip;
-		&#x1801; ❦ &#x2766; ❧ &phone;
-		&#x2261; ≡
-		&spades; &starf; &bigstar; &xcirc;
-		&block; &marker; &FilledSmallSquare;
-		&mdash;
-		`;
+const menuHover = `
+&#164; &curren; &times; &deg; &bull; &middot; &mdash; &copy; &euro; &hellip; &vellip;
+&#x1801; ❦ &#x2766; ❧ &phone;
+&#x2261; ≡
+&spades; &starf; &bigstar; &xcirc;
+&block; &marker; &FilledSmallSquare;
+&mdash;
+`;
 
-		
+
 const menuHtm = `
 <h3>
 	<p>
@@ -125,4 +124,27 @@ const
 <a href="#${ base }3-heritage/residents/wesson-dr-richard.md" >wesson-dr-richard.md</a>&nbsp;
 <a href="#${ base }3-heritage/residents/zagorites-flora.md" >zagorites-flora.md</a>&nbsp;
 
+`;
+
+
+menuBar =`
+<input type=date oninput=getDate( this );>
+
+		<span id-spnManuBar ></span>
+		<a href="#https://api.github.com/repos/theo-armour/2023-todo/contents/3-heritage/1-residents-info.md">residents</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-todo/contents/1-notes.md">notes</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/folder-names.md">fldrs</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-forget.md">foget</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-like.md">like</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/lingo.md">lingo</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/location.md">location</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/jokes-quotes.md">jokes</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/health.md">helth</a>
+		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/inspirations-sources.md">inspire</a>
+		<select id=selIfr size="1">
+			<option>ifr ToDo</option>
+			<option selected>ifr Journal</option>
+			<option>ifr Admin 3</option>
+			<option>ifr Health</option>
+		</select>;
 `;
