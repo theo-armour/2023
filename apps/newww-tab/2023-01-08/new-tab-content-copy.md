@@ -10,7 +10,7 @@
 [trayo](https://theo-armour.github.io/2023/apps/trayo/)
 [ifrStuff](https://theo-armour.github.io/2023/apps/iframe-stuff)
 [teodori](https://theo-armour.github.io/qdata/apps/teodori)
-[notesy](https://theo-armour.github.io/2023/apps/notesy)
+[notesy](https://theo-armour.github.io/qdata/apps/notesy)
 [bizcard]( https://theo-armour.github.io/2023/about/business-card.html )
 
 @@ [PshPll]( https://pushme-pullyou.github.io/ ) [gh]( https://github.com/pushme-pullyou/ )

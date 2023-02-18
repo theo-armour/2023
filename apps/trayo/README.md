@@ -15,8 +15,12 @@ _"Trayo" in a resizable window. One finger to rotate. Two to zoom._
 
 ## To Do / Wish List
 
-
+* show revision dates of trayo & notesy
 * clickable links in files
+* think about residents menu
+
+Other thoughts
+
 * Radio buttons to select iframe to update
 * Add new iframe
 * Add details button
@@ -30,6 +34,12 @@ _"Trayo" in a resizable window. One finger to rotate. Two to zoom._
 
 
 ## Change Log
+
+### 2023-02-17
+
+* Down to four columns
+* Menubar in single js file
+* good cleanup
 
 ### 2023-02-13
 
