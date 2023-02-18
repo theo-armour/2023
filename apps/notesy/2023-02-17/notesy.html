@@ -141,6 +141,8 @@
 
 			window.addEventListener( "beforeunload", XGP.checkForChange );
 
+			//window.addEventListener( 'blur', XGP.onBlur );
+
 			XGP.autoSave();
 
 			XGP.onHashChange();
@@ -167,7 +169,8 @@
 
 
 
-		XGP.onHashChange = function () {
+
+		XGP.onHashChange = function ( event ) {
 
 			XGP.url = location.hash ? location.hash.slice( 1 ) : XGP.url;
 
@@ -175,12 +178,36 @@
 
 			XGP.extension = XGP.fileName.split( "." ).pop();
 
-			console.log( "file", XGP.fileName );
+			console.log( "onHashChange", XGP.fileName );
+
+			if ( XGP.content ) XGP.getSha();
 
 			XGP.requestFile();
 
 		};
 
+
+		XGP.checkForChange = function ( event ) {
+
+			if ( easyMDE.value() === XGP.content ) { return; }
+
+			if ( !XGP.url.endsWith( "md" ) ) return;
+
+			console.log( "checkForChange", XGP.fileName );
+
+			event.preventDefault();
+
+			event.returnValue = "";
+
+		};
+
+
+		XGP.onBlur = function( event ) {
+
+			console.log( "", 23 );
+
+			XGP.checkForChange(event );
+		}
 
 
 		XGP.requestFile = function ( event ) {
@@ -315,23 +342,6 @@
 			divMessage.innerText = `Put: ${ new Date().toLocaleString() } bytes:${ XGP.content.length.toLocaleString() }`;
 
 		};
-
-
-
-		XGP.checkForChange = function ( event ) {
-
-			if ( easyMDE.value() === XGP.content ) { return; }
-
-			if ( !XGP.url.endsWith( "md" ) ) return;
-
-			console.log( "file", XGP.fileName );
-
-			event.preventDefault();
-
-			event.returnValue = "";
-
-		};
-
 
 
 		if ( window.self === window.top ) {
