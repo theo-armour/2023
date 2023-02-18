@@ -2,24 +2,25 @@
 
 @@ [pages]( https://theo-armour.github.io/pages/ ) [ta]( https://github.com/theo-armour)
 @@ [gRefer]( https://github.com/theo-armour/reference)
-@@ [gToDo23]( https://github.com/theo-armour/2023-todo)
-@@ [gQdata23]( https://github.com/theo-armour/2023-qdata/)
+@@ [g23ToDo]( https://github.com/theo-armour/2023-todo)
+@@ [g23qData]( https://github.com/theo-armour/2023-qdata/)
 
 @@ [2023]( https://github.com/theo-armour/2023/)
-[newTab]( https://theo-armour.github.io/2023/apps/newww-tab/ ) [gh]( https://github.com/theo-armour/2023/tree/master/apps/newww-tab ) [e]( https://github.com/theo-armour/2023/edit/main/apps/newww-tab/2023-01-08/new-tab-content.md )
-[trayo](https://theo-armour.github.io/2023/apps/trayo/)
+[bizcard]( https://theo-armour.github.io/2023/about/business-card.html )
 [ifrStuff](https://theo-armour.github.io/2023/apps/iframe-stuff)
 [teodori](https://theo-armour.github.io/qdata/apps/teodori)
+[newTab]( https://theo-armour.github.io/2023/apps/newww-tab/ ) [gh]( https://github.com/theo-armour/2023/tree/master/apps/newww-tab ) [e]( https://github.com/theo-armour/2023/edit/main/apps/newww-tab/2023-01-08/new-tab-content.md )
+[trayo](https://theo-armour.github.io/2023/apps/trayo/)
 [notesy](https://theo-armour.github.io/2023/apps/notesy)
-[bizcard]( https://theo-armour.github.io/2023/about/business-card.html )
 
 @@ [PshPll]( https://pushme-pullyou.github.io/ ) [gh]( https://github.com/pushme-pullyou/ )
 [assets]( https://pushme-pullyou.github.io/assets/ ) [gh]( https://github.com/pushme-pullyou/assets/ )
 [2023]( https://pushme-pullyou.github.io/2023/ "TooToo") [gh]( https://github.com/pushme-pullyou/2023/ )
 
 @@ [theoA]( https://theo-armour.github.io/ ) [gh]( https://github.com/theo-armour/theo-armour.github.io )
+[2023]( https://theo-armour.github.io/2023 )
 [demo]( https://theo-armour.github.io/2021/demo-reel/v-2021-08-31/iframe-carousel-r1.html )
-[mouth]( https://theo-armour.github.io/mouth-stl-2022/simple-stl/" )
+[mouth]( https://theo-armour.github.io/mouth-stl-2022/simple-stl )
 
 vsCode
 [&gt;ta 23qData]( https://vscode.dev/github/theo-armour/2023-qdata )
@@ -76,12 +77,12 @@ vsCode
 [g groups]( https://groups.google.com/ )
 [g design]( https://design.google/ )
 [google]( https://google.com/ )
+[substack](https://substack.com/inbox)
 <h1>❦ ❧</h1>
 [aeon](https://aeon.co/)
 [nautilus](https://nautil.us/)
 [noema]( https://www.noemamag.com/)
 [quanta]( https://www.quantamagazine.org/)
-[substack](https://substack.com/inbox)
 [atlantic]( https://www.theatlantic.com/)
 
 </details>
