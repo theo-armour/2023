@@ -10,20 +10,11 @@ _"Notesy" in a resizable window_
 
 ## Concept
 
-
-## Text you can include in read me files
-
-<details open >
-
-<summary> Things you can do using this script</summary>
-
-* Click the three bars( 'hamburger menu icon' ) to slide the menu in and out
-* Click the GitHub Octocat icon to view or edit the source code on GitHub
-* Click on title to reload te page
-* Press Control-U/Command-Option-U to view the source code
-* Press Control-Shift-J/Command-Option-J to see if the JavaScript console reports any errors
-
-</details>
+* Get and put Markdown files to a private ot public GitHub repo
+* API and update via location.hash
+* Autosave by time or on blur
+* Check for change before exit
+* Display Get and put time and byte count
 
 ## To Do / Wish List
 
@@ -36,6 +27,9 @@ _"Notesy" in a resizable window_
 
 ## Change Log
 
+### 2023-02-19
+
+* Good cleanup
 
 ### 2023-02-17
 

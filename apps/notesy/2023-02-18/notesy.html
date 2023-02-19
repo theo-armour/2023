@@ -4,8 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
-	<meta name="description" content="">
-	<meta name="date" content="2023-02-17">
+	<meta name="description" content="Get and put Markdown files to a private ot public GitHub repo">
+	<meta name="date" content="2023-02-18">
 
 	<title>notesy</title>
 
@@ -74,7 +74,8 @@
 			<a href="" id="aPath" title="Click this menu title to reload the file">
 				<span id=spnTitle></span><span id=spnVersion></span></a>
 
-			<button onclick=XGP.getSha() title="Press Alt-S">putToGitHub</button>
+			<!-- <button onclick=XGP.getSha() title="Press Alt-S">putToGitHub</button> -->
+
 			<!-- <input type=checkbox onchange=XGP.autoSave(); id=chkAutoSave style=vertical-align:text-top>save</label> -->
 		</h2>
 
@@ -85,8 +86,9 @@
 	</main>
 
 	<script>
-		// https://github.com/Ionaru/easy-markdown-editor
+		// // copyright 2023 Theo Armour. MIT license.
 
+		// https://github.com/Ionaru/easy-markdown-editor
 		const easyMDE = new EasyMDE( {
 			autofocus: true,
 			blockStyles: {
@@ -98,6 +100,7 @@
 			toolbar: false,
 
 		} );
+		
 
 		// [X]MLHTTPRequest [G]itHub [P]ush (XGP)
 
@@ -119,13 +122,7 @@
 
 			XGP.url = url;
 
-			// spnTitle.innerHTML = XGP.url.split( "/" ).pop().split( "." ).shift();
-
-			// spnTitle.title = document.head.querySelector( "[ name=date ]" ).content;
-
-			// document.title = spnTitle.innerText;
-
-			//spnVersion.innerHTML = document.head.querySelector( "[ name=date ]" ).content;
+			aPath.title = document.head.querySelector( "[ name=date ]" ).content;
 
 			XGP.accessToken = localStorage.getItem( "githubAccessToken" ) || "";
 
@@ -147,12 +144,11 @@
 
 			XGP.onHashChange();
 
-
 		};
 
 
-		test1 = () => location.hash = XGP.base + "sample.md";
-		test2 = () => location.hash = XGP.base + "concept.md";
+		test1 = () => location.hash = XGP.base + "apps/notesy/README.md";
+		test2 = () => location.hash = XGP.base + "README.md";
 
 
 		XGP.setGitHubAccessToken = function () {
@@ -160,7 +156,6 @@
 			localStorage.setItem( "githubAccessToken", XGPinpAccessToken.value );
 
 		};
-
 
 
 
@@ -181,6 +176,7 @@
 		};
 
 
+
 		XGP.checkForChange = function ( event ) {
 
 			if ( easyMDE.value() === XGP.content ) { return; }
@@ -196,6 +192,7 @@
 		};
 
 
+
 		XGP.onBlur = function( event ) {
 
 			console.log( "onBlur", XGP.fileName );
@@ -206,11 +203,11 @@
 
 			XGP.getSha();
 
-		}
+		};
+
 
 
 		XGP.requestFile = function ( event ) {
-
 			//console.log( "XGP.url ", XGP.url );
 
 			const xhr = new XMLHttpRequest();
@@ -237,15 +234,13 @@
 
 			XGP.content = content;
 
-			divMessage.innerText = `Get:${ new Date().toLocaleString() } bytes:${ content.length.toLocaleString() }`;
+			divMessage.innerText = `G:${ new Date().toLocaleString().slice(0,-3) } B:${ content.length.toLocaleString() }`;
 
 			aSource.href = xhr.target.response.html_url;
 
 			spnTitle.innerHTML = XGP.url.split( "/" ).pop().split( "." ).shift();
 
-			spnTitle.title = document.head.querySelector( "[ name=date ]" ).content;
-
-			aPath.href = "#" + XGP.url;
+			//aPath.href = "#" + XGP.url;
 
 			document.title = spnTitle.innerText;
 
@@ -325,7 +320,7 @@
 			//xhr.onprogress = ( xhr ) => console.log( "bytes loaded:", xhr.loaded );
 			xhr.send( body );
 
-			divMessage.innerText = `Put: ${ new Date().toLocaleString() } bytes:${ XGP.content.length.toLocaleString() }`;
+			divMessage.innerText = `P:${ new Date().toLocaleString().slice(0,-3) } B:${ XGP.content.length.toLocaleString() }`;
 
 		};
 
