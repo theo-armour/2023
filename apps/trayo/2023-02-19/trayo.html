@@ -98,8 +98,8 @@
 
 		<a href="https://github.com/theo-armour/qdata/tree/master/apps/trayo" target="_blank"
 			title="source code on GitHub"><img
-				src=https://pushme-pullyou.github.io/tootoo-2022/assets/icons/mark-github.svg></a>
-				<a href="" title="Click this menu title to reset the model">trayo</a>
+				src=https://pushme-pullyou.github.io/assets/svg/mark-github.svg></a>
+				<a href="" id=aHref title="Click this menu title to reset the model">trayo</a>
 
 		<label>
 			<input id=inpAccessToken onclick=this.select(); onblur=setGitHubAccessToken();
@@ -138,6 +138,8 @@
 		init();
 
 		function init () {
+
+			aHref.title = document.head.querySelector( "[ name=date ]" ).content;
 
 			const content = "divMainContent";
 			//const file = "snippets/notes.md";
