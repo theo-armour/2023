@@ -2,7 +2,7 @@
 
 <!--@@@
 <div class=iframe-resize ><iframe src=https:/theo-armour.github.io/2023/apps/notesy/#https://api.github.com/repos/theo-armour/2023/contents/text-to-hack.md height=100% width=100% ></iframe></div>
-_"Notesy Read Me" in a resizable window_
+_"Notesy" in a resizable window_
 @@@-->
 
 ## Full Screen: [Notesy]( https:/theo-armour.github.io/2023/apps/notesy )
