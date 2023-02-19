@@ -1,4 +1,4 @@
-# [![](https://pushme-pullyou.github.io/tootoo-2022/assets/icons/mark-github.svg )](https://github.com/theo-armour/2023/ "Source code on GitHub" ) [TT 2023]( https://theo-armour.github.io/2023/ "Home page" ) / [Trayo Read Me]( https://github.com/theo-armour/2023/tree/master/apps/trayo )
+# [![](https://pushme-pullyou.github.io/assets/svg/mark-github.svg )](https://github.com/theo-armour/2023/ "Source code on GitHub" ) [TT 2023]( https://theo-armour.github.io/2023/ "Home page" ) / [Trayo Read Me]( https://github.com/theo-armour/2023/tree/master/apps/trayo )
 
 
 <!--@@@
@@ -34,6 +34,10 @@ Other thoughts
 
 
 ## Change Log
+
+### 2023-02-19
+
+* Cleanup, newer notesy
 
 ### 2023-02-17
 

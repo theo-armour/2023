@@ -12,6 +12,10 @@ divMenuBar.innerHTML = `
 		<div class="tooltip"><span>residents</span>
 			<span id=spnMenuResidents class="tooltiptext"></span>
 		</div>
+		<div class="tooltip"><span>snippets</span>
+			<span id=spnMenuSnippets class="tooltiptext"></span>
+		</div>
+
 `;
 
 const menuHover = `
@@ -147,26 +151,27 @@ const
 `;
 
 
-menuBar =`
+menuBar = `
 <input type=date oninput=getDate( this );>
+`;
 
-		<span id-spnManuBar ></span>
-		<a href="#https://api.github.com/repos/theo-armour/2023-todo/contents/3-heritage/1-residents-info.md">residents</a>
-		<a href="#https://api.github.com/repos/theo-armour/2023-todo/contents/1-notes.md">notes</a>
-		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/folder-names.md">fldrs</a>
-		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-forget.md">foget</a>
-		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-like.md">like</a>
-		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/lingo.md">lingo</a>
-		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/location.md">location</a>
-		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/jokes-quotes.md">jokes</a>
-		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/health.md">helth</a>
-		<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/inspirations-sources.md">inspire</a>
-		<select id=selIfr size="1">
-			<option>ifr ToDo</option>
-			<option>ifr Journal</option>
-			<option>ifr Admin</option>
-			<option selected>ifr Heritage</option>
-		</select>
+const menuSnippets = `
+<a href="#https://api.github.com/repos/theo-armour/2023-todo/contents/3-heritage/1-residents-info.md">residents</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-todo/contents/1-notes.md">notes</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/folder-names.md">fldrs</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-forget.md">foget</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-like.md">like</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/lingo.md">lingo</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/location.md">location</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/jokes-quotes.md">jokes</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/health.md">helth</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/inspirations-sources.md">inspire</a>
+<select id=selIfr size="1">
+	<option>ifr ToDo</option>
+	<option>ifr Journal</option>
+	<option>ifr Admin</option>
+	<option selected>ifr Heritage</option>
+</select>
 `;
 
 spnMenuHover.innerHTML = menuHover;
@@ -175,4 +180,7 @@ spnMenu1.innerHTML = menuHtm;
 
 spnMenuResidents.innerHTML = menuPeepsHtm;
 
+spnMenuSnippets.innerHTML = menuSnippets;
+
 h3MenuBar.innerHTML = menuBar;
+
