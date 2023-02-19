@@ -100,7 +100,7 @@
 			toolbar: false,
 
 		} );
-		
+
 
 		// [X]MLHTTPRequest [G]itHub [P]ush (XGP)
 
@@ -273,6 +273,8 @@
 
 			if ( XGP.content.length === easyMDE.value().length ) return;
 
+			console.log( "", XGP.content.length, easyMDE.value().length );
+
 			if ( !XGP.url.endsWith( "md" ) ) return;
 
 			console.log( "save", XGP.fileName );
@@ -298,7 +300,7 @@
 
 			console.log( "XGP.sha", XGP.sha );
 
-			XGP.content = easyMDE.value().replace( /[\r\n]{4,}/g, "\n\n\n" );
+			XGP.content = easyMDE.value(); //.replace( /[\r\n]{4,}/g, "\n\n\n" );
 
 			const codedData = window.btoa( unescape( encodeURIComponent( XGP.content ) ) ); // encode the string
 
