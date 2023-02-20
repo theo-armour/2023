@@ -156,16 +156,18 @@ menuBar = `
 `;
 
 const menuSnippets = `
-<a href="#https://api.github.com/repos/theo-armour/2023-todo/contents/3-heritage/1-residents-info.md">residents</a>
-<a href="#https://api.github.com/repos/theo-armour/2023-todo/contents/1-notes.md">notes</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/articles-to-write-video.md">articles</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/bookmarklets.md">bookmarklets</a>
 <a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/folder-names.md">fldrs</a>
-<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-forget.md">foget</a>
-<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-like.md">like</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/habits.md">habits</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/health.md">health</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/inspirations-sources.md">inspire</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/jokes-quotes.md">jokes</a>
 <a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/lingo.md">lingo</a>
 <a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/location.md">location</a>
-<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/jokes-quotes.md">jokes</a>
-<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/health.md">helth</a>
-<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/inspirations-sources.md">inspire</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-forget.md">forget</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-like.md">like</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/tips.md">tips</a>
 <select id=selIfr size="1">
 	<option>ifr ToDo</option>
 	<option>ifr Journal</option>
