@@ -157,7 +157,9 @@ menuBar = `
 `;
 
 const menuSnippets = `
-<a href="#${ basePages }articles-to-write-video.md">articles</a>
+pages
+<a href="#${ basePages }00-journal/articles-to-write-video.md">articles</a><br>
+Snippets
 <a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/bookmarklets.md">bookmarklets</a>
 <a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/folder-names.md">fldrs</a>
 <a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/habits.md">habits</a>
