@@ -6,6 +6,6 @@ v
 Pixel 6
 158.6 height x 74.8 width x 8.9 depth (mm)
 
-Samsung S
+Samsung S22 Ultra
 
-78.1 x 163.4 x 8.9mm
+77.9 x 163.3 x 8.9mm
