@@ -15,7 +15,6 @@ _"Trayo" in a resizable window. One finger to rotate. Two to zoom._
 
 ## To Do / Wish List
 
-* show revision dates of trayo & notesy
 * clickable links in files
 * think about residents menu
 
@@ -38,6 +37,7 @@ Other thoughts
 ### 2023-02-19
 
 * Cleanup, newer notesy
+* show revision dates of trayo & notesy
 
 ### 2023-02-17
 
