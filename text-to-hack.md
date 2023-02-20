@@ -4,7 +4,7 @@ v
 123 456 789 0
 
 Pixel 6
-158.6 x 74.8 x 8.9 d
+158.6 x 74.8 x 8.9
 
 Samsung S22 Ultra
 
