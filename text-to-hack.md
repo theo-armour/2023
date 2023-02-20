@@ -8,4 +8,4 @@ Pixel 6
 
 Samsung S22 Ultra
 
-77.9 x 163.3 x 8.9mm
+77.9 x  x 8.9mm
