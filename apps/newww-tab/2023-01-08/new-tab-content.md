@@ -54,7 +54,7 @@ vsCode
 [swiss-miss]( https://swiss-miss.com )
 [feedly]( https://feedly.com/ )
 [techcrunch]( https://techcrunch.com )
-[engadget]( https://engadget.com )
+[substack](https://substack.com/inbox)
 
 </details>
 
@@ -79,7 +79,7 @@ vsCode
 [g groups]( https://groups.google.com/ )
 [g design]( https://design.google/ )
 [google]( https://google.com/ )
-[substack](https://substack.com/inbox)
+
 <h1>❦ ❧</h1>
 [aeon](https://aeon.co/)
 [nautilus](https://nautil.us/)
@@ -109,7 +109,7 @@ vsCode
 
 reference
 [threejs]( https://threejs.org )
-[wiki]( https://en.wikipedia.org )
+[wiki]( https://en.wikipedia.org ) [sflp]( https://en.wikipedia.org/wiki/Draft:San_Francisco_Ladies_Protection_and_Relief_Society )
 [> wContent]( https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories )
 [thesaurus]( https://thesaurus.com )
 [translate]( https://translate.google.com/ )
