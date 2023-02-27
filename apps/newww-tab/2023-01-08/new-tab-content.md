@@ -80,7 +80,7 @@ vsCode
 [g design]( https://design.google/ )
 [google]( https://google.com/ )
 
-<h1>❦ ❧ &mdash; </h1>
+<h1>❦ ❧ &mdash; &ndash; </h1>
 [aeon](https://aeon.co/)
 [nautilus](https://nautil.us/)
 [noema]( https://www.noemamag.com/)
