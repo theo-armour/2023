@@ -183,6 +183,8 @@ hh
 [plainJS]( https://plain-javascript.github.io ) [gh]( https://github.com/plain-JavaScript/plain-JavaScript.github.io)
 [> awesome] ( https://plain-javascript.github.io/awesome-list/ ) [gh]( https://github.com/plain-JavaScript/awesome-list )
 
+books
+[DoE]( file:///C:/Users/tarmo/OneDrive/Documents/GitHub/theo-armour-reference/books/The-Dawn-of-Everything-by-David-Graeber-David-Wengrow-z-lib.-zmbbo.pdf )
 
 games wordle sb cw
 [wordle]( https://nytimes.com/games/wordle/index.html )
