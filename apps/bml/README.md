@@ -1,13 +1,13 @@
 # Template Read Me
 
-[![](https://pushme-pullyou.github.io/assets/svg/octicon.svg )](https://github.com/theo-armour/2023/aps/bml "Source code on GitHub" ) [Theo Armour 2023]( https:/theo-armour.github.io/2023/ "Home page" ) / [Theo Armour BML Read Me]( https://github.comtheo-armour/2023/tree/main/zzzzz/ "2023-02-16" )
+[![](https://pushme-pullyou.github.io/assets/svg/octicon.svg )](https://github.com/theo-armour/2023/aps/bml "Source code on GitHub" ) [Theo Armour 2023]( https:/theo-armour.github.io/2023/ "Home page" ) / [Theo Armour BML Read Me]( https://github.comtheo-armour/2023/tree/main/ap[ps/bml/ "2023-02-16" )
 
 <!--@@@
-<div class=iframe-resize ><iframe src=https:/theo-armour.github.io/2023/zzzzz/ height=100% width=100% ></iframe></div>
+<div class=iframe-resize ><iframe src=https:/theo-armour.github.io/2023/ap[ps/bml/ height=100% width=100% ></iframe></div>
 _"BML Read Me" in a resizable window_
 @@@-->
 
-## Full Screen: [BML]( https:/theo-armour.github.io/2023/zzzzz/ )
+## Full Screen: [BML]( https:/theo-armour.github.io/2023/ap[ps/bml/ )
 
 <a href=javascript:( /* ta bm */  () => {const script=document.head.appendChild( document.createElement( 'script' ) );script.src='https://theo-armour.github.io/2023/bookmarklets/ta-bml/v-0-02/ta-bml.js';} )() target="_blank">👀</a>
 
