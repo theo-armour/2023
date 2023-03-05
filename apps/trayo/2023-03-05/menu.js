@@ -153,8 +153,8 @@ const
 `;
 
 
-menuDate = `
-<input type=date oninput=getDate( this );>
+const menuDate = `
+<input type=date oninput=getDate(this);>
 `;
 
 const menuSnippets = `
@@ -199,11 +199,10 @@ function getDate ( that ) {
 
 	const mydate = dateString.slice( -2 );
 	const month = dateString.slice( 5, 7 );
-	const path = baseQ + `journal/days-of-year-htm/${ month }/${ month }${ mydate }.md`;
-
-	ifrNotesJournal.contentWindow.location.hash = baseQ + path;
+	const path = `${ baseQ }journal/days-of-year-htm/${ month }/${ month }${ mydate }.md`;
 
 	//location.hash = path;
+	ifrNotesJournal.contentWindow.location.hash = path;
 
 };
 
