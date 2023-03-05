@@ -21,11 +21,15 @@ divMenuBar.innerHTML = `
 
 const menuHover = `
 &#164; &curren; &times; &deg; &bull; &middot; &mdash; &copy; &euro; &hellip; &vellip;
-&#x1801; ❦ &#x2766; ❧ &phone;
+&#x1801; ❦ &#x2766; ❧ &#x2767; &phone;
 &#x2261; ≡
 &spades; &starf; &bigstar; &xcirc;
 &block; &marker; &FilledSmallSquare;
-&mdash;
+&mdash; &ndash;<br>
+&amp;mdash; &amp;ndash; &amp;euro;
+<br>
+<a href="https://docx.new" target="_blank">docx</a>
+<a href=javascript:void(document.body.style.backgroundColor='#fee') >background</a>
 `;
 
 
@@ -171,7 +175,8 @@ Snippets
 <a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/location.md">location</a>
 <a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-forget.md">forget</a>
 <a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/things-i-like.md">like</a>
-<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/tips.md">tips</a>
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/snippets/tips.md">tips</a> ~
+<a href="#https://api.github.com/repos/theo-armour/2023-qdata/contents/hardware/hardware.md">hardware</a>
 <select id=selIfr size="1">
 	<option>ifr ToDo</option>
 	<option>ifr Journal</option>
