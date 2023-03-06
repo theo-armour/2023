@@ -12,7 +12,7 @@ _"BML Read Me" in a resizable window_
 <a href="https://theo-armour.github.io/2023/apps/bml/2023-03-05/ta-bml-dashboard.html" >github version</a>
 
 
-<a href=javascript:( /* ta bm */  () => {const script=document.head.appendChild( document.createElement( 'script' ) );script.src='https://theo-armour.github.io/2023/bookmarklets/ta-bml/v-0-02/ta-bml.js';} )() target="_blank">??</a>
+<a href="javascript:( /* ta bm */  () => {const script=document.head.appendChild( document.createElement( 'script' ) );script.src='https://theo-armour.github.io/2023/bookmarklets/ta-bml/v-0-02/ta-bml.js';} )()" target="_blank">??</a>
 
 <a href=javascript:( /* ta bm */  () => {const script=document.head.appendChild( document.createElement( 'script' ) );script.src='https://theo-armour.github.io/2023/bookmarklets/ta-bml/v-0-02/ta-bml.js';} )() >??</a>
 
