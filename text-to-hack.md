@@ -18,10 +18,13 @@ Pixel 6m
 
 
 
-<details>
- <summary>hello</summary>
-abd 123
-</details>
+<details open=""><summary>hello</summary> abd 123 </details>
+
+<details open=""><br></details>
+
+<details><br></details>
+
+<details open=""><br></details>
 
 
 
