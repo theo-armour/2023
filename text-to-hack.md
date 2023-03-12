@@ -16,7 +16,11 @@ Pixel 6m
 
 <br>
 
+
+
 <details><summary>hello</summary></details>
+
+
 
 158\.6 x 74.8 x 8.9C
 
