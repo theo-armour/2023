@@ -18,14 +18,7 @@ Pixel 6m
 
 
 
-<details open="">
-  
-<summary>hello</summary> 
-  
- hhhabd 123 
-
-</details>
-
+<details open=""><p></p><p></p><summary>hello</summary>¨NBSP;<p></p><p>hhhabd 123 fff hhh 8888</p><p></p></details>
 
 
 
