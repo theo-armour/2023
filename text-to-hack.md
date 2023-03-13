@@ -26,7 +26,7 @@ Pixel 6m
 
 ## h2 again
 
-<details open=""><p></p><p></p><summary>hello</summary>jjj kol bbb nnn<br><p></p><p>hhhabd 123 fff hhh 8888</p><p>kop 123llll</p><p></p></details>
+<details><p></p><p></p><summary>hello</summary>jjj kol bbb nnn<br><p></p><p>hhhabd 123 fff hhh 8888</p><p>kop 123llll</p><p></p></details>
 
 158.6 x 74.8 x 8.9C
 
