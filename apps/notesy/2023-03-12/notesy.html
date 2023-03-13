@@ -23,6 +23,10 @@
 			padding: 0;
 		}
 
+		br {
+			margin: 0.5em 0;
+		}
+
 		ul {
 			margin: 0;
 			padding: 0 0 0 1rem;
@@ -34,21 +38,10 @@
 			padding: 0;
 		}
 
-		br {
-			margin: 0.5em 0;
-		}
 
 		main h2 {
 			display: inline;
 			margin: 0;
-		}
-
-		img {
-			vertical-align: middle;
-		}
-
-		input {
-			vertical-align: middle;
 		}
 
 		h1 {
@@ -59,6 +52,7 @@
 		}
 
 		h2 {
+			color: darkblue;
 			font-size: 120%;
 			margin: 0;
 			padding: 0;
@@ -72,6 +66,15 @@
 			padding: 0;
 
 		}
+
+		img {
+			vertical-align: middle;
+		}
+
+		input {
+			vertical-align: middle;
+		}
+
 	</style>
 
 </head>
@@ -227,7 +230,21 @@
 
 
 
-		XGP.onLoad = function ( xhr ) {
+		XGP.onLoad = function ( xhr ) { //console.log( "xhr", xhr.target.response );
+
+			if ( xhr.target.response.message === "Not Found" ) {
+
+				XGP.sha = null;
+
+				//XGP.content = "";
+
+				//divContent.innerHTML = XGP.content;
+
+				divMessage.innerText = "File not found";
+
+				return;
+
+			}
 
 			// https://developer.mozilla.org/en-US/docs/Glossary/Base64#solution_1_%E2%80%93_escaping_the_string_before_encoding_it
 			// console.log( "content", xhr.target.response );
@@ -245,10 +262,9 @@
 			divMessage.innerText = `G:${ new Date().toLocaleString().slice( 0, -3 ) } B:${ content.length.toLocaleString() }`;
 
 			aSource.href = xhr.target.response.html_url;
+			//aPath.href = "#" + XGP.url;
 
 			spnTitle.innerHTML = XGP.url.split( "/" ).pop().split( "." ).shift();
-
-			//aPath.href = "#" + XGP.url;
 
 			document.title = spnTitle.innerText;
 
@@ -310,6 +326,7 @@
 
 			XGP.content = divContent.innerHTML; //.replace( /[\r\n]{4,}/g, "\n\n\n" );
 
+			// https://github.com/mixmark-io/turndown
 			const turndownService = new TurndownService( { headingStyle: 'atx' } );
 			turndownService.keep( [ 'details', 'summary' ] );
 			// https://github.com/mixmark-io/turndown/issues/291
