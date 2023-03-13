@@ -15,6 +15,23 @@
 			box-sizing: border-box;
 			font: 100% monospace;
 			margin: 0;
+			padding: 0 0 0 3px;
+		}
+
+		p {
+			margin: 0 0 0.3rem 0;
+			padding: 0;
+		}
+
+		ul {
+			margin: 0;
+			padding: 0 0 0 1rem;
+
+		}
+
+		li {
+			margin: 0;
+			padding: 0;
 		}
 
 		br {
@@ -35,20 +52,21 @@
 		}
 
 		h1 {
-			font-size: 1.2rem;
+			font-size: 150%;
 			margin: 0;
 			padding: 0;
 
 		}
+
 		h2 {
-			font-size: 1.1rem;
+			font-size: 120%;
 			margin: 0;
 			padding: 0;
 
 		}
 
 		h3 {
-			font-size: 1rem;
+			font-size: 100%;
 			color: maroon;
 			margin: 0;
 			padding: 0;
@@ -294,6 +312,27 @@
 
 			const turndownService = new TurndownService( { headingStyle: 'atx' } );
 			turndownService.keep( [ 'details', 'summary' ] );
+			// https://github.com/mixmark-io/turndown/issues/291
+			turndownService.addRule( 'listItem', {
+				filter: 'li',
+
+				replacement: function ( content, node, options ) {
+					content = content
+						.replace( /^\n+/, '' ) // remove leading newlines
+						.replace( /\n+$/, '\n' ) // replace trailing newlines with just a single one
+						.replace( /\n/gm, '\n    ' ); // indent
+					var prefix = options.bulletListMarker + ' ';
+					var parent = node.parentNode;
+					if ( parent.nodeName === 'OL' ) {
+						var start = parent.getAttribute( 'start' );
+						var index = Array.prototype.indexOf.call( parent.children, node );
+						prefix = ( start ? Number( start ) + index : index + 1 ) + '. ';
+					}
+					return (
+						prefix + content + ( node.nextSibling && !/\n$/.test( content ) ? '\n' : '' )
+					);
+				}
+			} );
 			const markdown = turndownService.turndown( divContent.innerHTML );
 
 			//const md = markdown.replace( /[\\\\]## /g, "## " ).replace( /[\\\\]### /g, "### " );
