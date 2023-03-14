@@ -12,10 +12,11 @@
 
 	<style>
 		body {
+			border: 0px solid red;
 			box-sizing: border-box;
 			font: 100% monospace;
 			margin: 0;
-			padding: 0 0 0 3px;
+			padding: 0;
 		}
 
 		p {
@@ -75,6 +76,14 @@
 			vertical-align: middle;
 		}
 
+		#divContent {
+			border: 1px solid #ccc;
+
+			margin: 0;
+			padding: 0.25rem;
+
+		}
+
 	</style>
 
 </head>
@@ -132,7 +141,7 @@
 
 			XGP.accessToken = localStorage.getItem( "githubAccessToken" ) || "";
 
-			if ( !XGP.accessToken || XGP.accessToken === "" ) {
+			if ( !XGP.accessToken || XGP.accessToken === "" || XGP.accessToken === "null" ) {
 
 				XGP.accessToken = prompt( "Enter GitHub Personal Access Token" );
 
@@ -156,6 +165,7 @@
 		test1 = () => location.hash = XGP.base + "apps/notesy/README.md";
 		test2 = () => location.hash = XGP.base + "README.md";
 		test3 = () => XGP.getSha();
+
 
 
 		XGP.setGitHubAccessToken = function () {
