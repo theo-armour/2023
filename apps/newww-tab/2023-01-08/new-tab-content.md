@@ -143,6 +143,8 @@ reference
 <textarea style="height:5rem;width:98%"></textarea>
 
 [dall-e]( https://labs.openai.com/ )
+[midjourney]( https://www.midjourney.com/app/ )
+[> dd]
  </details>
 
 
