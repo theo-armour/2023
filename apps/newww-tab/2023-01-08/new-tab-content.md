@@ -95,7 +95,7 @@ vsCode
 
 
 <details class=box open><summary>apps & ref</summary>
-[chatGPT]( https://chat.openai.com/chat )
+
 [facebook]( https://facebook.com/ )
 [instagram]( https://instagram.com/ )
 [medium]( https://medium.com/ )
@@ -142,9 +142,11 @@ reference
 
 <textarea style="height:5rem;width:98%"></textarea>
 
+[chatGPT]( https://chat.openai.com/chat )
+[bard]( https://bard.google.com/ )
 [dall-e]( https://labs.openai.com/ )
 [midjourney]( https://www.midjourney.com/app/ )
-[> dd]
+[> dd]( https://discord.gg/midjourney )
  </details>
 
 
