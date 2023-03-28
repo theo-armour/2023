@@ -146,7 +146,7 @@ reference
 [bard]( https://bard.google.com/ )
 [dall-e]( https://labs.openai.com/ )
 [midjourney]( https://www.midjourney.com/app/ )
-[> dd]( https://discord.gg/midjourney )
+[> dd]( https://discord.com/channels/662267976984297473/@home )
  </details>
 
 
