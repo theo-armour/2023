@@ -11,10 +11,11 @@ _"stuff" in a resizable window._
 
 ## Concept
 
+* See also PC stick.md
 
 ## To Do / Wish List
 
-* Try switching to Google Calendar
+* Update web cam links
 
 ## Issues
 
@@ -30,6 +31,7 @@ Live cams
 
 ### 2022-08-04
 
+* Try switching to Google Calendar
 * Many fixes
 
 ### 2022-05-20
