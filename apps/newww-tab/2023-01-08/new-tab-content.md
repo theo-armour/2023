@@ -65,7 +65,7 @@ vsCode
 
 <details class=box open><summary>google</summary>
 [ms365]( https://office.com )
-[raindrop]( https://raindrop.io )
+[raindrop]( https://app.raindrop.io/my/-1)
 [g maps]( https://google.com/maps/ )
 [g calender]( https://calendar.google.com/ )
 [g contacts]( https://contacts.google.com/ )
