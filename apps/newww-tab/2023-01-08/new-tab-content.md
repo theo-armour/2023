@@ -55,7 +55,7 @@ vsCode
 [feedly]( https://feedly.com/ )
 [techcrunch]( https://techcrunch.com )
 [substack](https://substack.com/inbox)
-[scanalyst]( https://scanalyst.fourmilab.ch/ )
+[scanalyst]( https://scanalyst.fourmilab.ch/ ) jun
 
 </details>
 
