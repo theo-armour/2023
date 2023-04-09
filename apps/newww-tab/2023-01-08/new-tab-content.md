@@ -54,6 +54,8 @@ vsCode
 [swiss-miss]( https://swiss-miss.com )
 [feedly]( https://feedly.com/ )
 [techcrunch]( https://techcrunch.com )
+[kickstartr]( https://www.kickstarter.com/ )
+
 [substack](https://substack.com/inbox)
 [scanalyst]( https://scanalyst.fourmilab.ch/ ) jun
 
