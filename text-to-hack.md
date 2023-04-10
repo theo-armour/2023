@@ -1,6 +1,6 @@
 # text
 
-Conceptualizing random endpoints in a access matrix provides reach extensions enterprise wide. Respective divisions historically insignificant, upscale trend lines in a management inventory analysis survivability format.
+Conceptualizing random endpoints in a access
 
 vvvvvv
 
