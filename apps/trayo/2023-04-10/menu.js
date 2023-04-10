@@ -28,6 +28,7 @@ const menuHover = `
 &mdash; &ndash;<br>
 &amp;mdash; &amp;ndash; &amp;euro;
 <br>
+<a href="https://tabatkins.github.io/symbols/" target="_blank">Symbolology</a>
 <a href="https://docx.new" target="_blank">new docx</a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet" target="_blank">regex</a>
 <a href=javascript:void(document.body.style.backgroundColor='#fee' title="Make it Pink!") >background</a>
