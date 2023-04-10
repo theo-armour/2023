@@ -81,7 +81,7 @@ const menuHtm = `
 
 const
 	menuPeepsHtm = `
-	<div style="width:22rem;"
+	<div style="width:20rem;"
 <a href="#${ baseToDo }3-heritage/residents/alexander-patrick.md" >alexander-Patrick</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/anderson-barbara.md" >anderson-Barbara</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/arburua-carmelita.md" >arburua-Carmelita</a>&nbsp;
@@ -100,10 +100,8 @@ const
 <a href="#${ baseToDo }3-heritage/residents/dy-betty.md" >dy-betty</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/ertola-shirley.md" >ertola-shirley</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/fischer-pamela.md" >fischer-pamela</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/fletcher-isabel.md" >fletcher-isabel</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/forman-marcia.md" >forman-marcia</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/fraps-june.md" >fraps-june</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/goff-judith.md" >goff-judith</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/graham-gene.md" >graham-gene</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/hanley-linda.md" >hanley-linda</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/hanley-tony.md" >hanley-tony</a>&nbsp;
