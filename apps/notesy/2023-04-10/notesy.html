@@ -137,6 +137,8 @@
 
 			XGP.accessToken = localStorage.getItem( "githubAccessToken" ) || "";
 
+			console.log( "XGP.accessToken", XGP.accessToken );
+
 			if ( !XGP.accessToken || XGP.accessToken === "" || XGP.accessToken === "null" ) {
 
 				XGP.accessToken = prompt( "Enter GitHub Personal Access Token" );
@@ -167,7 +169,15 @@
 
 		XGP.setGitHubAccessToken = function () {
 
-			localStorage.setItem( "githubAccessToken", XGPinpAccessToken.value );
+			if ( XGPinpAccessToken.value ) {
+
+				localStorage.setItem( "githubAccessToken", XGPinpAccessToken.value );
+
+			} else {
+
+				console.log( "XGPinpAccessToken.value", XGPinpAccessToken.value );
+			}
+
 
 		};
 

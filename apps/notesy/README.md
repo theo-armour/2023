@@ -1,7 +1,8 @@
-# [![](https://pushme-pullyou.github.io/assets/svg/octicon.svg )](https://github.com/theo-armour/2023/ "Source code on GitHub" ) [Theo Armour 2023]( https:/theo-armour.github.io/2023/ "Home page" ) / [Theo Armour Notesy Read Me]( https://theo-armour.github.io/2023/apps/notesy/ "2023-02-16" )
+# [![](https://pushme-pullyou.github.io/assets/svg/octicon.svg )](https://github.com/theo-armour/2023/ "Source code on GitHub" ) Notesy Read Me
+
 
 <!--@@@
-<div class=iframe-resize ><iframe src=https:/theo-armour.github.io/2023/apps/notesy/#https://api.github.com/repos/theo-armour/2023/contents/text-to-hack.md height=100% width=100% ></iframe></div>
+<div class=iframe-resize ><iframe src=https:/theo-armour.github.io/2023/apps/notesy/ height=100% width=100% ></iframe></div>
 _"Notesy" in a resizable window_
 @@@-->
 
@@ -10,7 +11,7 @@ _"Notesy" in a resizable window_
 
 ## Concept
 
-* Get and put Markdown files to a private ot public GitHub repo
+* Get and put Markdown files to a private or public GitHub repo
 * API and update via location.hash
 * Autosave by time or on blur
 * Check for change before exit
@@ -26,6 +27,14 @@ _"Notesy" in a resizable window_
 
 
 ## Change Log
+
+### 2023-04-10
+
+* onBlur event update from window to divContent
+* Add function reminder to tooltips
+* Add delSha() function
+* Will keep prompting for GitHub credentials until they are correct
+
 
 ### 2023-02-19
 
