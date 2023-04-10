@@ -81,11 +81,10 @@ const menuHtm = `
 
 const
 	menuPeepsHtm = `
-	<div style="width:25rem;"
-<a href="#${ baseToDo }3-heritage/residents/alexander-patrick.md" >alexander-patrick</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/anderson-barbara.md" >anderson-barbara</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/arburua-carmelita.md" >arburua-carmelita</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/armour-theo.md" >armour-theo</a>&nbsp;
+	<div style="width:22rem;"
+<a href="#${ baseToDo }3-heritage/residents/alexander-patrick.md" >alexander-Patrick</a>&nbsp;
+<a href="#${ baseToDo }3-heritage/residents/anderson-barbara.md" >anderson-Barbara</a>&nbsp;
+<a href="#${ baseToDo }3-heritage/residents/arburua-carmelita.md" >arburua-Carmelita</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/beatty-martha-nell.md" >beatty-martha-nell</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/benedict-yvonne.md" >benedict-yvonne</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/bissell-eleanor.md" >bissell-eleanor</a>&nbsp;
@@ -138,7 +137,6 @@ const
 <a href="#${ baseToDo }3-heritage/residents/petersen-marianne.md" >petersen-marianne</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/pieck-marianna.md" >pieck-marianna</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/plusa-genevieve.md" >plusa-genevieve</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/roper-mary-charlotte.md" >roper-mary-charlotte</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/rush-patrick.md" >rush-patrick</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/sabini-ernie.md" >sabini-ernie</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/segrin-robert.md" >segrin-robert</a>&nbsp;
@@ -154,7 +152,6 @@ const
 <a href="#${ baseToDo }3-heritage/residents/wake-marion.md" >wake-marion</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/wentker-fred.md" >wentker-fred</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/wentker-jo-ann.md" >wentker-jo-ann</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/wesson-dr-richard.md" >wesson-dr-richard</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/zagorites-flora.md" >zagorites-flora</a>&nbsp;
 
 `;
