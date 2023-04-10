@@ -4,8 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="date" content="2023-03-14">
+	<meta name="description" content="My Markdown dashboard">
+	<meta name="date" content="2023-04-10">
 	<title>Trayo</title>
 
 	<style>
@@ -99,10 +99,12 @@
 			title="source code on GitHub"><img src=https://pushme-pullyou.github.io/assets/svg/mark-github.svg></a>
 		<a href="" id=aHref title="Click this menu title to reset the model">trayo</a>
 
+	<!--
 		<label>
 			<input id=inpAccessToken onclick=this.select(); onblur=setGitHubAccessToken();
 				title="Obtain GitHub API Access Token" size=5>
 		</label>
+	-->
 
 		<div id="divMenuBar"></div>
 
@@ -115,9 +117,9 @@
 
 		<div id="divContainer">
 
-			<div id=divNotesToDo class="child"><iframe id=ifrNotesToDo></iframe></div>
+			<div class="child"><iframe id=ifrNotesToDo></iframe></div>
 
-			<div id=divNotesJournal class="child"><iframe id=ifrNotesJournal></iframe></div>
+			<div class="child"><iframe id=ifrNotesJournal></iframe></div>
 
 			<div class="child"><iframe id=ifrNotesAdmin></iframe></div>
 
@@ -135,7 +137,7 @@
 		const baseQ = "https://api.github.com/repos/theo-armour/2023-qdata/contents/";
 		const baseT = "https://api.github.com/repos/theo-armour/2023-todo/contents/";
 
-		const notesy = "../../notesy/2023-03-14/notesy.html"; // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		const notesy = "../../notesy/2023-04-10/notesy.html"; // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 		init();
 
@@ -179,22 +181,22 @@
 
 		}
 
-		test1 = () => localStorage.setItem( "githubAccessToken", "" );
+		delSha = () => localStorage.setItem( "githubAccessToken", "" );
 
-		function setGitHubAccessToken() {
+		// function setGitHubAccessToken () {
 
-			const accessToken = inpAccessToken.value;
+		// 	const accessToken = inpAccessToken.value;
 
-			if ( accessToken.length > 0 ) {
+		// 	if ( accessToken.length > 0 ) {
 
-				localStorage.setItem( "githubAccessToken", accessToken );
+		// 		localStorage.setItem( "githubAccessToken", accessToken );
 
-			} else {
+		// 	} else {
 
-				localStorage.removeItem( "githubAccessToken" );
+		// 		localStorage.removeItem( "githubAccessToken" );
 
-			}
-		}
+		// 	}
+		// }
 
 
 		function onHashChange () {
