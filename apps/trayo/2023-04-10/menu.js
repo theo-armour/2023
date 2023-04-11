@@ -28,6 +28,7 @@ const menuHover = `
 &mdash; &ndash;<br>
 &amp;mdash; &amp;ndash; &amp;euro;
 <br>
+<a href="https://tabatkins.github.io/symbols/" target="_blank">Symbololology</a>
 <a href="https://docx.new" target="_blank">new docx</a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet" target="_blank">regex</a>
 <a href=javascript:void(document.body.style.backgroundColor='#fee' title="Make it Pink!") >background</a>
@@ -38,43 +39,64 @@ const menuHover = `
 const menuHtm = `
 <h3>
 	<p>
-		<a href="#${ baseToDo }0-to-do.md">to do</a> <a href="#${ baseToDo }1-notes.md">notes</a><br>
-		</p>
-		<p>
-		<a href="#${ baseToDo }0-me-admin/0-admin-to-do.md">admin</a><br>
-		&nbsp; <a href="#${ baseToDo }0-me-admin/0-journal.md">journal</a>
+		<a href="#${ baseToDo }0-to-do.md">0 to do</a>
+		<a href="#${ baseToDo }0-schedule.md">0 schedule</a>
+		<a href="#${ baseToDo }1-notes.md">1 notes</a><br>
+	</p>
+	<p>
+		<a href="#${ baseToDo }0-me-admin/0-admin-to-do.md">0 admin to do</a><br>
+		&nbsp;<a href="#${ baseToDo }0-me-admin/0-concierge.md">concierge</a>
+		&nbsp;<a href="#${ baseToDo }0-me-admin/0-journal.md">journal</a>
+		&nbsp;<a href="#${ baseToDo }0-me-admin/1-admin-ontology.md">ontology</a>
+		&nbsp;<a href="#${ baseToDo }0-me-admin/1-mission-values-vision.md">mission/values</a><br>
+
 		&nbsp;<a href="#${ baseToDo }0-me-admin/dwa-douglass-winthrop.md">dwa</a>
 		&nbsp;<a href="#${ baseToDo }0-me-admin/manett-vivian-redsar.md">vivianR</a>
 
 	</p>
 	<p>
-		<a href="#${ baseToDo }1-health/0-health-to-do.md">health</a>
-		&nbsp;<a href="#${ baseToDo }1-health/1-health-providers.md">providers</a>
+		<a href="#${ baseToDo }1-health/0-health-to-do.md">0 health to do</a><br>
 		&nbsp;<a href="#${ baseToDo }1-health/1-health-journal.md">journal</a>
-		&nbsp;<a href="#${ baseToDo }1-health/1-health-reference.md">reference</a>
+		&nbsp;<a href="#${ baseToDo }1-health/1-health-history.md">history</a>
+		&nbsp;<a href="#${ baseToDo }1-health/1-health-providers.md">providers</a>
+		&nbsp;<a href="#${ baseToDo }1-health/1-health-reference.md">reference</a><br>
+		&nbsp;<a href="#${ baseToDo }1-health/1-report-template.md">report-template</a>
 		&nbsp;<a href="#${ baseToDo }1-health/36-questions-everyone-should-ask-themselves.md">36quests</a>
 		&nbsp;<a href="#${ baseToDo }1-health/pt-fitness-coaches.md">phys ther</a>
 	</p>
 
 	<p>
-		<a href="#${ baseToDo }2-ace-it/0-ace-it-to-do.md">ace-it</a><br>
+		<a href="#${ baseToDo }2-ace-it/0-ace-it-to-do.md">2 ace-it to do</a>
 		&nbsp; <a href="#${ baseToDo }2-ace-it/alix.md">alix</a>
-		<a href="#${ baseToDo }2-ace-it/cynthia.md">cynthia</a>
-		<a href="#${ baseToDo }2-ace-it/eloise.md">eloise</a>
+		&nbsp;<a href="#${ baseToDo }2-ace-it/cynthia.md">cynthia</a>
+		&nbsp;<a href="#${ baseToDo }2-ace-it/eloise.md">eloise</a>
+		&nbsp;<a href="#${ baseToDo }2-ace-it/kyle-smith.md">kyle</a>
 	</p>
 
-	<a href="#${ baseToDo }2-peeps/0-peeps-to-do.md">peeps</a><br>
-	<a href="#${ baseToDo }2-evereverland-simplicity/0-evereverland-to-do.md">eel</a>
-	<a href="#${ baseToDo }2-evereverland-simplicity/0-simplicity-to-do.md">simplicity</a>
-	<a href="#${ baseToDo }3-tech/0-tech-to-do.md">coding</a>
 	<p>
-		<a href="#${ baseToDo }3-heritage/0-heritage-to-do.md">heritage</a>
-		&nbsp;<a href="#${ baseToDo }3-heritage/2023-journal.md">journal</a>
-		&nbsp;<a href="#${ baseToDo }3-heritage/1-residents-info.md">residents</a>
-		&nbsp;<a href="#${ baseToDo }3-heritage/happenings.md">happenings</a>
-		&nbsp;<a href="#${ baseToDo }3-heritage/touchtown.md">touchtown</a>
+		<a href="#${ baseToDo }2-family/0-family-to-do.md">2 family to do</a>
+		&nbsp;<a href="#${ baseToDo }2-family/allison-armour.md">allison</a>
+		&nbsp;<a href="#${ baseToDo }2-family/tania.md">tania</a>
 	</p>
+	<p>
+		<a href="#${ baseToDo }2-peeps/0-peeps-to-do.md">2 peeps to do</a><br>
+	</p>
+	<p>
+		<a href="#${ baseToDo }3-evereverland-simplicity/0-evereverland-to-do.md">3 eel to do</a>
+		<a href="#${ baseToDo }3-evereverland-simplicity/0-simplicity-to-do.md">3 simplicity to do</a>
+	</p>
+	<p>
+		<a href="#${ baseToDo }3-heritage/0-heritage-to-do.md">3 heritage to do</a><br>
+		&nbsp;<a href="#${ baseToDo }3-heritage/2023-journal.md">journal</a>
+		&nbsp;<a href="#${ baseToDo }3-heritage/1-staff.md">staff</a>
+		&nbsp;<a href="#${ baseToDo }3-heritage/happenings.md">happenings</a>
+		&nbsp;<a href="#${ baseToDo }3-heritage/out-and-about.md">out-and-about</a>
+		&nbsp;<a href="#${ baseToDo }3-heritage/life-enrichment.md">life-enrichment</a><br>
+		&nbsp;<a href="#${ baseToDo }3-heritage/residents-council.md">res council</a>
+		&nbsp;<a href="#${ baseToDo }3-heritage/touchtown.md">touchtown</a>
+		</p>
 
+		<a href="#${ baseToDo }3-tech/0-tech-to-do.md">coding</a>
 </h3>
 `;
 
@@ -83,14 +105,14 @@ const
 	menuPeepsHtm = `
 	<div style="width:20rem;"
 <a href="#${ baseToDo }3-heritage/residents/alexander-patrick.md" >alexander-Patrick</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/anderson-barbara.md" >anderson-Barbara</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/arburua-carmelita.md" >arburua-Carmelita</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/beatty-martha-nell.md" >beatty-martha-nell</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/benedict-yvonne.md" >benedict-yvonne</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/bissell-eleanor.md" >bissell-eleanor</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/brymner-jane.md" >brymner-jane</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/burke-bernie.md" >burke-bernie</a>&nbsp;
-<a href="#${ baseToDo }3-heritage/residents/conley-katherine.md" >conley-katherine</a>&nbsp;
+<a href="#${ baseToDo }3-heritage/residents/anderson-barbara.md" >anderson-Barb</a>&nbsp;
+<a href="#${ baseToDo }3-heritage/residents/arburua-carmelita.md" >arburua-Carm</a>&nbsp;
+<a href="#${ baseToDo }3-heritage/residents/beatty-martha-nell.md" >beatty-Martha-Nell</a>&nbsp;
+<a href="#${ baseToDo }3-heritage/residents/benedict-yvonne.md" >benedict-Yvonne</a>&nbsp;
+<a href="#${ baseToDo }3-heritage/residents/bissell-eleanor.md" >bissell-Eleanor</a>&nbsp;
+<a href="#${ baseToDo }3-heritage/residents/brymner-jane.md" >brymner-Jane</a>&nbsp;
+<a href="#${ baseToDo }3-heritage/residents/burke-bernie.md" >burke-Bernie</a>&nbsp;
+<a href="#${ baseToDo }3-heritage/residents/conley-katherine.md" >conley-Katherine</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/conn-susan.md" >conn-susan</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/copeland-harry.md" >copeland-harry</a>&nbsp;
 <a href="#${ baseToDo }3-heritage/residents/cornyn-paula.md" >cornyn-paula</a>&nbsp;
