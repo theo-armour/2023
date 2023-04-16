@@ -1,19 +1,19 @@
 <details class=box open><summary title="2022-10-06" >Theo</summary>
 
-@@ [pages]( https://theo-armour.github.io/pages/ ) [ta]( https://github.com/theo-armour)
-@@ [gRefer]( https://github.com/theo-armour/reference)
-@@ [g23ToDo]( https://github.com/theo-armour/2023-todo)
-@@ [g23qData]( https://github.com/theo-armour/2023-qdata/)
-
-@@ [2023]( https://github.com/theo-armour/2023/)
-[bizcard]( https://theo-armour.github.io/2023/about/business-card.html )
+[g]( https://github.com/theo-armour/pages) [pages]( https://theo-armour.github.io/pages/ )
+[g]( https://github.com/theo-armour/2023-todo) [23todo]( https://theo-armour.github.io/2023-todo/ )
+[g]( https://github.com/theo-armour/reference) [refer]( https://theo-armour.github.io/reference/ )
+[g]( https://github.com/theo-armour/2023-qdata/) [qData]( https://theo-armour.github.io/2023-qdata/ )
+[g]( https://github.com/theo-armour/2023/) [ta23]( https://theo-armour.github.io/2023 )
+&dot;
+[g]( https://github.com/theo-armour/2023/tree/master/apps/newww-tab ) [newTab]( https://theo-armour.github.io/2023/apps/newww-tab/ )
+[g]( https://github.com/theo-armour/2023/tree/master/apps/trayo ) [trayo](https://theo-armour.github.io/2023/apps/trayo/)
+[g]( https://github.com/theo-armour/2023/tree/master/apps/notesy ) [notesy](https://theo-armour.github.io/2023/apps/notesy)
 [ifrStuff](https://theo-armour.github.io/2023/apps/iframe-stuff)
+[bizcard]( https://theo-armour.github.io/2023/about/business-card.html )
 [teodori](https://theo-armour.github.io/qdata/apps/teodori)
-[newTab]( https://theo-armour.github.io/2023/apps/newww-tab/ ) [gh]( https://github.com/theo-armour/2023/tree/master/apps/newww-tab ) [e]( https://github.com/theo-armour/2023/edit/main/apps/newww-tab/2023-01-08/new-tab-content.md )
-[trayo](https://theo-armour.github.io/2023/apps/trayo/)
-[notesy](https://theo-armour.github.io/2023/apps/notesy)
-
-
+&dot;
+[g]( https://github.com/theo-armour) [ta]( https://theo-armour.github.io/ )
 @@ [theoA]( https://theo-armour.github.io/ ) [gh]( https://github.com/theo-armour/theo-armour.github.io )
 [demo]( https://theo-armour.github.io/2021/demo-reel/v-2021-08-31/iframe-carousel-r1.html )
 [mouth]( https://theo-armour.github.io/mouth-stl-2022/simple-stl )
@@ -93,7 +93,7 @@
 
 
 
-<details class=box open><summary>mr softie</summary>
+<details class=box open><summary>mr softi</summary>
 
 <h1 style="margin:0;">❦ ❧ &mdash; &ndash; </h1>
 [ms365]( https://office.com )
@@ -104,15 +104,13 @@
 [bard]( https://bard.google.com/ )
 <br>
 [dall-e]( https://labs.openai.com/ )
-[midjourney]( https://www.midjourney.com/app/ )
+[midjourny]( https://www.midjourney.com/app/ )
 [> dd]( https://discord.com/channels/662267976984297473/@home )
 
  </details>
 
-</details>
 
-
-<details class=box open><summary>google</summary>
+<details open><summary>google</summary>
 
 [g maps]( https://google.com/maps/ )
 [g calender]( https://calendar.google.com/ )
@@ -122,7 +120,9 @@
 [g photos]( https://photos.google.com/ )
 [youtube]( https://youtube.com/ )
 
-<details open><summary>more goog</summary>
+</details>
+
+<details ><summary>more goog</summary>
 
 [google]( https://google.com/ )
 [g design]( https://design.google/ )
@@ -169,15 +169,15 @@ hh
 <details class=box open><summary>apps</summary>
 
 [raindrop]( https://app.raindrop.io/my/-1)
-<br>
+.
 [instagram]( https://instagram.com/ )
 [facebook]( https://facebook.com/ )
 [nextdoor]( https://nextdoor.com/ )
 [tumblr]( https://tumblr.com/ )
-<br>
+.
 [dropbox]( https://dropbox.com/home )
 [evernote]( https://evernote.com/Home.action )
-<br>
+.
 [otter]( https://otter.ai/ )
 [flickr]( https://flickr.com/ )
 [geni]( https://geni.com/family-tree/index/6000000004118029730 )
@@ -185,9 +185,7 @@ hh
 [wikitree]( https://www.wikitree.com/wiki/Main_Page )
 
 
-</details>
-
-<details class=box open><summary>reference</summary>
+<details open ><summary>reference</summary>
 
 reference
 [threejs]( https://threejs.org )
@@ -205,6 +203,7 @@ services
 
 </details>
 
+</details>
 
 
 <details class=box open><summary>groups</summary>
