@@ -9,10 +9,12 @@
 	<meta name="description"
 		content="File wrangler. Default index.html file. Opens HTML or Markdown files. Passes location.hash.">
 	<meta name="keywords" content="ShowDown,Markdown,AJAX,JavaScript,HTML,CSS,GitHub,FOSS">
-	<meta name="version" content="2023-01-08">
+	<meta name="version" content="2023-04-15">
 
 	<style>
-		/* Copyright 2022 Theo Armour. MIT License */
+		/* Copyright 2022 Theo Armour. MIT License
+https://w3bits.com/css-masonry/
+		*/
 
 		:root {
 			font: 100% monospace;
@@ -24,7 +26,8 @@
 
 		body {
 			margin: 0;
-			/*max-width: 80ch; */
+			/* overflow: auto; */
+			max-width: 99%;
 		}
 
 		a {
@@ -66,24 +69,6 @@
 			padding: 0.5rem;
 		}
 
-		details {
-			border: 5px red solid;
-
-		}
-		summary {
-			cursor: pointer;
-			font-size: 1.5rem;
-			font-weight: bold;
-			margin: 0;
-			outline: none;
-
-		}
-
-		mark {
-		margin: 0;
-		padding: 0;
-
-	}
 
 		::-webkit-scrollbar {
 			background: forestgreen;
@@ -111,20 +96,38 @@
 		}
 
 		.parent {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: left;
+			margin: 0;
+			padding: 0;
+			column-gap: 0rem;
+			/* column-count: auto; */
+			column-width: 12rem;
+			column-fill: balance-all;
+
 		}
 
-		.box {
-			border: 1px solid #ffdddd;
-			flex: 1 1 150px;
-			/*  Stretching: */
+		summary {
+			cursor: pointer;
+			font-size: 1.9rem;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			outline: none;
+		}
 
-			flex: 0 1 150px;  /* No stretching: */
-			margin: 5px;
+		p {
+			margin: 0;
+			padding: 0;
+		}
+
+		.xbox {
+			border: 1px solid #dddddd;
+			display: inline-block;
+			margin: 0px;
 			resize: both;
 			overflow: auto;
+			padding: 0;
+			width: 100%;
+
 		}
 
 		#divClock {
@@ -134,11 +137,10 @@
 
 			margin: 0;
 			padding: 0;
-			position:fixed;
+			position: fixed;
 			right: 1rem;
-			bottom:0rem;
+			bottom: 0rem;
 		}
-
 	</style>
 
 </head>
@@ -165,7 +167,7 @@
 
 		init();
 
-		function init() {
+		function init () {
 
 			showdown.setFlavor( "github" );
 			converter = new showdown.Converter( { "simpleLineBreaks": true } );
@@ -185,7 +187,7 @@
 		}
 
 
-		function onHashChange() {
+		function onHashChange () {
 
 			const url = location.hash.slice( 1 );
 			document.title = url.split( "/" ).pop();
@@ -195,12 +197,12 @@
 			xhr.open( "get", url, true );
 			xhr.onload = () => {
 				let txt = xhr.responseText;
-				txt = txt.replace( /\<!--@@@/, "" ).replace( /\@@@-->/, "" );
+				txt = txt.replace( /\<!--@@@/, "" ).replace( /\@@@-- >/, "" );
 
 				divContent.innerHTML = converter.makeHtml( xhr.responseText );
 				//divContent.innerHTML = new showdown.Converter( options ).makeHtml( txt );
 				window.scrollTo( 0, 0 );
-			}
+			};
 			xhr.send( null );
 
 		}
