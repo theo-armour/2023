@@ -191,7 +191,7 @@ reference
 [threejs]( https://threejs.org )
 [mdn]( https://developer.mozilla.org/en-US/ )
 [stackoflow]( https://stackoverflow.com/ )
-
+[regex]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet) )
 [wiki]( https://en.wikipedia.org )
 [> wContent]( https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories )
 
