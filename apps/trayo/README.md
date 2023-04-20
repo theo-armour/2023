@@ -26,6 +26,18 @@ Other thoughts
 * Add dialogs; cheat sheets inside dialogs
 * Iframe inside details and dialogs??
 
+
+### Trayo
+
+* Latest ckeditor
+* Support for HTM only??
+* Radio buttons to select iframe to update
+* Hover menus for all relevant folders & files
+* Does it work on Galaxy Fold or a tablet?
+* Easy access to editor
+* Autosave ~ settable
+* Add details button
+
 ## Issues
 
 
