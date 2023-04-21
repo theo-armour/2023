@@ -16,6 +16,8 @@ _"stuff" in a resizable window._
 ## To Do / Wish List
 
 * Update web cam links
+* Add hover menus
+* How to make more useful
 
 ## Issues
 

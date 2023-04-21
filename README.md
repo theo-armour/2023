@@ -29,6 +29,7 @@ _"2023 Read Me" in a resizable window_
 
 ## To Do / Wish List
 
+* move 2023/apps to gData
 
 ## Issues
 

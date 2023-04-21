@@ -1,4 +1,4 @@
-# [![](https://pushme-pullyou.github.io/assets/svg/mark-github.svg )](https://github.com/theo-armour/2023/ "Source code on GitHub" ) [TT 2023]( https://theo-armour.github.io/2023/ "Home page" ) / [Trayo Read Me]( https://github.com/theo-armour/2023/tree/master/apps/trayo )
+# [![](https://pushme-pullyou.github.io/assets/svg/mark-github.svg )]( https://github.com/theo-armour/2023/tree/master/apps/trayo "Source code on GitHub" ) [TT 2023]( https://theo-armour.github.io/2023/ "Home page" ) / [Trayo Read Me]( https://github.com/theo-armour/2023/apps/trayo/readme.html )
 
 
 <!--@@@
@@ -11,7 +11,7 @@ _"Trayo" in a resizable window. One finger to rotate. Two to zoom._
 
 ## Concept
 
-* A dashboard of editable files
+* A dashboard of editable files maintained via GitHub
 
 ## To Do / Wish List
 
@@ -25,18 +25,11 @@ Other thoughts
 * Add details button
 * Add dialogs; cheat sheets inside dialogs
 * Iframe inside details and dialogs??
-
-
-### Trayo
-
-* Latest ckeditor
-* Support for HTM only??
+  * Menu > titles same as folders
 * Radio buttons to select iframe to update
-* Hover menus for all relevant folders & files
-* Does it work on Galaxy Fold or a tablet?
-* Easy access to editor
-* Autosave ~ settable
-* Add details button
+* Add details buttons
+* Does it work on Galaxy or a tablet?
+
 
 ## Issues
 
@@ -45,6 +38,23 @@ Other thoughts
 
 
 ## Change Log
+
+### 2023-04-21
+
+Deprecated
+* Latest ckeditor
+* Support for HTM only??
+* Hover menus for all relevant folders & files
+* Easy access to editor
+* Autosave ~ settable
+
+
+### 2023-03-15
+
+* Get calendar working
+* Want Details & Summary!
+* Try ShowDown two-way? > turndown
+* Menu item with color names
 
 ### 2023-02-19
 
