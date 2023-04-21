@@ -19,6 +19,8 @@ _"Notesy" in a resizable window_
 
 ## To Do / Wish List
 
+* TooToo with Notesy support
+
 
 ## Issues
 

@@ -15,6 +15,7 @@ _"Trayo" in a resizable window. One finger to rotate. Two to zoom._
 
 ## To Do / Wish List
 
+* Call one notesy file in an iframe from another notesy file in its iframe
 * clickable links in files
 * think about residents menu
 
