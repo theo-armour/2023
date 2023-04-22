@@ -1,4 +1,4 @@
-# [![](https://pushme-pullyou.github.io/2023/svg/octicon.svg )](https://github.com/pushme-pullyou/2023/ "Source code on GitHub" ) [PushMe PullYou Assets]( https://pushme-pullyou.github.io/2023/ "Home page" ) / [Templates Read Me]( https://github.com/pushme-pullyou/2023/tree/main/templates/ "2023-01-22" )
+# [![](https://pushme-pullyou.github.io/assets/svg/octicon.svg )](https://github.com/theo-armour/2023/ "Source code on GitHub" ) [Theo Armour 2023]( https://theo-armour.github.io/2023/ "Home page" ) / [2023 qData Read Me]( https://theo-armour.github.io/2023-qdata/ "2023-04-22" )
 
 <!--@@@
 <div class=iframe-resize ><iframe src=https:/theo-armour.github.io/2023/ height=100% width=100% ></iframe></div>
@@ -27,7 +27,7 @@ _"2023 Read Me" in a resizable window_
 
 ## To Do / Wish List
 
-* move 2023/apps to gData
+
 
 ## Issues
 
@@ -36,6 +36,11 @@ _"2023 Read Me" in a resizable window_
 
 
 ## Change Log
+
+## 2023-04-22
+
+* Fix readme
+* move 2023/apps to gData
 
 
 ### 2023-02-17
