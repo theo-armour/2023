@@ -8,10 +8,10 @@
 &dot;
 [g]( https://github.com/theo-armour/2023/tree/master/apps/newww-tab ) [newTab]( https://theo-armour.github.io/2023/apps/newww-tab/ )
 [g]( https://github.com/theo-armour/2023-qdata/tree/master/apps/trayo ) [trayo](https://theo-armour.github.io/2023-qdata/apps/trayo/)
-[g]( https://github.com/theo-armour/2023/tree/master/apps/notesy ) [notesy](https://theo-armour.github.io/2023/apps/notesy)
+[g]( https://github.com/theo-armour/2023-qdata/tree/master/apps/notesy ) [notesy](https://theo-armour.github.io/2023-qdata/apps/notesy)
+[g]( https://github.com/theo-armour/2023-qdata/tree/master/apps/teodori ) [teodori](https://theo-armour.github.io/2023-qdata/apps/teodori)
 [ifrStuff](https://theo-armour.github.io/2023/apps/iframe-stuff)
 [bizcard]( https://theo-armour.github.io/2023/about/business-card.html )
-[teodori](https://theo-armour.github.io/qdata/apps/teodori)
 &dot;
 [g]( https://github.com/theo-armour) [ta]( https://theo-armour.github.io/ )
 @@ [theoA]( https://theo-armour.github.io/ ) [gh]( https://github.com/theo-armour/theo-armour.github.io )
