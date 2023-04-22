@@ -1,13 +1,13 @@
 <details class=box open><summary title="2022-10-06" >Theo</summary>
 
 [g]( https://github.com/theo-armour/pages) [pages]( https://theo-armour.github.io/pages/ )
-[g]( https://github.com/theo-armour/2023-todo) [23todo]( https://theo-armour.github.io/2023-todo/ )
+[g]( https://github.com/theo-armour/2023-agenda) [23todo]( https://theo-armour.github.io/2023-agenda/ )
 [g]( https://github.com/theo-armour/reference) [refer]( https://theo-armour.github.io/reference/ )
 [g]( https://github.com/theo-armour/2023-qdata/) [qData]( https://theo-armour.github.io/2023-qdata/ )
 [g]( https://github.com/theo-armour/2023/) [ta23]( https://theo-armour.github.io/2023 )
 &dot;
 [g]( https://github.com/theo-armour/2023/tree/master/apps/newww-tab ) [newTab]( https://theo-armour.github.io/2023/apps/newww-tab/ )
-[g]( https://github.com/theo-armour/2023/tree/master/apps/trayo ) [trayo](https://theo-armour.github.io/2023/apps/trayo/)
+[g]( https://github.com/theo-armour/2023-qdata/tree/master/apps/trayo ) [trayo](https://theo-armour.github.io/2023-qdata/apps/trayo/)
 [g]( https://github.com/theo-armour/2023/tree/master/apps/notesy ) [notesy](https://theo-armour.github.io/2023/apps/notesy)
 [ifrStuff](https://theo-armour.github.io/2023/apps/iframe-stuff)
 [bizcard]( https://theo-armour.github.io/2023/about/business-card.html )
