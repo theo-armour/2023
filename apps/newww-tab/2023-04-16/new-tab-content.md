@@ -1,7 +1,7 @@
 <details class=box open><summary title="2022-10-06" >Theo</summary>
 
 [g]( https://github.com/theo-armour/pages) [pages]( https://theo-armour.github.io/pages/ )
-[g]( https://github.com/theo-armour/2023-agenda) [23todo]( https://theo-armour.github.io/2023-agenda/ )
+[g]( https://github.com/theo-armour/2023-agenda) [23agenda]( https://theo-armour.github.io/2023-agenda/ )
 [g]( https://github.com/theo-armour/reference) [refer]( https://theo-armour.github.io/reference/ )
 [g]( https://github.com/theo-armour/2023-qdata/) [qData]( https://theo-armour.github.io/2023-qdata/ )
 [g]( https://github.com/theo-armour/2023/) [ta23]( https://theo-armour.github.io/2023 )
