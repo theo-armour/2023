@@ -11,8 +11,8 @@
 
 ## 1linelayouts
 
-* [https://1linelayouts.glitch.me/](https://1linelayouts.glitch.me/)
-* [https://web.dev/one-line-layouts/](https://web.dev/one-line-layouts/)
+* [1linelayouts.glitch.me](https://1linelayouts.glitch.me/)
+* [one-line-layouts](https://web.dev/one-line-layouts/)
 
 ## 30secondsofcode
 
