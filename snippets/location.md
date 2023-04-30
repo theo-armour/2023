@@ -2,7 +2,7 @@
 
 See pages/03-geography-places/california/marina
 
-## Alegrias ~ [alegriassf](https://www.alegriassf.com/)
+## Alegrias ~ [alegrias](https://www.alegriassf.com/)
 
 * meaning: happiness, gaiety
 * Owners: Arman & Angelynne
@@ -10,7 +10,7 @@ See pages/03-geography-places/california/marina
 * Try croquettes
 * Chef Jose Ortiz
 
-## Atelier Crenn ~ [https://www.ateliercrenn.com/](https://www.ateliercrenn.com/)
+## Atelier Crenn ~ [https://www.ateliercrenn](https://www.ateliercrenn.com/)
 
 * [https://www.barcrenn.com/](https://www.barcrenn.com/)
 
