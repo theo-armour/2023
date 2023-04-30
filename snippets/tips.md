@@ -40,10 +40,6 @@ Rule 3: Make Statements. The next rule is MAKE STATEMENTS. …
 
 Rule 4: There Are No Mistakes. THERE ARE NO MISTAKES, only opportunities.
 
-  
-
-* Free Dictionary: 158,390 words with 5 letters.
-
 ## More
 
 ccapture in sandbox/libraries
