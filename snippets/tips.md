@@ -6,13 +6,13 @@
 
 ## colors
 
-* [https://www.w3schools.com/colors/colors\_names.asp](https://www.w3schools.com/colors/colors_names.asp)
-* [https://www.w3schools.com/colors/colors\_groups.asp](https://www.w3schools.com/colors/colors_groups.asp)
+* https://www.w3schools.com/colors/colors_names.asp
+* https://www.w3schools.com/colors/colors_groups.asp
 
 ## 1linelayouts
 
-* [https://1linelayouts.glitch.me/](https://1linelayouts.glitch.me/)
-* [https://web.dev/one-line-layouts/](https://web.dev/one-line-layouts/)
+* https://1linelayouts.glitch.me/
+* https://web.dev/one-line-layouts/
 
 ## 30secondsofcode
 
