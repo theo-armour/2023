@@ -33,7 +33,10 @@ Open a new window in Incognito mode: Ctrl + Shift + n
 * clipboard history: search + v
 * emoji: search shift space
 * help: ctrl-alt-/
-* accessibility features - dictation vs code
+* accessibility features - dictation
+
+## vs code
+
 * [keyboard shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf): Ctrl + K Ctrl + R
 * Curser add select next: Ctrl + D
 * Cursor add below: alt-ctrl-down arrow
@@ -49,6 +52,8 @@ Open a new window in Incognito mode: Ctrl + Shift + n
 Custom
 * Title Case: ctrl + i
 * home||end: alt + lArr||rArr
-* [emmet cheat-sheet](https://docs.emmet.io/cheat-sheet/)
+
+## [emmet cheat-sheet](https://docs.emmet.io/cheat-sheet/)
 * html:5
 * lorem100
+

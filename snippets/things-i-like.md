@@ -1,6 +1,9 @@
-# Things I like Around my desk
+* Things I like
 
-## Giotto Rocket Air Blaster
+
+## Around my desk
+
+### Giotto Rocket Air Blaster
 
 Gets junk out of my keyboards, looks nice on my desk and feels nice to use
 

@@ -54,7 +54,6 @@ It's always possible to point out flaws. But do you have an alternative that is 
 
 ## 2022-03-16
 
-Wednesday
 
 [https://www.nytimes.com/2022/03/15/world/europe/ukraine-mykolaiv-russia-war.html](https://www.nytimes.com/2022/03/15/world/europe/ukraine-mykolaiv-russia-war.html)
 

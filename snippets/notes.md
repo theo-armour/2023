@@ -1,32 +1,21 @@
-# Notes
+## Notes
 
-https://git.io/JEyZa ~ Ball & Chain
+Constitution
 
-https://www.instagram.com/p/CRmniHLHelH/ ~ frauenfelder's monsters
+Mission
 
+Meetings
 
-## 2021-08-28 Kathy
+Fun?
 
-## House
+What are we trying to do?
 
-* Can we start emailing? subgroup?
-* Groups.io? Separate group HotM?
-* Where to keep records?
-* System of tagging
+So far we are merely going through the motions
 
-## Communications
-
-* Please comment
-* OK to add your name?
-* Will phone or contact every one
-
-
-Things
 
 * https://digitalmaine.com/arc_200_exhibit_first_leaders/1/ ~ Erastus Foote
 * https://en.m.wikipedia.org/wiki/Amsterdam_School
 * https://www.psychologytoday.com/us/blog/evil-deeds/201311/the-psychology-neurotic-romantic-attraction
-
 
 
 >> Irish Coffee was created in the winter of 1943 by Joe Sheridan, chef at Foynes Port near Limerick, Ireland
@@ -58,4 +47,28 @@ https://www.stardock.com/
 
 toxnot
 
+Avoiding Stupidity is Easier than Seeking Brilliance
 
+[vaccine](https://myvaccinerecord.cdph.ca.gov/qr/en/Gu_y_tIG8nY5b2b0RAzg7bRZKPf-P4dLFcMODjpXdvCf4UTbvlViox3mhT6MXSAflEIA4rVvF4BjymQ)
+ 
+
+nominations
+
+article
+
+emergency management
+
+cameras
+
+food?
+
+SJB trip
+
+https://www.psychologytoday.com/us/blog/evil-deeds/201311/the-psychology-neurotic-romantic-attraction
+
+[https://git.io/JEyZa](https://git.io/JEyZa)
+
+Monsters [https://www.instagram.com/p/CRmniHLHelH/](https://www.instagram.com/p/CRmniHLHelH/)
+
+- [https://digitalmaine.com/arc_200_exhibit_first_leaders/1/](https://digitalmaine.com/arc_200_exhibit_first_leaders/1/)
+- [https://en.m.wikipedia.org/wiki/Amsterdam_School](https://en.m.wikipedia.org/wiki/Amsterdam_School)
