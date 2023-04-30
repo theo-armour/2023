@@ -6,13 +6,13 @@
 
 ## colors
 
-* https://www.w3schools.com/colors/colors_names.asp
-* https://www.w3schools.com/colors/colors_groups.asp
+* [https://www.w3schools.com/colors/colors\_names.asp](https://www.w3schools.com/colors/colors_names.asp)
+* [https://www.w3schools.com/colors/colors\_groups.asp](https://www.w3schools.com/colors/colors_groups.asp)
 
 ## 1linelayouts
 
-* https://1linelayouts.glitch.me/
-* https://web.dev/one-line-layouts/
+* [https://1linelayouts.glitch.me/](https://1linelayouts.glitch.me/)
+* [https://web.dev/one-line-layouts/](https://web.dev/one-line-layouts/)
 
 ## 30secondsofcode
 
@@ -32,8 +32,6 @@
 
 ## [4 rules of improv](https://zapier.com/learn/customer-support/improv-customer-support/)
 
-  
-
 Rule 1: Say Yes. The first rule of improvisation is AGREE. Always agree and SAY YES. …
 
 Rule 2: Say Yes AND. The second rule of improvisation is not only to say yes, but YES, AND. …
@@ -42,19 +40,8 @@ Rule 3: Make Statements. The next rule is MAKE STATEMENTS. …
 
 Rule 4: There Are No Mistakes. THERE ARE NO MISTAKES, only opportunities.
 
-## Wordly
+  
 
-* Played wordly - won first time 6, 2nd 5
-* etaionshrdlucmfwygp
-* stare ~ hound ~ filmy
-* stare ~ unlid
-* etaionshrdlumy
-* tears 
-* stone ~ hairy ~ udlce fluid
-* stain ~ rider ~ lumpy
-* tones ~ aio rhino
-* [https://slate.com/technology/2022/01/wordle-how-to-win-strategy-crossword-experts.html](https://slate.com/technology/2022/01/wordle-how-to-win-strategy-crossword-experts.html)
-* [https://word.tips/unscramble/\_](https://word.tips/unscramble/_)
 * Free Dictionary: 158,390 words with 5 letters.
 
 ## More
