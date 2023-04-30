@@ -2,11 +2,11 @@
 
 See pages/03-geography-places/california/marina
 
-## Alegrias ~ [https://www.alegriassf.com/](https://www.alegriassf.com/)
+## Alegrias ~ [https:alegriassf](https://www.alegriassf.com/)
 
 * meaning: happiness, gaiety
 * Owners: Arman & Angelynne
-* Rabbit: good
+* Rabbit: Good
 * Try croquettes
 * Chef Jose Ortiz
 
