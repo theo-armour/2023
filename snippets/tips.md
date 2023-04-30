@@ -6,7 +6,7 @@
 
 ## colors
 
-* [https://www.w3schools.com/colors/colors\_names.asp](https://www.w3schools.com/colors/colors_names.asp)
+* https://www.w3schools.com/colors/colors_names.asp
 * [https://www.w3schools.com/colors/colors\_groups.asp](https://www.w3schools.com/colors/colors_groups.asp)
 
 ## 1linelayouts
