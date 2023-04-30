@@ -10,7 +10,7 @@ See pages/03-geography-places/california/marina
 * Try croquettes
 * Chef Jose Ortiz
 
-## Atelier Crenn ~ [https://www.ateliercrenn](https://www.ateliercrenn.com/)
+## Atelier Crenn ~ [atelier crenn](https://www.ateliercrenn.com/)
 
 * [https://www.barcrenn.com/](https://www.barcrenn.com/)
 
