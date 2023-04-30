@@ -2,23 +2,21 @@
 
 [covid vaccine](https://myvaccinerecord.cdph.ca.gov/qr/en/Gu_y_tIG8nY5b2b0RAzg7bRZKPf-P4dLFcMODjpXdvCf4UTbvlViox3mhT6MXSAflEIA4rVvF4BjymQ)
 
-
 [google favorites](https://www.google.com/collections/s/list/aC4sz9C4MSG7ImIoVgGN1w/pJGl3_zBt7I)
 
-## colords
+## colors
 
-* https://www.w3schools.com/colors/colors_names.asp
-* https://www.w3schools.com/colors/colors_groups.asp
+* [https://www.w3schools.com/colors/colors\_names.asp](https://www.w3schools.com/colors/colors_names.asp)
+* [https://www.w3schools.com/colors/colors\_groups.asp](https://www.w3schools.com/colors/colors_groups.asp)
 
 ## 1linelayouts
 
-* https://1linelayouts.glitch.me/
-* https://web.dev/one-line-layouts/
-
+* [1linelayouts.glitch.me](https://1linelayouts.glitch.me/)
+* [one-line-layouts](https://web.dev/one-line-layouts/)
 
 ## 30secondsofcode
 
-https://www.30secondsofcode.org/js/p/1/
+[https://www.30secondsofcode.org/js/p/1/](https://www.30secondsofcode.org/js/p/1/)
 
 [css.30secondsofcode](https://www.30secondsofcode.org/css/p/1/)
 
@@ -33,39 +31,28 @@ https://www.30secondsofcode.org/js/p/1/
 [simple.info](https://simpl.info/) try their CORS
 
 ## [4 rules of improv](https://zapier.com/learn/customer-support/improv-customer-support/)
-4 Rules of Improv
 
-Rule 1: Say Yes. The first rule of improvisation is AGREE. Always agree and SAY YES. ...
+Rule 1: Say Yes. The first rule of improvisation is AGREE. Always agree and SAY YES. …
 
-Rule 2: Say Yes AND. The second rule of improvisation is not only to say yes, but YES, AND. ...
+Rule 2: Say Yes AND. The second rule of improvisation is not only to say yes, but YES, AND. …
 
-Rule 3: Make Statements. The next rule is MAKE STATEMENTS. ...
+Rule 3: Make Statements. The next rule is MAKE STATEMENTS. …
 
 Rule 4: There Are No Mistakes. THERE ARE NO MISTAKES, only opportunities.
 
-## Wordly
-
-* Played wordly - won first time 6, 2nd 5
-* etaionshrdlucmfwygp
-* stare ~ hound ~ filmy
-* stare ~ unlid
-* etaionshrdlumy
-* tears 
-* stone ~ hairy ~ udlce fluid
-* stain ~ rider ~ lumpy
-* tones ~ aio rhino
-* [https://slate.com/technology/2022/01/wordle-how-to-win-strategy-crossword-experts.html](https://slate.com/technology/2022/01/wordle-how-to-win-strategy-crossword-experts.html)
-* [https://word.tips/unscramble/\_](https://word.tips/unscramble/_)
-* Free Dictionary: 158,390 words with 5 letters.
-
 ## More
+
+**https://google.com**
+
+[https://example.com](https://example.com)
+
 ccapture in sandbox/libraries
 
 ya reggelt kavanok = good morning
 
 see you ~ goodbye
 
-https://www.youtube.com/watch?v=KnpY46lOTX4
+[https://www.youtube.com/watch?v=KnpY46lOTX4](https://www.youtube.com/watch?v=KnpY46lOTX4)
 
 nightly to do
 
