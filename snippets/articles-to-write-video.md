@@ -21,7 +21,7 @@ newest at top
 * Write a paper on Alix's sustainability app
 > Car use, too, is a key dimension of America’s political divide. Trump support was positively associated with the share of people who drive to work alone.
 > in car by yourself, most fun: listen to AM Radio talk shows
-Toenails
+* Toenails
 * Write about people who take risky thoughts. Part of being curious? Difficult to find others to talk to
 * people will game vaccination in order to get things
 * Mr Clean Magic sponge: good at cleaning coffee stains from glass containers
@@ -46,5 +46,4 @@ Toenails
 * Ray food article
 * hernias
 * What is an academic article? What do I believe?
-
 
