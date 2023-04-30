@@ -28,7 +28,7 @@ Closed Sunday & Monday
 
 ## Bus Stop ~ Union & Laguna
 
-* Owner : Jesse
+* Owner: Jesse
 
 ## California Wine Merchant ~ [https://www.californiawinemerchant.com/](https://www.californiawinemerchant.com/)
 
