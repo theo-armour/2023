@@ -8,6 +8,4 @@ Tips and Shortcuts - dated but mostly updated through Trayo
 
 Move snippets to the the year folder? They are nor mostly about me
 
-
-
-2022-06-04
+## 2022-06-04

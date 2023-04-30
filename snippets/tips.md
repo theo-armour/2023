@@ -33,8 +33,7 @@ https://www.30secondsofcode.org/js/p/1/
 
 [simple.info](https://simpl.info/) try their CORS
 
-[4 rules of improv](https://zapier.com/learn/customer-support/improv-customer-support/)
-
+## [4 rules of improv](https://zapier.com/learn/customer-support/improv-customer-support/)
 4 Rules of Improv
 
 Rule 1: Say Yes. The first rule of improvisation is AGREE. Always agree and SAY YES. ...
@@ -45,7 +44,7 @@ Rule 3: Make Statements. The next rule is MAKE STATEMENTS. ...
 
 Rule 4: There Are No Mistakes. THERE ARE NO MISTAKES, only opportunities.
 
-[https://theo-armour.github.io/qdata/apps/notes#./](https://theo-armour.github.io/qdata/apps/notes#./)
+## Wordly
 
 * Played wordly - won first time 6, 2nd 5
 * etaionshrdlucmfwygp
@@ -60,6 +59,7 @@ Rule 4: There Are No Mistakes. THERE ARE NO MISTAKES, only opportunities.
 * [https://word.tips/unscramble/\_](https://word.tips/unscramble/_)
 * Free Dictionary: 158,390 words with 5 letters.
 
+## More
 ccapture in sandbox/libraries
 
 ya reggelt kavanok = good morning
