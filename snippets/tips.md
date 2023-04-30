@@ -1,8 +1,7 @@
 # Tips
 
 [covid vaccine](https://myvaccinerecord.cdph.ca.gov/qr/en/Gu_y_tIG8nY5b2b0RAzg7bRZKPf-P4dLFcMODjpXdvCf4UTbvlViox3mhT6MXSAflEIA4rVvF4BjymQ)
-ddddd
-\[1linelayouts\](Karina Margaret Libby any book)
+
 
 [google favorites](https://www.google.com/collections/s/list/aC4sz9C4MSG7ImIoVgGN1w/pJGl3_zBt7I)
 
