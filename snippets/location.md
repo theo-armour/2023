@@ -49,7 +49,7 @@ Staff
 * Man of color  
     Tony
 
-Anders Grigel Thomsen ~ 559-476-6759[](http://voice.google.com/calls?a=nc,%2B15594766759 "Call +1 559-476-6759 via Google Voice")
+Anders Grigel Thomsen ~ 559-476-6759[](http://voice.google.com/calls?a=nc,%2B15594766759 "Call +1 559-476-6759 via Google Voice")[](http://voice.google.com/calls?a=nc,%2B15594766759 "Call +1 559-476-6759 via Google Voice")
 
 * Danish ~ hearts Kierkegard
 * Wife pr \_Carnival Row\_
