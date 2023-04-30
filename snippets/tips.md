@@ -42,7 +42,7 @@ Rule 4: There Are No Mistakes. THERE ARE NO MISTAKES, only opportunities.
 
 ## More
 
-[https://google.com](https://google.com)
+<https://google.com>
 
 gggg
 
