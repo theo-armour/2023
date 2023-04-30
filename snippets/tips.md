@@ -4,7 +4,7 @@
 
 [google favorites](https://www.google.com/collections/s/list/aC4sz9C4MSG7ImIoVgGN1w/pJGl3_zBt7I)
 
-## colords
+## colors
 
 * [https://www.w3schools.com/colors/colors\_names.asp](https://www.w3schools.com/colors/colors_names.asp)
 * [https://www.w3schools.com/colors/colors\_groups.asp](https://www.w3schools.com/colors/colors_groups.asp)
