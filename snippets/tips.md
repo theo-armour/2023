@@ -40,11 +40,9 @@ Rule 3: Make Statements. The next rule is MAKE STATEMENTS. …
 
 Rule 4: There Are No Mistakes. THERE ARE NO MISTAKES, only opportunities.
 
-## 
-
-##   
-
 More
+
+  
 
 ccapture in sandbox/libraries
 
