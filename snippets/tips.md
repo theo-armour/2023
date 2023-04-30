@@ -6,7 +6,7 @@
 
 ## colors
 
-* https://www.w3schools.com/colors/colors_names.asp
+* [https://www.w3schools.com/colors/colors\_names.asp](https://www.w3schools.com/colors/colors_names.asp)
 * [https://www.w3schools.com/colors/colors\_groups.asp](https://www.w3schools.com/colors/colors_groups.asp)
 
 ## 1linelayouts
@@ -40,11 +40,13 @@ Rule 3: Make Statements. The next rule is MAKE STATEMENTS. …
 
 Rule 4: There Are No Mistakes. THERE ARE NO MISTAKES, only opportunities.
 
-More
+  
 
-https://example.com
+## More
 
   
+
+[https://example.com](https://example.com)
 
 ccapture in sandbox/libraries
 
