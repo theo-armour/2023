@@ -133,7 +133,7 @@ Regulars
 * [https://www.tacolicious.com/](https://www.tacolicious.com/) ~ 415.649.6077
 * 2250 Chestnut St
 
-## [https://theinterval.org/](https://theinterval.org/) ~ long now
+## [the interval](https://theinterval.org/) ~ long now
 
 * 10a-midnight  
     Saturday & Sunday 3-11p
