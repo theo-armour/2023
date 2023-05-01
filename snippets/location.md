@@ -30,7 +30,7 @@ Closed Sunday & Monday
 
 * Owner: Jesse
 
-## California Wine Merchant ~ [https://www.californiawinemerchant.com/](https://www.californiawinemerchant.com/)
+## California Wine Merchant ~ [calwinemerc](https://www.californiawinemerchant.com/)
 
 Events
 
