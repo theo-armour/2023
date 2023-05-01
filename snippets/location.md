@@ -130,7 +130,7 @@ Regulars
 
 ## Tacolicious
 
-* [https://www.tacolicious.com/](https://www.tacolicious.com/) ~ 415.649.6077
+* [tacolicious](https://www.tacolicious.com/) ~ 415.649.6077
 * 2250 Chestnut St
 
 ## [the interval](https://theinterval.org/) ~ long now
