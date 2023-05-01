@@ -126,7 +126,7 @@ Regulars
 
 ## SweetGreen
 
-* [https:/sweetgreen](https://order.sweetgreen.com/marina/menu?target=5)
+* [sweetgreen](https://order.sweetgreen.com/marina/menu?target=5)
 
 ## Tacolicious
 
