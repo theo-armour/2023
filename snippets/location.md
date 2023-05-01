@@ -105,7 +105,7 @@ Regulars
 
 * Sully ~ knows Hanh and James
 
-## Maybeck's ~ [https://www.maybecks.com/](https://www.maybecks.com/) ~ Closed
+## Maybeck's ~ [https:/maybecks](https://www.maybecks.com/) ~ Closed
 
 * Oysters
 
