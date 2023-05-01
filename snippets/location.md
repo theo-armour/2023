@@ -16,7 +16,7 @@ See pages/03-geography-places/california/marina
 
 Closed Sunday & Monday
 
-## Balboa ~ [https://www.balboacafesf.com/](https://www.balboacafesf.com/)
+## Balboa ~ [balboacafesf](https://www.balboacafesf.com/)
 
 * Mark
 * Matisse ~ LFLP
