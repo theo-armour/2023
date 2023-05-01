@@ -12,7 +12,7 @@ See pages/03-geography-places/california/marina
 
 ## Atelier Crenn ~ [atelier crenn](https://www.ateliercrenn.com/)
 
-* [https://www.barcrenn.com/](https://www.barcrenn.com/)
+* [barcrenn](https://www.barcrenn.com/)
 
 Closed Sunday & Monday
 
@@ -50,6 +50,7 @@ Staff
     Tony
 
 Anders Grigel Thomsen ~ \\559-476-6759 ~ Ahnus
+
 * Danish ~ hearts Kierkegard
 * Wife Sarah producer \_Carnival Row\_
 
