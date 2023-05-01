@@ -93,7 +93,7 @@ Regulars
 
 * Sundy: gets quiet at 6:30
 
-## Mamo ~ [https://mamosf.com](https://mamosf.com)
+## Mamo ~ [mamosf](https://mamosf.com)
 
 * Jorge
 * Kitchen?
