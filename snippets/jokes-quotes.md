@@ -1,6 +1,6 @@
 # Jokes and Quotes
 
-[https://ta.medium.com/a-difficult-decision-and-a-happy-choice-3e82bc2ede5c?source=friends\_link&sk=92a310eab2a80ae306f99a731253a93a](https://ta.medium.com/a-difficult-decision-and-a-happy-choice-3e82bc2ede5c?source=friends_link&sk=92a310eab2a80ae306f99a731253a93a)
+  
 
 ## 
 
