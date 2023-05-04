@@ -6,11 +6,11 @@
 
 2023-05-04
 
+Like punning, programming is a play on words.  
+
 2023-04-06
 
-  
-
-It is contrary to reasoning to say that there is a vacuum or space in which there is absolutely nothing. -- Descartes ~ slashdot
+It is contrary to reasoning to say that there is a vacuum or space in which there is absolutely nothing. -- Descartes ~ slashdot  
 
 ## 2023-02-28
 
