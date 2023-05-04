@@ -2,7 +2,13 @@
 
 [https://ta.medium.com/a-difficult-decision-and-a-happy-choice-3e82bc2ede5c?source=friends\_link&sk=92a310eab2a80ae306f99a731253a93a](https://ta.medium.com/a-difficult-decision-and-a-happy-choice-3e82bc2ede5c?source=friends_link&sk=92a310eab2a80ae306f99a731253a93a)
 
-## 2023-04-06
+## 
+
+2023-05-04
+
+2023-04-06
+
+  
 
 It is contrary to reasoning to say that there is a vacuum or space in which there is absolutely nothing. -- Descartes ~ slashdot
 
@@ -53,7 +59,6 @@ It's always possible to point out flaws. But do you have an alternative that is 
 [https://axisofordinary.substack.com/p/links-for-2022-03-22](https://axisofordinary.substack.com/p/links-for-2022-03-22)
 
 ## 2022-03-16
-
 
 [https://www.nytimes.com/2022/03/15/world/europe/ukraine-mykolaiv-russia-war.html](https://www.nytimes.com/2022/03/15/world/europe/ukraine-mykolaiv-russia-war.html)
 
