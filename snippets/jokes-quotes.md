@@ -2,6 +2,8 @@
 
 2023-05-08
 
+Poe’s chief complaint about Boston writers was that they were didactic. They used their poetry and fiction to argue their causes — abolition, women’s rights, social reform. To Poe, such writing should entertain and move. He believed in art for art’s sake.  
+
 “He who pleases is of more importance to his fellow man than he who instructs,” Poe wrote.  
 
 2023-05-04
