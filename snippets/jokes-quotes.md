@@ -1,16 +1,16 @@
 # Jokes and Quotes
 
-  
+2023-05-08
 
-## 
+“He who pleases is of more importance to his fellow man than he who instructs,” Poe wrote.  
 
 2023-05-04
 
-Like punning, programming is a play on words.  
+Like punning, programming is a play on words.
 
 2023-04-06
 
-It is contrary to reasoning to say that there is a vacuum or space in which there is absolutely nothing. -- Descartes ~ slashdot  
+It is contrary to reasoning to say that there is a vacuum or space in which there is absolutely nothing. -- Descartes ~ slashdot
 
 ## 2023-02-28
 
