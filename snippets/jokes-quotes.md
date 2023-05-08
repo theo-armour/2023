@@ -6,6 +6,8 @@ Poe’s chief complaint about Boston writers was that they were didactic. They u
 
 “He who pleases is of more importance to his fellow man than he who instructs,” Poe wrote.  
 
+https://www.nytimes.com/2014/10/05/us/edgar-allan-poes-feud-with-boston-nevermore.html#:~:text=Poe%20sneered%20at%20the%20city%E2%80%99s%20luminaries.%20Riffing%20off,residents%20here%2  
+
 2023-05-04
 
 Like punning, programming is a play on words.
