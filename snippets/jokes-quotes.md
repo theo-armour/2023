@@ -8,11 +8,13 @@ Poe’s chief complaint about Boston writers was that they were didactic. They u
 
 https://www.nytimes.com/2014/10/05/us/edgar-allan-poes-feud-with-boston-nevermore.html  
 
-2023-05-04
+  
+
+## 2023-05-04
 
 Like punning, programming is a play on words.
 
-2023-04-06
+## 2023-04-06
 
 It is contrary to reasoning to say that there is a vacuum or space in which there is absolutely nothing. -- Descartes ~ slashdot
 
