@@ -2,7 +2,7 @@
 
 Conceptualizing random endpoints in a access mmmmmm
 
-vvvvvv
+Enterprise engenderment accelerates initiative platforms, reducing staffing components, integration of technical accessibility, resulting in bottom line pluralisms, benefit-wise. Incidental re-sizing staff requirements through attrition can be accelerated by paradigm shifts and focusing on core suitability and cross-training.
 
 ## bbb more h2h
 
@@ -16,7 +16,7 @@ abc def ghi
 
 ### h3
 
-Pixel 6m hhhh
+Pixel 6m 567
 
 ### ddd
 
@@ -35,7 +35,7 @@ jjjj
 
 ## h2 again
 
-<details open=""><p></p><p></p><summary>hello</summary>jjj kol bbb nnn<br><p></p><p>hhhabd 123 fff hhh 8888</p><p>kop 123llll</p><p></p></details>
+<details open=""><p></p><p></p><summary>hello</summary>jjj kol bbb nnn<br><p></p><p>hhhabd 123 fff hhh&nbsp;</p><p>kop 123llll</p><p></p></details>
 
 158.6 x 74.8 x 8.9C[notesy.html](file:///C:/Users/tarmo/OneDrive/Documents/GitHub/theo-armour-2023/apps/notesy/2023-04-10/notesy.html)
 
