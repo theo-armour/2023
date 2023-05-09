@@ -12,7 +12,7 @@ See pages/03-geography-places/california/marina
 
 ## Atelier Crenn ~ [atelier crenn](https://www.ateliercrenn.com/)
 
-* [barcrenn](https://www.barcrenn.com/)
+* [bar crenn](https://www.barcrenn.com/)
 
 Closed Sunday & Monday
 
