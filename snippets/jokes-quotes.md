@@ -1,14 +1,20 @@
 # Jokes and Quotes
 
-2023-05-08
+## 2023-05-15
 
-Poe’s chief complaint about Boston writers was that they were didactic. They used their poetry and fiction to argue their causes — abolition, women’s rights, social reform. To Poe, such writing should entertain and move. He believed in art for art’s sake.  
+I am not afraid of robots. I am afraid of people.  
 
-“He who pleases is of more importance to his fellow man than he who instructs,” Poe wrote.  
-
-https://www.nytimes.com/2014/10/05/us/edgar-allan-poes-feud-with-boston-nevermore.html  
+~ https://garymarcus.substack.com/p/i-am-not-afraid-of-robots-i-am-afraid
 
   
+
+## 2023-05-08
+
+Poe’s chief complaint about Boston writers was that they were didactic. They used their poetry and fiction to argue their causes — abolition, women’s rights, social reform. To Poe, such writing should entertain and move. He believed in art for art’s sake.
+
+“He who pleases is of more importance to his fellow man than he who instructs,” Poe wrote.
+
+[https://www.nytimes.com/2014/10/05/us/edgar-allan-poes-feud-with-boston-nevermore.html](https://www.nytimes.com/2014/10/05/us/edgar-allan-poes-feud-with-boston-nevermore.html)
 
 ## 2023-05-04
 
