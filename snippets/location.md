@@ -144,6 +144,10 @@ Regulars
 * 10a-midnight  
     Saturday & Sunday 3-11p
 
+## United Dumplings
+
+\* Steven ~ speaks Mandarin
+
 * * *
 
 ## Cafe Terminus
