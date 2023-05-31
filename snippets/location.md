@@ -102,10 +102,12 @@ Regulars
 ## Mamo ~ [mamosf](https://mamosf.com)
 
 * Jorge
-* Kitchen?
+* Kitchen: 
+* Jonathan
+* Karen
 * Sister: Milena
-* Milena ~ niece
-* Michael ! realtor Brother-in-law?
+* Mila ~ niece
+* Michael ~ realtor ~ Brother-in-law
 
 ## Marina Lounge
 
