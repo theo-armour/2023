@@ -38,7 +38,9 @@ Events
 
 Staff
 
+* Chloe ~ Greg's daughter ~ Mill Valley
 * Greg O'Flynn ~ owner
+* Jake
 * Joe (Original Joe)
 * Also at Plumpjack
 * Delivers wine for Terry
