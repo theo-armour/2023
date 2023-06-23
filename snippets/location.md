@@ -69,6 +69,8 @@ Regulars
 
 Nick knows Clapham
 
+Acelya
+
 Try the Caesar salad
 
 ## Horseshoe
