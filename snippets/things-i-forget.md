@@ -72,5 +72,8 @@ Jean Cocteau 
 Lobbyist 
 Maxfield Parrish 
 Humphrey Bogart and Ingrid Bergman
+Janis Joplin ~ Southern Comfort
+Jimi Hendrix
+
 
 people who, things that
