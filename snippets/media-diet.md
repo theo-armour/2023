@@ -39,6 +39,5 @@ hhh
 
 ## Trust these
 
-
 * https://www.engadget.com/
 * https://gizmodo.com/
