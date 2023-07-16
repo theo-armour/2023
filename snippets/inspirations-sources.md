@@ -256,7 +256,6 @@ Theo: I am an atheist. I strip out all the god stuff here and keep the rest
 * https://en.wikipedia.org/wiki/Separation_of_concerns
 
 
-
 ## Serenity Prayer ~ [https://en.wikipedia.org/wiki/Serenity\_Prayer](https://en.wikipedia.org/wiki/Serenity_Prayer)
 
 > God, grant me the serenity to accept the things I cannot change,
@@ -279,6 +278,10 @@ A rationale for becoming a resident at the HotM is that it may enable a lifestyl
 [https://en.wikipedia.org/wiki/Tiny-house\_movement](https://en.wikipedia.org/wiki/Tiny-house_movement)
 
 If you live in a 15’ x 15’ space, are you part of the “Tiny House” movement??
+
+## Social Capital
+
+* https://en.wikipedia.org/wiki/Social_capital
 
 
 ## “Standing on the shoulders of giants”
@@ -321,7 +324,7 @@ I like exploring product categories. Generally, I buy cheapest minimum viable pr
 
 ## Terrence Deacon ~ Incomplete Nature ~ Mind Body Problem
 
-\* [https://en.wikipedia.org/wiki/Terrence\_Deacon](https://en.wikipedia.org/wiki/Terrence_Deacon)
+* [https://en.wikipedia.org/wiki/Terrence\_Deacon](https://en.wikipedia.org/wiki/Terrence_Deacon)
 
 * [https://en.wikipedia.org/wiki/Incomplete\_Nature](https://en.wikipedia.org/wiki/Incomplete_Nature)
 
@@ -331,6 +334,14 @@ I like exploring product categories. Generally, I buy cheapest minimum viable pr
 Thinking about the process of enlightenment, reminds me of another useful quote.
 
 “He who receives an idea from me, receives instruction himself without lessening mine; as he who lights his taper at mine, receives light without darkening me.” —Thomas Jeferson [https://en.wikiquote.org/wiki/Thomas\_Jefferson](https://en.wikiquote.org/wiki/Thomas_Jefferson)
+
+## Three Laws of Robotics
+
+## Three Rules of Three
+
+* https://www.bookofthrees.com/alan-alda-the-3-rules-of-3/
+* triads
+* Alana Alda
 
 
 ## United Nations Sustainable Development Goals (SDG)
