@@ -102,7 +102,7 @@ Regulars
 
 ## Long Now
 
-* Sundy: gets quiet at 6:30
+* Sunday: gets quiet at 6:30
 * Sophie
 * John
 * Jemalina ~ person of color
