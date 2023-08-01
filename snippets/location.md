@@ -103,6 +103,9 @@ Regulars
 ## Long Now
 
 * Sundy: gets quiet at 6:30
+* Sophie
+* John
+* Jemalina ~ person of color
 
 ## Mamo ~ [mamosf](https://mamosf.com)
 
