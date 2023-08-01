@@ -38,6 +38,7 @@ Events
 
 Staff
 
+* Stephanie
 * Chloe ~ Greg's daughter ~ Mill Valley
 * Greg O'Flynn ~ owner
 * Jake
@@ -47,7 +48,7 @@ Staff
 * Likes Ridgewood wine  
     Joe (Little Joe)
 * Creative things  
-    Kyler
+    Kyler ~ PT wannabe
 * Man of color  
     Tony
 
