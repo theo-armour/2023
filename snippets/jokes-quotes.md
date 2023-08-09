@@ -2,9 +2,13 @@
 
 ## 2023-05-15
 
-I am not afraid of robots. I am afraid of people.  
+I am not afraid of robots. I am afraid of people.
 
-~ https://garymarcus.substack.com/p/i-am-not-afraid-of-robots-i-am-afraid
+~ [https://garymarcus.substack.com/p/i-am-not-afraid-of-robots-i-am-afraid](https://garymarcus.substack.com/p/i-am-not-afraid-of-robots-i-am-afraid)
+
+  
+
+## 2023-08-08
 
   
 
