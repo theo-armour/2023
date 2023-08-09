@@ -10,6 +10,8 @@ I am not afraid of robots. I am afraid of people.
 
 ## 2023-08-08
 
+\* The end of labor is to gain leisure.
+
   
 
 ## 2023-05-08
