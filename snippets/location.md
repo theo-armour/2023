@@ -104,8 +104,10 @@ Regulars
 
 * Sunday: gets quiet at 6:30
 * Sophie
+* Cecelia
 * John
 * Jemalina ~ person of color
+* Steven
 
 ## Mamo ~ [mamosf](https://mamosf.com)
 
