@@ -100,7 +100,7 @@ Regulars
 * 4 locations
 * lafromageriesf.com
 
-## Long Now
+## Long Now / The Interval
 
 * Sunday: gets quiet at 6:30
 * Sophie
@@ -108,6 +108,7 @@ Regulars
 * John
 * Jemalina ~ person of color
 * Steven
+* Eddie ~ Korean
 
 ## Mamo ~ [mamosf](https://mamosf.com)
 
@@ -118,6 +119,7 @@ Regulars
 * Sister: Milena
 * Mila ~ niece
 * Michael ~ realtor ~ Brother-in-law
+* Silvio ~ Jorge's father
 
 ## Marina Lounge
 
