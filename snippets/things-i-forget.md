@@ -35,9 +35,7 @@ Quick Tip: What Are Factory Functions in JavaScript   [https://www.sitepoint.c
 
 Ana, Francisco and Nellie / armed forces network
 
-Lucy? - from mongolia   
-Sain uu hello   
-Bayerlalaa thank you
+Paul Harvey
 
 Minority Report - Tom Cruise writing in 3D
 
@@ -51,9 +49,9 @@ Creaky voice / vocal fry
 
 The cult of things
 
-first p1ast the post advantage
+first past the post advantage
 
-Improv rulesq,
+Improv rules,
 
 Tina Fey
 
