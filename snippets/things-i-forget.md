@@ -1,6 +1,6 @@
 # Things I Forget
 
-Calculus ~ Differential equations  
+Calculus ~ Differential equations
 
 things to Remember
 
@@ -51,9 +51,9 @@ Creaky voice / vocal fry
 
 The cult of things
 
-first past the post advantage
+first p1ast the post advantage
 
-Improv rules
+Improv rulesq,
 
 Tina Fey
 
