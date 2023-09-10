@@ -4,6 +4,7 @@ medium.com ways to split my writing personalities
 
 newest at top
 
+* 2023-09-10 ~ long wait for the weight loss
 * 2023-08-12 ~ Angels & reflexive contrarians ~ reflection on Margaret Jacobs personality
 * 2023-05-09 ~ [https://axisofordinary.substack.com/p/why-human-intelligence-is-just-a](https://axisofordinary.substack.com/p/why-human-intelligence-is-just-a) ~ add more items such as: humans will be helping establish goals ~ testing and debugging may happen ~ suggestions to try things may be offered ~
 * 2023-04-23 ~ Economist/Brooks/Krugman/morning guy: US GDP is the best ~ but is productivity in service industries the same as production, construction an\\d making things?
