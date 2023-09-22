@@ -8,7 +8,7 @@ things to Remember
 
 [https://en.wikipedia.org/wiki/Paul\_Harvey](https://en.wikipedia.org/wiki/Paul_Harvey)
 
-Thoper Walgreens
+Google: EEAT ~ Experience, Expertise, Authoritativeness, and Trustworthiness
 
 Shegetz - non-Jewish boy - equal to shiksa - pejorative App
 
