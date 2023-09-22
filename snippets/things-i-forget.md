@@ -74,4 +74,6 @@ Humphrey Bogart and Ingrid Bergman
 Janis Joplin ~ Southern Comfort  
 Jimi Hendrix
 
+Rick McCallum ~ Pat York & Michael York
+
 people who, things that
