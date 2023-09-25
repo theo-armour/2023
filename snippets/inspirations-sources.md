@@ -2,15 +2,15 @@
 
 ## new
 
+* Don't make me change
+* Don't make me think
+* Fashion in media and technology
+* Knowledge management
+* truth, beauty, goodness
+* triads
 
 
-## Google EEAT
 
-Experience, Expertise, authoritativeness, trustworthiness
-
-## Features & Benefits
-
-good things
 
 ## Concept
 
@@ -70,7 +70,10 @@ Will be adding my favs
 * [https://en.wikipedia.org/wiki/Time\_management#Task\_list\_organization](https://en.wikipedia.org/wiki/Time_management#Task_list_organization)
 * [https://en.wikipedia.org/wiki/Category:Checklists](https://en.wikipedia.org/wiki/Category:Checklists)
 
+
 ## Diet
+
+Heros
 
 * Alice Waters ~ Chez Panisse
 * First restaurant serving organic food
@@ -79,6 +82,14 @@ Will be adding my favs
 * Andrew Weil
 * Michael Pollen
 * Warren Willets
+
+
+## EEAT ~ Experience, Expertise, authoritativeness, trustworthiness
+
+Experience, Expertise, authoritativeness, trustworthiness
+
+Google
+
 
 ## Effective Altruism or Radical Philanthropy
 
@@ -115,6 +126,22 @@ Effective altruism is a philosophy and social movement that advocates using evid
 
 [https://resist.org/radical-philanthropy/](https://resist.org/radical-philanthropy/)
 
+## Features & Benefits
+
+good things
+
+## GTD ~ Getting Things Done
+
+hero
+
+* Next direct action
+* Get it out of your brain
+* View from 10,000 feet
+* 2 minute rule
+* Do it, delegate it, defer it, drop it
+* [https://en.wikipedia.org/wiki/Getting\_Things\_Done](https://en.wikipedia.org/wiki/Getting_Things_Done)
+
+
 ## Improv ~ Tina Fey ~ Four Rules of Improv
 
 1. You must agree
@@ -133,6 +160,7 @@ Glossary of Stand Up Comedy Terms
 
 * [https://news.ycombinator.com/item?id=19063053](https://news.ycombinator.com/item?id=19063053)
 
+
 ## Happiness, Hedonism
 
 Much of my behavior is determined by desires to increase pleasure and to decrease pain. I am a regular hedonist.
@@ -146,6 +174,7 @@ How can you be happy when others are unhappy?
 
 * [https://www.reddit.com/r/askphilosophy/comments/dq46g6/how\_to\_be\_happy\_in\_an\_unjust\_world/](https://www.reddit.com/r/askphilosophy/comments/dq46g6/how_to_be_happy_in_an_unjust_world/)
 
+
 ## Meaning of Life
 
 [https://en.wikipedia.org/wiki/Meaning\_of\_life](https://en.wikipedia.org/wiki/Meaning_of_life)
@@ -156,16 +185,19 @@ Finding meaning in life is a very tricky thing indeed, Fortunately and similarly
 
 For me it’s doing nice things - things that are simultaneously nice for me and good for the world.
 
+
 ## Lessons Learned
 
 * [https://en.wikipedia.org/wiki/Lessons\_learned](https://en.wikipedia.org/wiki/Lessons_learned)
 * [https://www.pmi.org/learning/library/lessons-learned-next-level-communicating-7991](https://www.pmi.org/learning/library/lessons-learned-next-level-communicating-7991)
+
 
 ## Media Hype
 
 * If it bleeds it leads
 * The stories of happy people are all the same, the stories of unhappy people are all different
 * [https://en.wikipedia.org/wiki/If\_it\_bleeds,\_it\_leads](https://en.wikipedia.org/wiki/If_it_bleeds,_it_leads)
+
 
 ## Mental Models
 
@@ -180,6 +212,7 @@ Theo
 
 * [https://theo-armour.github.io/2021/theo-2020-12-31.html#pages/needs/2020-08-16-needs-rights-goals.md](https://theo-armour.github.io/2021/theo-2020-12-31.html#pages/needs/2020-08-16-needs-rights-goals.md)
 * [https://theo-armour.github.io/2021/theo-2020-12-31.html#pages/goals/goals.md](https://theo-armour.github.io/2021/theo-2020-12-31.html#pages/goals/goals.md)
+
 
 ## Mission Statements ~ Links of Interest
 
@@ -210,6 +243,7 @@ Theo
 * How do you want to behave?
 * What do you stand for?
 
+
 ## Patterns ~ Problems ~ APL
 
 The general format is an adaptation of the ideas developed in Alexander's _et al_ [A Pattern Language](https://books.google.com/books?id=hwAHmktpk5IC&pg=PR10#v=onepage&q&f=false) - as summarized on page 10.
@@ -218,7 +252,7 @@ Each pattern describes a problem which occurs over and over again in our environ
 
 patterns are descriptions of common problems and proposal for the solutions that can be used repeatedly every time the problem is encountered and producing an different outcome.
 
-## Peter Drucker Quotes
+## Peter Drucker ~ Quotes
 
 [https://en.wikipedia.org/wiki/Peter\_Drucker#Key\_ideas](https://en.wikipedia.org/wiki/Peter_Drucker#Key_ideas)
 
@@ -248,11 +282,13 @@ Theo: I am an atheist. I strip out all the god stuff here and keep the rest
 
 * [https://en.wikipedia.org/wiki/Separation\_of\_concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
 
+
 ## Serenity Prayer ~ [https://en.wikipedia.org/wiki/Serenity\_Prayer](https://en.wikipedia.org/wiki/Serenity_Prayer)
 
 > God, grant me the serenity to accept the things I cannot change,
 > courage to change the things I can,
 > and wisdom to know the difference.
+
 
 ## Simple Living ~ Simplicity
 
@@ -273,6 +309,7 @@ If you live in a 15’ x 15’ space, are you part of the “Tiny House” movem
 ## Social Capital
 
 * [https://en.wikipedia.org/wiki/Social\_capital](https://en.wikipedia.org/wiki/Social_capital)
+
 
 ## “Standing on the shoulders of giants”
 
@@ -299,9 +336,11 @@ More thoughts around this
 * Be respectful
 * Be experimental
 
+
 ## Start Cheap ~ Trade up
 
 I like exploring product categories. Generally, I buy cheapest minimum viable product. If I like and use the category, the I buy the more expensive version,
+
 
 ## Teddy Roosevelt
 
@@ -309,11 +348,13 @@ I like exploring product categories. Generally, I buy cheapest minimum viable pr
 
 * [https://en.wiktionary.org/wiki/buy\_cheap,\_buy\_twice#English](https://en.wiktionary.org/wiki/buy_cheap,_buy_twice#English)
 
+
 ## Terrence Deacon ~ Incomplete Nature ~ Mind Body Problem
 
-\* [https://en.wikipedia.org/wiki/Terrence\_Deacon](https://en.wikipedia.org/wiki/Terrence_Deacon)
+* [https://en.wikipedia.org/wiki/Terrence\_Deacon](https://en.wikipedia.org/wiki/Terrence_Deacon)
 
 * [https://en.wikipedia.org/wiki/Incomplete\_Nature](https://en.wikipedia.org/wiki/Incomplete_Nature)
+
 
 ## Thomas Jefferson: ~ "Your candles shine as bright as my candle"
 
@@ -329,12 +370,14 @@ Thinking about the process of enlightenment, reminds me of another useful quote.
 * triads
 * Alana Alda
 
+
 ## United Nations Sustainable Development Goals (SDG)
 
 * [https://sdgs.un.org/](https://sdgs.un.org/)
 * [https://en.wikipedia.org/wiki/Sustainable\_Development\_Goals](https://en.wikipedia.org/wiki/Sustainable_Development_Goals)
 
 > The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future. At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries - developed and developing - in a global partnership. They recognize that ending poverty and other deprivations must go hand-in-hand with strategies that improve health and education, reduce inequality, and spur economic growth – all while tackling climate change and working to preserve our oceans and forests.
+
 
 ## Wikipedia Policies
 
@@ -350,6 +393,7 @@ A fundamental aspect of this project is to follow the Wikipedia Core Content Pol
 * No original research – Wikipedia does not publish original thought: all material in Wikipedia must be attributable to a reliable, published source. Articles may not contain any new analysis or synthesis of published material that serves to advance a position not clearly advanced by the sources.
 
 Wherever possible, the goals will link to reports, studies, laws, codes or whatever that support the premise at hand. It is intended that the work be evidence-based rather than thoughts off the top of people’s head.
+
 
 ## Fixing it may break it
 
