@@ -8,6 +8,7 @@
 * Knowledge management
 * truth, beauty, goodness
 * triads
+* RLS: 12 Rules for Life
 
 
 
@@ -269,6 +270,7 @@ patterns are descriptions of common problems and proposal for the solutions that
 ## Radical Transparency
 
 * [https://en.wikipedia.org/wiki/Radical\_transparency](https://en.wikipedia.org/wiki/Radical_transparency)
+
 
 ## Saint Paul’s School ~ The School Prayer
 
