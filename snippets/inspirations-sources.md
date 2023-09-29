@@ -6,12 +6,11 @@
 * Don't make me think
 * Fashion in media and technology
 * Knowledge management
-* truth, beauty, goodness
-* triads
+* Truth, beauty, goodness
+* Triads
 * RLS: 12 Rules for Life
-
-
-
+* No phones in the dining room
+* Hyperlinks everywhere
 
 ## Concept
 
@@ -71,7 +70,6 @@ Will be adding my favs
 * [https://en.wikipedia.org/wiki/Time\_management#Task\_list\_organization](https://en.wikipedia.org/wiki/Time_management#Task_list_organization)
 * [https://en.wikipedia.org/wiki/Category:Checklists](https://en.wikipedia.org/wiki/Category:Checklists)
 
-
 ## Diet
 
 Heros
@@ -84,13 +82,11 @@ Heros
 * Michael Pollen
 * Warren Willets
 
-
 ## EEAT ~ Experience, Expertise, authoritativeness, trustworthiness
 
 Experience, Expertise, authoritativeness, trustworthiness
 
 Google
-
 
 ## Effective Altruism or Radical Philanthropy
 
@@ -109,19 +105,19 @@ Effective altruism is a philosophy and social movement that advocates using evid
 
 * [https://www.newyorker.com/magazine/2022/08/15/the-reluctant-prophet-of-effective-altruism](https://www.newyorker.com/magazine/2022/08/15/the-reluctant-prophet-of-effective-altruism)
 
-> William MacAskill’s movement set out to help the global poor. Now his followers fret about runaway A.I. Have they seen our threats clearly, or lost their way?
+> William MacAskill’s movement set out to help the global poor. Now his followers fret about runaway A.I. Have they seen our threats clearly, or lost their way?  
 > “The world’s long-run fate depends in part on the choices we make in our lifetimes,” the philosopher William MacAskill writes.
 
 * [https://en.wikipedia.org/wiki/William\_MacAskill](https://en.wikipedia.org/wiki/William_MacAskill)
-
+    
 * [https://www.williammacaskill.com/](https://www.williammacaskill.com/)
-
+    
 * [https://80000hours.org/](https://80000hours.org/)
-
+    
 * [https://www.effectivealtruism.org/people/will-macaskill](https://www.effectivealtruism.org/people/will-macaskill)
-
+    
 * [https://en.wikipedia.org/wiki/Famine,\_Affluence,\_and\_Morality](https://en.wikipedia.org/wiki/Famine,_Affluence,_and_Morality)
-
+    
 
 > "Famine, Affluence, and Morality" is an essay written by Peter Singer in 1971 and published in Philosophy and Public Affairs in 1972. It argues that affluent persons are morally obligated to donate far more resources to humanitarian causes than is considered normal in Western cultures. The essay was inspired by the starvation of Bangladesh Liberation War refugees, and uses their situation as an example, although Singer's argument is general in scope and not limited to the example of Bangladesh. The essay is anthologized widely as an example of Western ethical thinking.
 
@@ -142,7 +138,6 @@ hero
 * Do it, delegate it, defer it, drop it
 * [https://en.wikipedia.org/wiki/Getting\_Things\_Done](https://en.wikipedia.org/wiki/Getting_Things_Done)
 
-
 ## Improv ~ Tina Fey ~ Four Rules of Improv
 
 1. You must agree
@@ -161,20 +156,18 @@ Glossary of Stand Up Comedy Terms
 
 * [https://news.ycombinator.com/item?id=19063053](https://news.ycombinator.com/item?id=19063053)
 
-
 ## Happiness, Hedonism
 
 Much of my behavior is determined by desires to increase pleasure and to decrease pain. I am a regular hedonist.
 
 At the same time, I feel the need for meaning, purpose and being useful.
 
-[https://en.wikipedia.org/wiki/Hedonism](https://en.wikipedia.org/wiki/Hedonism)
+[https://en.wikipedia.org/wiki/Hedonism](https://en.wikipedia.org/wiki/Hedonism)  
 [https://en.wikipedia.org/wiki/Eudaimonia](https://en.wikipedia.org/wiki/Eudaimonia)
 
 How can you be happy when others are unhappy?
 
 * [https://www.reddit.com/r/askphilosophy/comments/dq46g6/how\_to\_be\_happy\_in\_an\_unjust\_world/](https://www.reddit.com/r/askphilosophy/comments/dq46g6/how_to_be_happy_in_an_unjust_world/)
-
 
 ## Meaning of Life
 
@@ -186,12 +179,10 @@ Finding meaning in life is a very tricky thing indeed, Fortunately and similarly
 
 For me it’s doing nice things - things that are simultaneously nice for me and good for the world.
 
-
 ## Lessons Learned
 
 * [https://en.wikipedia.org/wiki/Lessons\_learned](https://en.wikipedia.org/wiki/Lessons_learned)
 * [https://www.pmi.org/learning/library/lessons-learned-next-level-communicating-7991](https://www.pmi.org/learning/library/lessons-learned-next-level-communicating-7991)
-
 
 ## Media Hype
 
@@ -199,21 +190,19 @@ For me it’s doing nice things - things that are simultaneously nice for me and
 * The stories of happy people are all the same, the stories of unhappy people are all different
 * [https://en.wikipedia.org/wiki/If\_it\_bleeds,\_it\_leads](https://en.wikipedia.org/wiki/If_it_bleeds,_it_leads)
 
-
 ## Mental Models
 
 * [https://medium.com/swlh/100-mental-models-to-make-you-a-worldly-wise-person-19b9ca9d034c](https://medium.com/swlh/100-mental-models-to-make-you-a-worldly-wise-person-19b9ca9d034c)
 * [https://www.visualcapitalist.com/12-ways-smarter-mental-models/](https://www.visualcapitalist.com/12-ways-smarter-mental-models/)
 * [https://www.visualcapitalist.com/wp-content/uploads/2018/01/12-ways-smarter.html](https://www.visualcapitalist.com/wp-content/uploads/2018/01/12-ways-smarter.html)
 * [https://medium.com/accelerated-intelligence/this-is-exactly-how-you-should-train-yourself-to-be-smarter-infographic-86d0d42ad41c](https://medium.com/accelerated-intelligence/this-is-exactly-how-you-should-train-yourself-to-be-smarter-infographic-86d0d42ad41c)
-* [https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d#.hx8hrtksh](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d#.hx8hrtksh)
+* [https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d#.hx8hrtksh](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d#.hx8hrtksh)  
     [https://medium.com/accelerated-intelligence/the-1-mental-model-for-writers-who-want-to-write-high-quality-viral-content-43ecf0d4ec05](https://medium.com/accelerated-intelligence/the-1-mental-model-for-writers-who-want-to-write-high-quality-viral-content-43ecf0d4ec05)
 
 Theo
 
 * [https://theo-armour.github.io/2021/theo-2020-12-31.html#pages/needs/2020-08-16-needs-rights-goals.md](https://theo-armour.github.io/2021/theo-2020-12-31.html#pages/needs/2020-08-16-needs-rights-goals.md)
 * [https://theo-armour.github.io/2021/theo-2020-12-31.html#pages/goals/goals.md](https://theo-armour.github.io/2021/theo-2020-12-31.html#pages/goals/goals.md)
-
 
 ## Mission Statements ~ Links of Interest
 
@@ -244,7 +233,6 @@ Theo
 * How do you want to behave?
 * What do you stand for?
 
-
 ## Patterns ~ Problems ~ APL
 
 The general format is an adaptation of the ideas developed in Alexander's _et al_ [A Pattern Language](https://books.google.com/books?id=hwAHmktpk5IC&pg=PR10#v=onepage&q&f=false) - as summarized on page 10.
@@ -259,7 +247,7 @@ patterns are descriptions of common problems and proposal for the solutions that
 
 [https://succeedfeed.com/peter-drucker-quotes/](https://succeedfeed.com/peter-drucker-quotes/)
 
-* That business purpose and business mission are so rarely given adequate thought is
+* That business purpose and business mission are so rarely given adequate thought is  
     perhaps the most important cause of business frustration and failure.
 * What gets measured gets improved
 * You can’t manage what you don’t measure.
@@ -270,7 +258,6 @@ patterns are descriptions of common problems and proposal for the solutions that
 ## Radical Transparency
 
 * [https://en.wikipedia.org/wiki/Radical\_transparency](https://en.wikipedia.org/wiki/Radical_transparency)
-
 
 ## Saint Paul’s School ~ The School Prayer
 
@@ -284,13 +271,11 @@ Theo: I am an atheist. I strip out all the god stuff here and keep the rest
 
 * [https://en.wikipedia.org/wiki/Separation\_of\_concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
 
-
 ## Serenity Prayer ~ [https://en.wikipedia.org/wiki/Serenity\_Prayer](https://en.wikipedia.org/wiki/Serenity_Prayer)
 
-> God, grant me the serenity to accept the things I cannot change,
-> courage to change the things I can,
+> God, grant me the serenity to accept the things I cannot change,  
+> courage to change the things I can,  
 > and wisdom to know the difference.
-
 
 ## Simple Living ~ Simplicity
 
@@ -311,7 +296,6 @@ If you live in a 15’ x 15’ space, are you part of the “Tiny House” movem
 ## Social Capital
 
 * [https://en.wikipedia.org/wiki/Social\_capital](https://en.wikipedia.org/wiki/Social_capital)
-
 
 ## “Standing on the shoulders of giants”
 
@@ -338,11 +322,9 @@ More thoughts around this
 * Be respectful
 * Be experimental
 
-
 ## Start Cheap ~ Trade up
 
 I like exploring product categories. Generally, I buy cheapest minimum viable product. If I like and use the category, the I buy the more expensive version,
-
 
 ## Teddy Roosevelt
 
@@ -350,13 +332,11 @@ I like exploring product categories. Generally, I buy cheapest minimum viable pr
 
 * [https://en.wiktionary.org/wiki/buy\_cheap,\_buy\_twice#English](https://en.wiktionary.org/wiki/buy_cheap,_buy_twice#English)
 
-
 ## Terrence Deacon ~ Incomplete Nature ~ Mind Body Problem
 
-* [https://en.wikipedia.org/wiki/Terrence\_Deacon](https://en.wikipedia.org/wiki/Terrence_Deacon)
+\* [https://en.wikipedia.org/wiki/Terrence\_Deacon](https://en.wikipedia.org/wiki/Terrence_Deacon)
 
 * [https://en.wikipedia.org/wiki/Incomplete\_Nature](https://en.wikipedia.org/wiki/Incomplete_Nature)
-
 
 ## Thomas Jefferson: ~ "Your candles shine as bright as my candle"
 
@@ -372,14 +352,12 @@ Thinking about the process of enlightenment, reminds me of another useful quote.
 * triads
 * Alana Alda
 
-
 ## United Nations Sustainable Development Goals (SDG)
 
 * [https://sdgs.un.org/](https://sdgs.un.org/)
 * [https://en.wikipedia.org/wiki/Sustainable\_Development\_Goals](https://en.wikipedia.org/wiki/Sustainable_Development_Goals)
 
 > The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future. At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries - developed and developing - in a global partnership. They recognize that ending poverty and other deprivations must go hand-in-hand with strategies that improve health and education, reduce inequality, and spur economic growth – all while tackling climate change and working to preserve our oceans and forests.
-
 
 ## Wikipedia Policies
 
@@ -395,7 +373,6 @@ A fundamental aspect of this project is to follow the Wikipedia Core Content Pol
 * No original research – Wikipedia does not publish original thought: all material in Wikipedia must be attributable to a reliable, published source. Articles may not contain any new analysis or synthesis of published material that serves to advance a position not clearly advanced by the sources.
 
 Wherever possible, the goals will link to reports, studies, laws, codes or whatever that support the premise at hand. It is intended that the work be evidence-based rather than thoughts off the top of people’s head.
-
 
 ## Fixing it may break it
 
