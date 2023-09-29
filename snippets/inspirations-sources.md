@@ -11,6 +11,9 @@
 * RLS: 12 Rules for Life
 * No phones in the dining room
 * Hyperlinks everywhere
+* who, what, when, where, & why ~ people, products, markets, strategies & financials
+* Weekly review / written agenda
+* open source ~ set standards
 
 ## Concept
 
