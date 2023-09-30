@@ -13,7 +13,9 @@
 * Hyperlinks everywhere
 * who, what, when, where, & why ~ people, products, markets, strategies & financials
 * Weekly review / written agenda
-* open source ~ set standards
+* Open source ~ set standards
+* Try before you buy
+* Snippets
 
 ## Concept
 
