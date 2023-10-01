@@ -16,6 +16,11 @@
 * Open source ~ set standards
 * Try before you buy
 * Snippets
+* My ship came in on the sunny side of Easy Street
+* Spoonerisms
+* Les Desmoiselles s'avignon
+*   
+    
 
 ## Concept
 
