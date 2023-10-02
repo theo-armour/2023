@@ -25,6 +25,7 @@
 * It is difficult to be famous if you are hidden under a rock
 * "Happy families are all alike; every unhappy family is unhappy in its own way."  
     
+* "If it bleeds it leads"
 
 ## Concept
 
