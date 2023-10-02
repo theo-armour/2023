@@ -26,6 +26,9 @@
 * "Happy families are all alike; every unhappy family is unhappy in its own way."  
     
 * "If it bleeds it leads"
+* Micro-fame
+*   
+    
 
 ## Concept
 
