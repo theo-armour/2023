@@ -27,8 +27,7 @@
     
 * "If it bleeds it leads"
 * Micro-fame
-*   
-    
+* Complex vs Complexity
 
 ## Concept
 
