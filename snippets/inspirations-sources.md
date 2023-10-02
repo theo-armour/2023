@@ -18,8 +18,12 @@
 * Snippets
 * My ship came in on the sunny side of Easy Street
 * Spoonerisms
-* Les Desmoiselles s'avignon
-*   
+* Les Desmoiselles s'avignon ~ cubism ~ lenses
+* past results are not inficative of future performance
+* bookmark and tag everything
+* Join the laughing and singing club
+* It is difficult to be famous if you are hidden under a rock
+* "Happy families are all alike; every unhappy family is unhappy in its own way."  
     
 
 ## Concept
