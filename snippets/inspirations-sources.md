@@ -3,31 +3,63 @@
 ## new
 
 * Don't make me change
-* Don't make me think
-* Fashion in media and technology
-* Knowledge management
-* Truth, beauty, goodness
-* Triads
-* RLS: 12 Rules for Life
-* No phones in the dining room
-* Hyperlinks everywhere
-* who, what, when, where, & why ~ people, products, markets, strategies & financials
-* Weekly review / written agenda
-* Open source ~ set standards
-* Try before you buy
-* Snippets
-* My ship came in on the sunny side of Easy Street
-* Spoonerisms
-* Les Desmoiselles s'avignon ~ cubism ~ lenses
-* past results are not inficative of future performance
-* bookmark and tag everything
-* Join the laughing and singing club
-* It is difficult to be famous if you are hidden under a rock
-* "Happy families are all alike; every unhappy family is unhappy in its own way."  
     
-* "If it bleeds it leads"
+* Don't make me think
+    
+* Fashion in media and technology
+    
+* Knowledge management
+    
+* Truth, beauty, goodness
+    
+* Triads
+    
+* RLS: 12 Rules for Life
+    
+* No phones in the dining room
+    
+* Hyperlinks everywhere
+    
+* who, what, when, where, & why ~ people, products, markets, strategies & financials
+    
+* Weekly review / written agenda
+    
+* Open source ~ set standards
+    
+* Try before you buy
+    
+* Snippets
+    
+* My ship came in on the sunny side of Easy Street
+    
+* Spoonerisms
+    
+* Les Desmoiselles s'avignon ~ cubism ~ lenses
+    
+* past results are not inficative of future performance
+    
+* bookmark and tag everything
+    
+* Join the laughing and singing club
+    
+* It is difficult to be famous if you are hidden under a rock
+    
+* "Happy families are all alike; every unhappy family is unhappy in its own way."
+    
+* "If it bleeds it leads" ~ unintended consequences of greedy media: rampant unhappiness
+    
 * Micro-fame
-* Complex vs Complexity
+    
+* Complex vs Complexity / simple as possible but no simpler / 
+    
+* Using the same tools / helping others because they use the same tools / 
+    
+* Mailing list ~ nenefits of history
+    
+* Every file has a single home ! multiple duplicates still too difficult to manage in this era
+    
+*   
+    
 
 ## Concept
 
