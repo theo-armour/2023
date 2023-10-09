@@ -60,7 +60,7 @@
     
 * Pogo: "We have met the enemy, and he is us"
     
-* "Happiness is a choice, not a condition"
+* "Happiness is a choice, not a condition" ~ many sources
     
 
 ## Concept
