@@ -58,7 +58,7 @@
     
 * Every file has a single home ! multiple duplicates still too difficult to manage in this era
     
-*   
+* Pogo: "We have met the enemy, and he is us"
     
 
 ## Concept
