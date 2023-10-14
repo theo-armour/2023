@@ -3,65 +3,35 @@
 ## new
 
 * Don't make me change
-    
 * Don't make me think
-    
 * Fashion in media and technology
-    
 * Knowledge management
-    
 * Truth, beauty, goodness
-    
 * Triads
-    
 * RLS: 12 Rules for Life
-    
 * No phones in the dining room
-    
 * Hyperlinks everywhere
-    
 * who, what, when, where, & why ~ people, products, markets, strategies & financials
-    
 * Weekly review / written agenda
-    
 * Open source ~ set standards
-    
 * Try before you buy
-    
 * Snippets
-    
 * My ship came in on the sunny side of Easy Street
-    
 * Spoonerisms
-    
 * Les Desmoiselles s'avignon ~ cubism ~ lenses
-    
 * past results are not inficative of future performance
-    
 * bookmark and tag everything
-    
 * Join the laughing and singing club
-    
 * It is difficult to be famous if you are hidden under a rock
-    
 * "Happy families are all alike; every unhappy family is unhappy in its own way."
-    
-* "If it bleeds it leads" ~ unintended consequences of greedy media: rampant unhappiness
-    
-* Micro-fame
-    
+* "If it bleeds it leads" ~ unintended consequences of greedy media: rampant unhappiness* Micro-fame
 * Complex vs Complexity / simple as possible but no simpler / 
-    
 * Using the same tools / helping others because they use the same tools / 
-    
 * Mailing list ~ benefits of history
-    
 * Every file has a single home ! multiple duplicates still too difficult to manage in this era
-    
 * Pogo: "We have met the enemy, and he is us"
-    
 * "Happiness is a choice, not a condition" ~ many sources
-    
+
 
 ## Concept
 
@@ -74,7 +44,7 @@ Below are texts & sources that I look to for inspiration as I tackle projects.
 
 ## Basic Idea
 
-[https://www.salon.com/2021/06/15/why-our-wandering-brains-are-wired-to-love-art-and-nature/](https://www.salon.com/2021/06/15/why-our-wandering-brains-are-wired-to-love-art-and-nature/)
+https://www.salon.com/2021/06/15/why-our-wandering-brains-are-wired-to-love-art-and-nature/
 
 But here is the takeaway: we are not biologically programmed to like or this or that object, but rather inclined to enjoy the process of play, improvisation, trial, and error in all things. In other words, recent research into mind wandering and fractals suggests that the process of creativity and unconscious play involved in making and experiencing art is a crucial source of aesthetic beauty and our love of nature.
 
@@ -84,7 +54,7 @@ But here is the takeaway: we are not biologically programmed to like or this or 
 
 Abstraction is a conceptual process wherein general rules and concepts are derived from the usage and classification of specific examples, literal (real or concrete) signifiers, first principles, or other methods.
 
-* [https://en.wikipedia.org/wiki/First\_principle](https://en.wikipedia.org/wiki/First_principle)
+* https://en.wikipedia.org/wiki/First_principle
 
 ## Aphorisms
 
@@ -156,19 +126,19 @@ Effective altruism is a philosophy and social movement that advocates using evid
 
 * [https://www.newyorker.com/magazine/2022/08/15/the-reluctant-prophet-of-effective-altruism](https://www.newyorker.com/magazine/2022/08/15/the-reluctant-prophet-of-effective-altruism)
 
-> William MacAskill’s movement set out to help the global poor. Now his followers fret about runaway A.I. Have they seen our threats clearly, or lost their way?  
+> William MacAskill’s movement set out to help the global poor. Now his followers fret about runaway A.I. Have they seen our threats clearly, or lost their way?
 > “The world’s long-run fate depends in part on the choices we make in our lifetimes,” the philosopher William MacAskill writes.
 
 * [https://en.wikipedia.org/wiki/William\_MacAskill](https://en.wikipedia.org/wiki/William_MacAskill)
-    
+
 * [https://www.williammacaskill.com/](https://www.williammacaskill.com/)
-    
+
 * [https://80000hours.org/](https://80000hours.org/)
-    
+
 * [https://www.effectivealtruism.org/people/will-macaskill](https://www.effectivealtruism.org/people/will-macaskill)
-    
+
 * [https://en.wikipedia.org/wiki/Famine,\_Affluence,\_and\_Morality](https://en.wikipedia.org/wiki/Famine,_Affluence,_and_Morality)
-    
+
 
 > "Famine, Affluence, and Morality" is an essay written by Peter Singer in 1971 and published in Philosophy and Public Affairs in 1972. It argues that affluent persons are morally obligated to donate far more resources to humanitarian causes than is considered normal in Western cultures. The essay was inspired by the starvation of Bangladesh Liberation War refugees, and uses their situation as an example, although Singer's argument is general in scope and not limited to the example of Bangladesh. The essay is anthologized widely as an example of Western ethical thinking.
 
@@ -213,7 +183,7 @@ Much of my behavior is determined by desires to increase pleasure and to decreas
 
 At the same time, I feel the need for meaning, purpose and being useful.
 
-[https://en.wikipedia.org/wiki/Hedonism](https://en.wikipedia.org/wiki/Hedonism)  
+[https://en.wikipedia.org/wiki/Hedonism](https://en.wikipedia.org/wiki/Hedonism)
 [https://en.wikipedia.org/wiki/Eudaimonia](https://en.wikipedia.org/wiki/Eudaimonia)
 
 How can you be happy when others are unhappy?
@@ -247,7 +217,7 @@ For me it’s doing nice things - things that are simultaneously nice for me and
 * [https://www.visualcapitalist.com/12-ways-smarter-mental-models/](https://www.visualcapitalist.com/12-ways-smarter-mental-models/)
 * [https://www.visualcapitalist.com/wp-content/uploads/2018/01/12-ways-smarter.html](https://www.visualcapitalist.com/wp-content/uploads/2018/01/12-ways-smarter.html)
 * [https://medium.com/accelerated-intelligence/this-is-exactly-how-you-should-train-yourself-to-be-smarter-infographic-86d0d42ad41c](https://medium.com/accelerated-intelligence/this-is-exactly-how-you-should-train-yourself-to-be-smarter-infographic-86d0d42ad41c)
-* [https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d#.hx8hrtksh](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d#.hx8hrtksh)  
+* [https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d#.hx8hrtksh](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d#.hx8hrtksh)
     [https://medium.com/accelerated-intelligence/the-1-mental-model-for-writers-who-want-to-write-high-quality-viral-content-43ecf0d4ec05](https://medium.com/accelerated-intelligence/the-1-mental-model-for-writers-who-want-to-write-high-quality-viral-content-43ecf0d4ec05)
 
 Theo
@@ -298,13 +268,14 @@ patterns are descriptions of common problems and proposal for the solutions that
 
 [https://succeedfeed.com/peter-drucker-quotes/](https://succeedfeed.com/peter-drucker-quotes/)
 
-* That business purpose and business mission are so rarely given adequate thought is  
+* That business purpose and business mission are so rarely given adequate thought is
     perhaps the most important cause of business frustration and failure.
 * What gets measured gets improved
 * You can’t manage what you don’t measure.
 * There is nothing so useless as doing efficiently that which should not be done at all.
 * Doing the right thing is more important than doing the thing right
 * if you want something new, you have to stop doing something old.
+
 
 ## Radical Transparency
 
@@ -324,8 +295,8 @@ Theo: I am an atheist. I strip out all the god stuff here and keep the rest
 
 ## Serenity Prayer ~ [https://en.wikipedia.org/wiki/Serenity\_Prayer](https://en.wikipedia.org/wiki/Serenity_Prayer)
 
-> God, grant me the serenity to accept the things I cannot change,  
-> courage to change the things I can,  
+> God, grant me the serenity to accept the things I cannot change,
+> courage to change the things I can,
 > and wisdom to know the difference.
 
 ## Simple Living ~ Simplicity
