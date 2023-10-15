@@ -19,13 +19,10 @@ abc def ghi
 
 ### hhhhh
 
-\* ttt
+* ttt
+* 6666
+* lllll
 
-\* 6666
-
-\* lllll
-
-  
 
 ### h3
 
