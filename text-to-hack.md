@@ -4,13 +4,10 @@ Conceptualizing random endpoints in a access mmmmmm
 
 Enterprise engenderment accelerates initiative platforms, reducing staffing components, integration of technical accessibility, resulting in bottom line pluralisms, benefit-wise. Incidental re-sizing staff requirements through attrition can be accelerated by nnnnn shifts and focusing on core suitability and cross-training.
 
-  
 
-\* ttt
-
-\* yyyy
-
-\* 000
+* ttt
+* yyyy
+* 000
 
 ## bbb more h2h
 
