@@ -27,9 +27,8 @@ abc def ghi
 
 Pixel 6m 567
 
-\* kkkkk
-
-\* 99999
+* kkkkk
+* 99999
 
 ### ddd
 
