@@ -2,6 +2,10 @@
 
 See pages/03-geography-places/california/marina
 
+Try them all!!
+
+* https://en.wikipedia.org/wiki/List_of_IBA_official_cocktails
+
 ## Alegrias ~ [alegrias](https://www.alegriassf.com/)
 
 * meaning: happiness, gaiety
@@ -45,22 +49,21 @@ Staff
 * Joe (Original Joe)
 * Also at Plumpjack
 * Delivers wine for Terry
-* Likes Ridgewood wine  
-    Joe (Little Joe)
-* Creative things  
-    Kyler ~ PT wannabe
-* Man of color  
-    Tony
+* Likes Ridgewood wine
+* Joe (Little Joe)
+* Creative things
+* Kyler ~ PT wannabe ~ Man of color
+* Tony
 
-Anders Grigel Thomsen ~ \\559-476-6759 ~ Ahnus
-
-* Danish ~ hearts Kierkegard
-* Wife Sarah producer \_Carnival Row\_
+* Anders Grigel Thomsen ~ \\559-476-6759 ~ Ahnus
+  * Danish ~ hearts Kierkegard
+  * Wife Sarah producer \_Carnival Row\_
 
 Regulars
 
 * Gary ~ social worker
 * Alan Larson
+
 
 ## Causewells
 
@@ -68,11 +71,17 @@ Regulars
 
 ## Cultivar
 
-Nick knows Clapham
+* Nick knows Clapham
+* Aselia
 
-Acelya
+Try the Caesar salad or Tuna Tartare
 
-Try the Caesar salad
+## Dorians
+
+* Ebenezer
+
+Cocktail: naked and famous
+* https://en.wikipedia.org/wiki/Naked_and_famous_(cocktail)
 
 ## Horseshoe
 
@@ -100,15 +109,6 @@ Regulars
 * 4 locations
 * lafromageriesf.com
 
-## Long Now / The Interval
-
-* Sunday: gets quiet at 6:30
-* Sophie
-* Cecelia
-* John
-* Jemalina ~ person of color
-* Steven
-* Eddie ~ Korean
 
 ## Mamo ~ [mamosf](https://mamosf.com)
 
@@ -153,14 +153,27 @@ Regulars
 * [tacolicious](https://www.tacolicious.com/) ~ 415.649.6077
 * 2250 Chestnut St
 
-## [the interval](https://theinterval.org/) ~ long now
+## [The Interval](https://theinterval.org/) ~ long now
 
-* 10a-midnight  
+* 10a-midnight
     Saturday & Sunday 3-11p
+* Sunday: gets quiet at 6:30
+* Sophie
+* Cecelia
+* John
+* Jemalina ~ person of color
+* Steven
+* Eddie ~ Korean
+
+## Union Street Inn ~ https://unionstreetinn.com/
+
+* 415.346.0424
+* 2229 Union St
+
 
 ## United Dumplings
 
-\* Steven ~ speaks Mandarin
+* Steven ~ speaks Mandarin
 
 * * *
 
