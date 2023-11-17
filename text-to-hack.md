@@ -4,7 +4,7 @@ lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, 
 
 sed quia non numquam eius modi tempora 
 
-\* tttt
+*   tttt
 
 incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
 
@@ -20,6 +20,8 @@ abc ddd eee ffff gggg
 qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
 
 *   8888
+*     
+    
 *   hhhh
 *   uuuu
 *   nnnnn
